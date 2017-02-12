@@ -1,0 +1,3482 @@
+swapper     0 [000] 167222.391373:          1 cycles:ppp: 
+	          263a64 native_write_msr (/lib/modules/4.7.0+/build/vmlinux)
+	          20c190 intel_pmu_enable_all (/lib/modules/4.7.0+/build/vmlinux)
+	          207196 x86_pmu_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a3287 perf_pmu_enable.part.88 (/lib/modules/4.7.0+/build/vmlinux)
+	          3a71da ctx_resched (/lib/modules/4.7.0+/build/vmlinux)
+	          3a7761 __perf_event_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a0a30 event_function (/lib/modules/4.7.0+/build/vmlinux)
+	          3a232f remote_function (/lib/modules/4.7.0+/build/vmlinux)
+	          328c58 flush_smp_call_function_queue (/lib/modules/4.7.0+/build/vmlinux)
+	          3295f3 generic_smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          24fa97 smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          9e401c call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          9d5a47 rest_init (/lib/modules/4.7.0+/build/vmlinux)
+	         1162fe7 start_kernel ([kernel.vmlinux].init.text)
+	         11622db x86_64_start_reservations ([kernel.vmlinux].init.text)
+	         1162429 x86_64_start_kernel ([kernel.vmlinux].init.text)
+
+swapper     0 [000] 167222.391377:          1 cycles:ppp: 
+	          263a64 native_write_msr (/lib/modules/4.7.0+/build/vmlinux)
+	          20c8a3 intel_pmu_handle_irq (/lib/modules/4.7.0+/build/vmlinux)
+	          2059cc perf_event_nmi_handler (/lib/modules/4.7.0+/build/vmlinux)
+	          230eba nmi_handle (/lib/modules/4.7.0+/build/vmlinux)
+	          231423 default_do_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          2315ac do_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          9e51b1 end_repeat_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          20c190 intel_pmu_enable_all (/lib/modules/4.7.0+/build/vmlinux)
+	          207196 x86_pmu_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a3287 perf_pmu_enable.part.88 (/lib/modules/4.7.0+/build/vmlinux)
+	          3a71da ctx_resched (/lib/modules/4.7.0+/build/vmlinux)
+	          3a7761 __perf_event_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a0a30 event_function (/lib/modules/4.7.0+/build/vmlinux)
+	          3a232f remote_function (/lib/modules/4.7.0+/build/vmlinux)
+	          328c58 flush_smp_call_function_queue (/lib/modules/4.7.0+/build/vmlinux)
+	          3295f3 generic_smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          24fa97 smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          9e401c call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          9d5a47 rest_init (/lib/modules/4.7.0+/build/vmlinux)
+	         1162fe7 start_kernel ([kernel.vmlinux].init.text)
+	         11622db x86_64_start_reservations ([kernel.vmlinux].init.text)
+	         1162429 x86_64_start_kernel ([kernel.vmlinux].init.text)
+
+swapper     0 [000] 167222.391378:        261 cycles:ppp: 
+	          263a64 native_write_msr (/lib/modules/4.7.0+/build/vmlinux)
+	          20c8a3 intel_pmu_handle_irq (/lib/modules/4.7.0+/build/vmlinux)
+	          2059cc perf_event_nmi_handler (/lib/modules/4.7.0+/build/vmlinux)
+	          230eba nmi_handle (/lib/modules/4.7.0+/build/vmlinux)
+	          231423 default_do_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          2315ac do_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          9e51b1 end_repeat_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          20c190 intel_pmu_enable_all (/lib/modules/4.7.0+/build/vmlinux)
+	          207196 x86_pmu_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a3287 perf_pmu_enable.part.88 (/lib/modules/4.7.0+/build/vmlinux)
+	          3a71da ctx_resched (/lib/modules/4.7.0+/build/vmlinux)
+	          3a7761 __perf_event_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a0a30 event_function (/lib/modules/4.7.0+/build/vmlinux)
+	          3a232f remote_function (/lib/modules/4.7.0+/build/vmlinux)
+	          328c58 flush_smp_call_function_queue (/lib/modules/4.7.0+/build/vmlinux)
+	          3295f3 generic_smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          24fa97 smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          9e401c call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          9d5a47 rest_init (/lib/modules/4.7.0+/build/vmlinux)
+	         1162fe7 start_kernel ([kernel.vmlinux].init.text)
+	         11622db x86_64_start_reservations ([kernel.vmlinux].init.text)
+	         1162429 x86_64_start_kernel ([kernel.vmlinux].init.text)
+
+swapper     0 [000] 167222.391380:     235283 cycles:ppp: 
+	          9e520a nmi_restore (/lib/modules/4.7.0+/build/vmlinux)
+	          20c190 intel_pmu_enable_all (/lib/modules/4.7.0+/build/vmlinux)
+	          207196 x86_pmu_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a3287 perf_pmu_enable.part.88 (/lib/modules/4.7.0+/build/vmlinux)
+	          3a71da ctx_resched (/lib/modules/4.7.0+/build/vmlinux)
+	          3a7761 __perf_event_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a0a30 event_function (/lib/modules/4.7.0+/build/vmlinux)
+	          3a232f remote_function (/lib/modules/4.7.0+/build/vmlinux)
+	          328c58 flush_smp_call_function_queue (/lib/modules/4.7.0+/build/vmlinux)
+	          3295f3 generic_smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          24fa97 smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          9e401c call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          9d5a47 rest_init (/lib/modules/4.7.0+/build/vmlinux)
+	         1162fe7 start_kernel ([kernel.vmlinux].init.text)
+	         11622db x86_64_start_reservations ([kernel.vmlinux].init.text)
+	         1162429 x86_64_start_kernel ([kernel.vmlinux].init.text)
+
+perf  2472 [001] 167222.391386:          1 cycles:ppp: 
+
+perf  2472 [001] 167222.391390:          1 cycles:ppp: 
+
+perf  2472 [001] 167222.391394:        269 cycles:ppp: 
+
+perf  2472 [001] 167222.391398:      94713 cycles:ppp: 
+
+perf  2472 [001] 167222.391427:   27010846 cycles:ppp: 
+
+swapper     0 [002] 167222.391436:          1 cycles:ppp: 
+	          263a64 native_write_msr (/lib/modules/4.7.0+/build/vmlinux)
+	          20c190 intel_pmu_enable_all (/lib/modules/4.7.0+/build/vmlinux)
+	          207196 x86_pmu_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a3287 perf_pmu_enable.part.88 (/lib/modules/4.7.0+/build/vmlinux)
+	          3a71da ctx_resched (/lib/modules/4.7.0+/build/vmlinux)
+	          3a7761 __perf_event_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a0a30 event_function (/lib/modules/4.7.0+/build/vmlinux)
+	          3a232f remote_function (/lib/modules/4.7.0+/build/vmlinux)
+	          328c58 flush_smp_call_function_queue (/lib/modules/4.7.0+/build/vmlinux)
+	          3295f3 generic_smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          24fa97 smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          9e401c call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [002] 167222.391438:          1 cycles:ppp: 
+	          263a64 native_write_msr (/lib/modules/4.7.0+/build/vmlinux)
+	          20c8a3 intel_pmu_handle_irq (/lib/modules/4.7.0+/build/vmlinux)
+	          2059cc perf_event_nmi_handler (/lib/modules/4.7.0+/build/vmlinux)
+	          230eba nmi_handle (/lib/modules/4.7.0+/build/vmlinux)
+	          231423 default_do_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          2315ac do_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          9e51b1 end_repeat_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          20c190 intel_pmu_enable_all (/lib/modules/4.7.0+/build/vmlinux)
+	          207196 x86_pmu_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a3287 perf_pmu_enable.part.88 (/lib/modules/4.7.0+/build/vmlinux)
+	          3a71da ctx_resched (/lib/modules/4.7.0+/build/vmlinux)
+	          3a7761 __perf_event_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a0a30 event_function (/lib/modules/4.7.0+/build/vmlinux)
+	          3a232f remote_function (/lib/modules/4.7.0+/build/vmlinux)
+	          328c58 flush_smp_call_function_queue (/lib/modules/4.7.0+/build/vmlinux)
+	          3295f3 generic_smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          24fa97 smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          9e401c call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [002] 167222.391439:        455 cycles:ppp: 
+	          263a64 native_write_msr (/lib/modules/4.7.0+/build/vmlinux)
+	          20c8a3 intel_pmu_handle_irq (/lib/modules/4.7.0+/build/vmlinux)
+	          2059cc perf_event_nmi_handler (/lib/modules/4.7.0+/build/vmlinux)
+	          230eba nmi_handle (/lib/modules/4.7.0+/build/vmlinux)
+	          231423 default_do_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          2315ac do_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          9e51b1 end_repeat_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          20c190 intel_pmu_enable_all (/lib/modules/4.7.0+/build/vmlinux)
+	          207196 x86_pmu_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a3287 perf_pmu_enable.part.88 (/lib/modules/4.7.0+/build/vmlinux)
+	          3a71da ctx_resched (/lib/modules/4.7.0+/build/vmlinux)
+	          3a7761 __perf_event_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a0a30 event_function (/lib/modules/4.7.0+/build/vmlinux)
+	          3a232f remote_function (/lib/modules/4.7.0+/build/vmlinux)
+	          328c58 flush_smp_call_function_queue (/lib/modules/4.7.0+/build/vmlinux)
+	          3295f3 generic_smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          24fa97 smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          9e401c call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [002] 167222.391441:     416097 cycles:ppp: 
+	          9e35d7 native_irq_return_iret (/lib/modules/4.7.0+/build/vmlinux)
+	          20c190 intel_pmu_enable_all (/lib/modules/4.7.0+/build/vmlinux)
+	          207196 x86_pmu_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a3287 perf_pmu_enable.part.88 (/lib/modules/4.7.0+/build/vmlinux)
+	          3a71da ctx_resched (/lib/modules/4.7.0+/build/vmlinux)
+	          3a7761 __perf_event_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a0a30 event_function (/lib/modules/4.7.0+/build/vmlinux)
+	          3a232f remote_function (/lib/modules/4.7.0+/build/vmlinux)
+	          328c58 flush_smp_call_function_queue (/lib/modules/4.7.0+/build/vmlinux)
+	          3295f3 generic_smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          24fa97 smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          9e401c call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [003] 167222.391480:          1 cycles:ppp: 
+	          263a64 native_write_msr (/lib/modules/4.7.0+/build/vmlinux)
+	          20c190 intel_pmu_enable_all (/lib/modules/4.7.0+/build/vmlinux)
+	          207196 x86_pmu_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a3287 perf_pmu_enable.part.88 (/lib/modules/4.7.0+/build/vmlinux)
+	          3a71da ctx_resched (/lib/modules/4.7.0+/build/vmlinux)
+	          3a7761 __perf_event_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a0a30 event_function (/lib/modules/4.7.0+/build/vmlinux)
+	          3a232f remote_function (/lib/modules/4.7.0+/build/vmlinux)
+	          328c58 flush_smp_call_function_queue (/lib/modules/4.7.0+/build/vmlinux)
+	          3295f3 generic_smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          24fa97 smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          9e401c call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [003] 167222.391482:          1 cycles:ppp: 
+	          263a64 native_write_msr (/lib/modules/4.7.0+/build/vmlinux)
+	          20c8a3 intel_pmu_handle_irq (/lib/modules/4.7.0+/build/vmlinux)
+	          2059cc perf_event_nmi_handler (/lib/modules/4.7.0+/build/vmlinux)
+	          230eba nmi_handle (/lib/modules/4.7.0+/build/vmlinux)
+	          231423 default_do_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          2315ac do_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          9e51b1 end_repeat_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          20c190 intel_pmu_enable_all (/lib/modules/4.7.0+/build/vmlinux)
+	          207196 x86_pmu_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a3287 perf_pmu_enable.part.88 (/lib/modules/4.7.0+/build/vmlinux)
+	          3a71da ctx_resched (/lib/modules/4.7.0+/build/vmlinux)
+	          3a7761 __perf_event_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a0a30 event_function (/lib/modules/4.7.0+/build/vmlinux)
+	          3a232f remote_function (/lib/modules/4.7.0+/build/vmlinux)
+	          328c58 flush_smp_call_function_queue (/lib/modules/4.7.0+/build/vmlinux)
+	          3295f3 generic_smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          24fa97 smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          9e401c call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [003] 167222.391483:        466 cycles:ppp: 
+	          263a64 native_write_msr (/lib/modules/4.7.0+/build/vmlinux)
+	          20c8a3 intel_pmu_handle_irq (/lib/modules/4.7.0+/build/vmlinux)
+	          2059cc perf_event_nmi_handler (/lib/modules/4.7.0+/build/vmlinux)
+	          230eba nmi_handle (/lib/modules/4.7.0+/build/vmlinux)
+	          231423 default_do_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          2315ac do_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          9e51b1 end_repeat_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          20c190 intel_pmu_enable_all (/lib/modules/4.7.0+/build/vmlinux)
+	          207196 x86_pmu_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a3287 perf_pmu_enable.part.88 (/lib/modules/4.7.0+/build/vmlinux)
+	          3a71da ctx_resched (/lib/modules/4.7.0+/build/vmlinux)
+	          3a7761 __perf_event_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a0a30 event_function (/lib/modules/4.7.0+/build/vmlinux)
+	          3a232f remote_function (/lib/modules/4.7.0+/build/vmlinux)
+	          328c58 flush_smp_call_function_queue (/lib/modules/4.7.0+/build/vmlinux)
+	          3295f3 generic_smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          24fa97 smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          9e401c call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [003] 167222.391485:     426773 cycles:ppp: 
+	          9e35d7 native_irq_return_iret (/lib/modules/4.7.0+/build/vmlinux)
+	          20c190 intel_pmu_enable_all (/lib/modules/4.7.0+/build/vmlinux)
+	          207196 x86_pmu_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a3287 perf_pmu_enable.part.88 (/lib/modules/4.7.0+/build/vmlinux)
+	          3a71da ctx_resched (/lib/modules/4.7.0+/build/vmlinux)
+	          3a7761 __perf_event_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a0a30 event_function (/lib/modules/4.7.0+/build/vmlinux)
+	          3a232f remote_function (/lib/modules/4.7.0+/build/vmlinux)
+	          328c58 flush_smp_call_function_queue (/lib/modules/4.7.0+/build/vmlinux)
+	          3295f3 generic_smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          24fa97 smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          9e401c call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [004] 167222.391519:          1 cycles:ppp: 
+	          263a64 native_write_msr (/lib/modules/4.7.0+/build/vmlinux)
+	          20c190 intel_pmu_enable_all (/lib/modules/4.7.0+/build/vmlinux)
+	          207196 x86_pmu_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a3287 perf_pmu_enable.part.88 (/lib/modules/4.7.0+/build/vmlinux)
+	          3a71da ctx_resched (/lib/modules/4.7.0+/build/vmlinux)
+	          3a7761 __perf_event_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a0a30 event_function (/lib/modules/4.7.0+/build/vmlinux)
+	          3a232f remote_function (/lib/modules/4.7.0+/build/vmlinux)
+	          328c58 flush_smp_call_function_queue (/lib/modules/4.7.0+/build/vmlinux)
+	          3295f3 generic_smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          24fa97 smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          9e401c call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [004] 167222.391521:          1 cycles:ppp: 
+	          263a64 native_write_msr (/lib/modules/4.7.0+/build/vmlinux)
+	          20c8a3 intel_pmu_handle_irq (/lib/modules/4.7.0+/build/vmlinux)
+	          2059cc perf_event_nmi_handler (/lib/modules/4.7.0+/build/vmlinux)
+	          230eba nmi_handle (/lib/modules/4.7.0+/build/vmlinux)
+	          231423 default_do_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          2315ac do_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          9e51b1 end_repeat_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          20c190 intel_pmu_enable_all (/lib/modules/4.7.0+/build/vmlinux)
+	          207196 x86_pmu_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a3287 perf_pmu_enable.part.88 (/lib/modules/4.7.0+/build/vmlinux)
+	          3a71da ctx_resched (/lib/modules/4.7.0+/build/vmlinux)
+	          3a7761 __perf_event_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a0a30 event_function (/lib/modules/4.7.0+/build/vmlinux)
+	          3a232f remote_function (/lib/modules/4.7.0+/build/vmlinux)
+	          328c58 flush_smp_call_function_queue (/lib/modules/4.7.0+/build/vmlinux)
+	          3295f3 generic_smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          24fa97 smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          9e401c call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [004] 167222.391523:        461 cycles:ppp: 
+	          263a64 native_write_msr (/lib/modules/4.7.0+/build/vmlinux)
+	          20c8a3 intel_pmu_handle_irq (/lib/modules/4.7.0+/build/vmlinux)
+	          2059cc perf_event_nmi_handler (/lib/modules/4.7.0+/build/vmlinux)
+	          230eba nmi_handle (/lib/modules/4.7.0+/build/vmlinux)
+	          231423 default_do_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          2315ac do_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          9e51b1 end_repeat_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          20c190 intel_pmu_enable_all (/lib/modules/4.7.0+/build/vmlinux)
+	          207196 x86_pmu_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a3287 perf_pmu_enable.part.88 (/lib/modules/4.7.0+/build/vmlinux)
+	          3a71da ctx_resched (/lib/modules/4.7.0+/build/vmlinux)
+	          3a7761 __perf_event_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a0a30 event_function (/lib/modules/4.7.0+/build/vmlinux)
+	          3a232f remote_function (/lib/modules/4.7.0+/build/vmlinux)
+	          328c58 flush_smp_call_function_queue (/lib/modules/4.7.0+/build/vmlinux)
+	          3295f3 generic_smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          24fa97 smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          9e401c call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [004] 167222.391524:     428397 cycles:ppp: 
+	          9e35d7 native_irq_return_iret (/lib/modules/4.7.0+/build/vmlinux)
+	          20c190 intel_pmu_enable_all (/lib/modules/4.7.0+/build/vmlinux)
+	          207196 x86_pmu_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a3287 perf_pmu_enable.part.88 (/lib/modules/4.7.0+/build/vmlinux)
+	          3a71da ctx_resched (/lib/modules/4.7.0+/build/vmlinux)
+	          3a7761 __perf_event_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a0a30 event_function (/lib/modules/4.7.0+/build/vmlinux)
+	          3a232f remote_function (/lib/modules/4.7.0+/build/vmlinux)
+	          328c58 flush_smp_call_function_queue (/lib/modules/4.7.0+/build/vmlinux)
+	          3295f3 generic_smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          24fa97 smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          9e401c call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [005] 167222.391531:          1 cycles:ppp: 
+	          263a64 native_write_msr (/lib/modules/4.7.0+/build/vmlinux)
+	          20c190 intel_pmu_enable_all (/lib/modules/4.7.0+/build/vmlinux)
+	          207196 x86_pmu_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a3287 perf_pmu_enable.part.88 (/lib/modules/4.7.0+/build/vmlinux)
+	          3a71da ctx_resched (/lib/modules/4.7.0+/build/vmlinux)
+	          3a7761 __perf_event_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a0a30 event_function (/lib/modules/4.7.0+/build/vmlinux)
+	          3a232f remote_function (/lib/modules/4.7.0+/build/vmlinux)
+	          328c58 flush_smp_call_function_queue (/lib/modules/4.7.0+/build/vmlinux)
+	          3295f3 generic_smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          24fa97 smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          9e401c call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [005] 167222.391533:          1 cycles:ppp: 
+	          263a64 native_write_msr (/lib/modules/4.7.0+/build/vmlinux)
+	          20c8a3 intel_pmu_handle_irq (/lib/modules/4.7.0+/build/vmlinux)
+	          2059cc perf_event_nmi_handler (/lib/modules/4.7.0+/build/vmlinux)
+	          230eba nmi_handle (/lib/modules/4.7.0+/build/vmlinux)
+	          231423 default_do_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          2315ac do_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          9e51b1 end_repeat_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          20c190 intel_pmu_enable_all (/lib/modules/4.7.0+/build/vmlinux)
+	          207196 x86_pmu_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a3287 perf_pmu_enable.part.88 (/lib/modules/4.7.0+/build/vmlinux)
+	          3a71da ctx_resched (/lib/modules/4.7.0+/build/vmlinux)
+	          3a7761 __perf_event_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a0a30 event_function (/lib/modules/4.7.0+/build/vmlinux)
+	          3a232f remote_function (/lib/modules/4.7.0+/build/vmlinux)
+	          328c58 flush_smp_call_function_queue (/lib/modules/4.7.0+/build/vmlinux)
+	          3295f3 generic_smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          24fa97 smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          9e401c call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [005] 167222.391535:        551 cycles:ppp: 
+	          263a64 native_write_msr (/lib/modules/4.7.0+/build/vmlinux)
+	          20c8a3 intel_pmu_handle_irq (/lib/modules/4.7.0+/build/vmlinux)
+	          2059cc perf_event_nmi_handler (/lib/modules/4.7.0+/build/vmlinux)
+	          230eba nmi_handle (/lib/modules/4.7.0+/build/vmlinux)
+	          231423 default_do_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          2315ac do_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          9e51b1 end_repeat_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          20c190 intel_pmu_enable_all (/lib/modules/4.7.0+/build/vmlinux)
+	          207196 x86_pmu_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a3287 perf_pmu_enable.part.88 (/lib/modules/4.7.0+/build/vmlinux)
+	          3a71da ctx_resched (/lib/modules/4.7.0+/build/vmlinux)
+	          3a7761 __perf_event_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a0a30 event_function (/lib/modules/4.7.0+/build/vmlinux)
+	          3a232f remote_function (/lib/modules/4.7.0+/build/vmlinux)
+	          328c58 flush_smp_call_function_queue (/lib/modules/4.7.0+/build/vmlinux)
+	          3295f3 generic_smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          24fa97 smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          9e401c call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [005] 167222.391536:     485296 cycles:ppp: 
+	          263a66 native_write_msr (/lib/modules/4.7.0+/build/vmlinux)
+	          20c190 intel_pmu_enable_all (/lib/modules/4.7.0+/build/vmlinux)
+	          207196 x86_pmu_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a3287 perf_pmu_enable.part.88 (/lib/modules/4.7.0+/build/vmlinux)
+	          3a71da ctx_resched (/lib/modules/4.7.0+/build/vmlinux)
+	          3a7761 __perf_event_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a0a30 event_function (/lib/modules/4.7.0+/build/vmlinux)
+	          3a232f remote_function (/lib/modules/4.7.0+/build/vmlinux)
+	          328c58 flush_smp_call_function_queue (/lib/modules/4.7.0+/build/vmlinux)
+	          3295f3 generic_smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          24fa97 smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          9e401c call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [006] 167222.391573:          1 cycles:ppp: 
+	          263a64 native_write_msr (/lib/modules/4.7.0+/build/vmlinux)
+	          20c190 intel_pmu_enable_all (/lib/modules/4.7.0+/build/vmlinux)
+	          207196 x86_pmu_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a3287 perf_pmu_enable.part.88 (/lib/modules/4.7.0+/build/vmlinux)
+	          3a71da ctx_resched (/lib/modules/4.7.0+/build/vmlinux)
+	          3a7761 __perf_event_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a0a30 event_function (/lib/modules/4.7.0+/build/vmlinux)
+	          3a232f remote_function (/lib/modules/4.7.0+/build/vmlinux)
+	          328c58 flush_smp_call_function_queue (/lib/modules/4.7.0+/build/vmlinux)
+	          3295f3 generic_smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          24fa97 smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          9e401c call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [006] 167222.391576:          1 cycles:ppp: 
+	          263a64 native_write_msr (/lib/modules/4.7.0+/build/vmlinux)
+	          20c8a3 intel_pmu_handle_irq (/lib/modules/4.7.0+/build/vmlinux)
+	          2059cc perf_event_nmi_handler (/lib/modules/4.7.0+/build/vmlinux)
+	          230eba nmi_handle (/lib/modules/4.7.0+/build/vmlinux)
+	          231423 default_do_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          2315ac do_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          9e51b1 end_repeat_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          20c190 intel_pmu_enable_all (/lib/modules/4.7.0+/build/vmlinux)
+	          207196 x86_pmu_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a3287 perf_pmu_enable.part.88 (/lib/modules/4.7.0+/build/vmlinux)
+	          3a71da ctx_resched (/lib/modules/4.7.0+/build/vmlinux)
+	          3a7761 __perf_event_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a0a30 event_function (/lib/modules/4.7.0+/build/vmlinux)
+	          3a232f remote_function (/lib/modules/4.7.0+/build/vmlinux)
+	          328c58 flush_smp_call_function_queue (/lib/modules/4.7.0+/build/vmlinux)
+	          3295f3 generic_smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          24fa97 smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          9e401c call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [006] 167222.391577:        438 cycles:ppp: 
+	          263a64 native_write_msr (/lib/modules/4.7.0+/build/vmlinux)
+	          20c8a3 intel_pmu_handle_irq (/lib/modules/4.7.0+/build/vmlinux)
+	          2059cc perf_event_nmi_handler (/lib/modules/4.7.0+/build/vmlinux)
+	          230eba nmi_handle (/lib/modules/4.7.0+/build/vmlinux)
+	          231423 default_do_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          2315ac do_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          9e51b1 end_repeat_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          20c190 intel_pmu_enable_all (/lib/modules/4.7.0+/build/vmlinux)
+	          207196 x86_pmu_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a3287 perf_pmu_enable.part.88 (/lib/modules/4.7.0+/build/vmlinux)
+	          3a71da ctx_resched (/lib/modules/4.7.0+/build/vmlinux)
+	          3a7761 __perf_event_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a0a30 event_function (/lib/modules/4.7.0+/build/vmlinux)
+	          3a232f remote_function (/lib/modules/4.7.0+/build/vmlinux)
+	          328c58 flush_smp_call_function_queue (/lib/modules/4.7.0+/build/vmlinux)
+	          3295f3 generic_smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          24fa97 smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          9e401c call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [006] 167222.391579:     396537 cycles:ppp: 
+	          9e35d7 native_irq_return_iret (/lib/modules/4.7.0+/build/vmlinux)
+	          20c190 intel_pmu_enable_all (/lib/modules/4.7.0+/build/vmlinux)
+	          207196 x86_pmu_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a3287 perf_pmu_enable.part.88 (/lib/modules/4.7.0+/build/vmlinux)
+	          3a71da ctx_resched (/lib/modules/4.7.0+/build/vmlinux)
+	          3a7761 __perf_event_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a0a30 event_function (/lib/modules/4.7.0+/build/vmlinux)
+	          3a232f remote_function (/lib/modules/4.7.0+/build/vmlinux)
+	          328c58 flush_smp_call_function_queue (/lib/modules/4.7.0+/build/vmlinux)
+	          3295f3 generic_smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          24fa97 smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          9e401c call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [007] 167222.391616:          1 cycles:ppp: 
+	          263a64 native_write_msr (/lib/modules/4.7.0+/build/vmlinux)
+	          20c190 intel_pmu_enable_all (/lib/modules/4.7.0+/build/vmlinux)
+	          207196 x86_pmu_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a3287 perf_pmu_enable.part.88 (/lib/modules/4.7.0+/build/vmlinux)
+	          3a71da ctx_resched (/lib/modules/4.7.0+/build/vmlinux)
+	          3a7761 __perf_event_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a0a30 event_function (/lib/modules/4.7.0+/build/vmlinux)
+	          3a232f remote_function (/lib/modules/4.7.0+/build/vmlinux)
+	          328c58 flush_smp_call_function_queue (/lib/modules/4.7.0+/build/vmlinux)
+	          3295f3 generic_smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          24fa97 smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          9e401c call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [007] 167222.391618:          1 cycles:ppp: 
+	          263a64 native_write_msr (/lib/modules/4.7.0+/build/vmlinux)
+	          20c8a3 intel_pmu_handle_irq (/lib/modules/4.7.0+/build/vmlinux)
+	          2059cc perf_event_nmi_handler (/lib/modules/4.7.0+/build/vmlinux)
+	          230eba nmi_handle (/lib/modules/4.7.0+/build/vmlinux)
+	          231423 default_do_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          2315ac do_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          9e51b1 end_repeat_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          20c190 intel_pmu_enable_all (/lib/modules/4.7.0+/build/vmlinux)
+	          207196 x86_pmu_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a3287 perf_pmu_enable.part.88 (/lib/modules/4.7.0+/build/vmlinux)
+	          3a71da ctx_resched (/lib/modules/4.7.0+/build/vmlinux)
+	          3a7761 __perf_event_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a0a30 event_function (/lib/modules/4.7.0+/build/vmlinux)
+	          3a232f remote_function (/lib/modules/4.7.0+/build/vmlinux)
+	          328c58 flush_smp_call_function_queue (/lib/modules/4.7.0+/build/vmlinux)
+	          3295f3 generic_smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          24fa97 smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          9e401c call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [007] 167222.391620:        430 cycles:ppp: 
+	          263a64 native_write_msr (/lib/modules/4.7.0+/build/vmlinux)
+	          20c8a3 intel_pmu_handle_irq (/lib/modules/4.7.0+/build/vmlinux)
+	          2059cc perf_event_nmi_handler (/lib/modules/4.7.0+/build/vmlinux)
+	          230eba nmi_handle (/lib/modules/4.7.0+/build/vmlinux)
+	          231423 default_do_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          2315ac do_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          9e51b1 end_repeat_nmi (/lib/modules/4.7.0+/build/vmlinux)
+	          20c190 intel_pmu_enable_all (/lib/modules/4.7.0+/build/vmlinux)
+	          207196 x86_pmu_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a3287 perf_pmu_enable.part.88 (/lib/modules/4.7.0+/build/vmlinux)
+	          3a71da ctx_resched (/lib/modules/4.7.0+/build/vmlinux)
+	          3a7761 __perf_event_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a0a30 event_function (/lib/modules/4.7.0+/build/vmlinux)
+	          3a232f remote_function (/lib/modules/4.7.0+/build/vmlinux)
+	          328c58 flush_smp_call_function_queue (/lib/modules/4.7.0+/build/vmlinux)
+	          3295f3 generic_smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          24fa97 smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          9e401c call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [007] 167222.391621:     391254 cycles:ppp: 
+	          9e35d7 native_irq_return_iret (/lib/modules/4.7.0+/build/vmlinux)
+	          20c190 intel_pmu_enable_all (/lib/modules/4.7.0+/build/vmlinux)
+	          207196 x86_pmu_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a3287 perf_pmu_enable.part.88 (/lib/modules/4.7.0+/build/vmlinux)
+	          3a71da ctx_resched (/lib/modules/4.7.0+/build/vmlinux)
+	          3a7761 __perf_event_enable (/lib/modules/4.7.0+/build/vmlinux)
+	          3a0a30 event_function (/lib/modules/4.7.0+/build/vmlinux)
+	          3a232f remote_function (/lib/modules/4.7.0+/build/vmlinux)
+	          328c58 flush_smp_call_function_queue (/lib/modules/4.7.0+/build/vmlinux)
+	          3295f3 generic_smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          24fa97 smp_call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          9e401c call_function_single_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+perf  2473 [000] 167222.391796:  218322242 cycles:ppp: 
+	          45f447 __d_lookup_rcu (/lib/modules/4.7.0+/build/vmlinux)
+	          4501a7 lookup_fast (/lib/modules/4.7.0+/build/vmlinux)
+	          453b0c path_openat (/lib/modules/4.7.0+/build/vmlinux)
+	          456111 do_filp_open (/lib/modules/4.7.0+/build/vmlinux)
+	          44b336 do_open_execat (/lib/modules/4.7.0+/build/vmlinux)
+	          44b45b open_exec (/lib/modules/4.7.0+/build/vmlinux)
+	          4a0a95 load_elf_binary (/lib/modules/4.7.0+/build/vmlinux)
+	          44bc04 search_binary_handler (/lib/modules/4.7.0+/build/vmlinux)
+	          44d0f2 do_execveat_common.isra.36 (/lib/modules/4.7.0+/build/vmlinux)
+	          44d56a sys_execve (/lib/modules/4.7.0+/build/vmlinux)
+	          203d52 do_syscall_64 (/lib/modules/4.7.0+/build/vmlinux)
+	          9e2ca1 return_from_SYSCALL_64 (/lib/modules/4.7.0+/build/vmlinux)
+	           c8cf7 __GI___execve (/usr/lib64/libc-2.23.so)
+	           e7953 perf_evlist__prepare_workload (/usr/bin/perf)
+	           817b8 cmd_record (/usr/bin/perf)
+	           d6f83 [unknown] (/usr/bin/perf)
+	           748aa main (/usr/bin/perf)
+	           20731 __libc_start_main (/usr/lib64/libc-2.23.so)
+
+swapper     0 [004] 167222.393016:  434140127 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+firefox  2531 [003] 167222.397569:  428375649 cycles:ppp: 
+	           105c6 [unknown] (/usr/lib64/firefox/firefox)
+	               1 [unknown] ([unknown])
+
+swapper     0 [002] 167222.398945:  314512603 cycles:ppp: 
+	           13c0c pvclock_gtod_notify ([kvm])
+	          2c6b96 raw_notifier_call_chain (/lib/modules/4.7.0+/build/vmlinux)
+	          319d85 timekeeping_update (/lib/modules/4.7.0+/build/vmlinux)
+	          31b6ed update_wall_time (/lib/modules/4.7.0+/build/vmlinux)
+	          323909 tick_do_update_jiffies64 (/lib/modules/4.7.0+/build/vmlinux)
+	          324310 tick_irq_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2ac16c irq_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          9e572f smp_apic_timer_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          9e389c apic_timer_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [005] 167222.399320:  460100159 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [006] 167222.399428:  401853009 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [007] 167222.521192:  391171126 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+firefox  2531 [003] 167224.014026:   10510992 cycles:ppp: 
+	          dfe7c5 [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f213eca30c0 [unknown] ([unknown])
+	          f0490a [unknown] (/usr/lib64/firefox/libxul.so)
+	894801e2ced4358d [unknown] ([unknown])
+
+firefox  2531 [003] 167224.463550:   15779031 cycles:ppp: 
+	          46355f __fget (/lib/modules/4.7.0+/build/vmlinux)
+	          463b65 __fget_light (/lib/modules/4.7.0+/build/vmlinux)
+	          463bb3 __fdget (/lib/modules/4.7.0+/build/vmlinux)
+	          45b5c0 do_sys_poll (/lib/modules/4.7.0+/build/vmlinux)
+	          45ba65 sys_poll (/lib/modules/4.7.0+/build/vmlinux)
+	          9e2bf2 entry_SYSCALL_64_fastpath (/lib/modules/4.7.0+/build/vmlinux)
+	           f73ed [unknown] (/usr/lib64/libc-2.23.so)
+	    7f213f0a71d0 [unknown] ([unknown])
+	         110c4ab [unknown] (/usr/lib64/firefox/libxul.so)
+	f8ef8148ffffff18 [unknown] ([unknown])
+
+swapper     0 [001] 167224.604223:   92349500 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [003] 167224.772741:    8075327 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+firefox  2531 [003] 167224.788577:    9786912 cycles:ppp: 
+	         267cf75 [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f212da961d0 [unknown] ([unknown])
+	         267cc60 [unknown] (/usr/lib64/firefox/libxul.so)
+	470bd00911e2c140 [unknown] ([unknown])
+
+firefox  2531 [003] 167224.800870:   14928159 cycles:ppp: 
+
+firefox  2531 [003] 167224.818323:   15983624 cycles:ppp: 
+	           10126 [unknown] (/usr/lib64/firefox/firefox)
+
+firefox  2531 [003] 167224.849643:   17033299 cycles:ppp: 
+	            5952 mozilla::BaseTimeDurationPlatformUtils::TicksFromMilliseconds (/usr/lib64/firefox/firefox)
+
+firefox  2531 [002] 167224.985695:   11183772 cycles:ppp: 
+	          948898 _init (/usr/lib64/firefox/libxul.so)
+	    7f21211c0a70 [unknown] ([unknown])
+
+Xorg  1988 [003] 167224.987316:   15426349 cycles:ppp: 
+	           b0f0e [unknown] (/usr/libexec/Xorg)
+
+swapper     0 [005] 167225.029985:   48189392 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+Xorg  1988 [002] 167225.067894:   10920711 cycles:ppp: 
+	          445ae0 do_writev (/lib/modules/4.7.0+/build/vmlinux)
+	          9e2bf2 entry_SYSCALL_64_fastpath (/lib/modules/4.7.0+/build/vmlinux)
+	           f8c1d __GI___writev (/usr/lib64/libc-2.23.so)
+	               0 [unknown] ([unknown])
+
+firefox  2531 [001] 167225.099067:   15184860 cycles:ppp: 
+	          163ddc [unknown] (/usr/lib64/libgtk-3.so.0.2000.9)
+	              a2 [unknown] ([unknown])
+	               0 [unknown] ([unknown])
+	               0 [unknown] ([unknown])
+
+firefox  2531 [002] 167225.121671:   18268617 cycles:ppp: 
+	           23190 XFilterEvent (/usr/lib64/libX11.so.6.3.0)
+	          25ec06 [unknown] ([unknown])
+
+Xorg  1988 [000] 167225.147521:   11214737 cycles:ppp: 
+	           b1820 [unknown] (/usr/libexec/Xorg)
+
+firefox  2531 [003] 167225.177971:   13113372 cycles:ppp: 
+	          36fe30 [unknown] (/usr/lib64/libgtk-3.so.0.2000.9)
+
+Xorg  1988 [002] 167225.193569:   16327431 cycles:ppp: 
+	            a450 drm_atomic_helper_update_plane ([drm_kms_helper])
+	            fdbb drm_mode_cursor_universal ([drm])
+	            ff2e drm_mode_cursor_common ([drm])
+	           14130 drm_mode_cursor_ioctl ([drm])
+	            5822 drm_ioctl ([drm])
+	          459223 do_vfs_ioctl (/lib/modules/4.7.0+/build/vmlinux)
+	          4597c9 sys_ioctl (/lib/modules/4.7.0+/build/vmlinux)
+	          9e2bf2 entry_SYSCALL_64_fastpath (/lib/modules/4.7.0+/build/vmlinux)
+	           f8b67 __GI___ioctl (/usr/lib64/libc-2.23.so)
+
+firefox  2531 [003] 167225.204863:   15324210 cycles:ppp: 
+	         10dde26 [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f213f034c10 [unknown] ([unknown])
+	         1c2aa06 [unknown] (/usr/lib64/firefox/libxul.so)
+	  8e7f358d48f389 [unknown] ([unknown])
+
+firefox  2531 [003] 167225.216087:   16508475 cycles:ppp: 
+	           10137 [unknown] (/usr/lib64/firefox/firefox)
+
+firefox  2531 [001] 167225.232708:   17876948 cycles:ppp: 
+	          17dc03 [unknown] (/usr/lib64/libgtk-3.so.0.2000.9)
+	    7ffd21e890e0 [unknown] ([unknown])
+	          1734b0 [unknown] (/usr/lib64/libgtk-3.so.0.2000.9)
+	c300000001b80789 [unknown] ([unknown])
+
+swapper     0 [005] 167225.246650:  104640571 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+gnome-shell  2096 [003] 167225.254042:   20111955 cycles:ppp: 
+	           1f299 [unknown] (/usr/lib64/libgobject-2.0.so.0.4800.2)
+	    5560dc91c340 [unknown] ([unknown])
+
+firefox  2531 [001] 167225.255615:   17789363 cycles:ppp: 
+	            c009 [unknown] (/usr/lib64/libxcb.so.1.1.0)
+
+firefox  2531 [001] 167225.285529:   12994417 cycles:ppp: 
+	         1de4fab [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f2109e58520 [unknown] ([unknown])
+	    7f20d99683e0 [unknown] ([unknown])
+
+firefox  2531 [001] 167225.301877:   12880217 cycles:ppp: 
+	         1f7c116 [unknown] (/usr/lib64/firefox/libxul.so)
+	               0 [unknown] ([unknown])
+	         1f76710 [unknown] (/usr/lib64/firefox/libxul.so)
+	2980e9020357eb0d [unknown] ([unknown])
+
+firefox  2531 [001] 167225.318890:   12735738 cycles:ppp: 
+	         23848af [unknown] (/usr/lib64/firefox/libxul.so)
+	      1800000010 [unknown] ([unknown])
+
+firefox  2531 [001] 167225.335569:   14553598 cycles:ppp: 
+	           ff6e3 [unknown] (/usr/lib64/libgtk-3.so.0.2000.9)
+
+firefox  2531 [001] 167225.349334:   16406420 cycles:ppp: 
+	         1e9ccf4 [unknown] (/usr/lib64/firefox/libxul.so)
+	       100000001 [unknown] ([unknown])
+
+firefox  2531 [001] 167225.357083:   19901550 cycles:ppp: 
+	           4dca8 __dubsin (/usr/lib64/libm-2.23.so)
+	b5aca1f134522fc3 [unknown] ([unknown])
+
+gnome-shell  2096 [003] 167225.370016:   13216367 cycles:ppp: 
+	           e8bb0 clutter_texture_get_type (/usr/lib64/libclutter-1.0.so.0.2600.0)
+	               0 [unknown] ([unknown])
+	               2 [unknown] ([unknown])
+	    5560dbf5f090 [unknown] ([unknown])
+	               0 [unknown] ([unknown])
+
+Xorg  1988 [000] 167225.376466:   14967534 cycles:ppp: 
+	          7828e0 [unknown] (/usr/lib64/dri/radeonsi_dri.so)
+
+firefox  2531 [001] 167225.382497:   22021714 cycles:ppp: 
+	         23e0706 [unknown] (/usr/lib64/firefox/libxul.so)
+	       e00000359 [unknown] ([unknown])
+
+swapper     0 [005] 167225.416353:   83930551 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+SoftwareVsyncTh  2596 [002] 167225.513937:   14816573 cycles:ppp: 
+	          2dbe39 update_blocked_averages (/lib/modules/4.7.0+/build/vmlinux)
+	          2e367b rebalance_domains (/lib/modules/4.7.0+/build/vmlinux)
+	          2e3aae run_rebalance_domains (/lib/modules/4.7.0+/build/vmlinux)
+	          9e5952 __do_softirq (/lib/modules/4.7.0+/build/vmlinux)
+	          2ac282 irq_exit (/lib/modules/4.7.0+/build/vmlinux)
+	          9e5752 smp_apic_timer_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          9e389c apic_timer_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	            aee0 pthread_mutex_unlock (/usr/lib64/libpthread-2.23.so)
+	               1 [unknown] ([unknown])
+
+swapper     0 [000] 167225.549431:   16595109 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          9d5a47 rest_init (/lib/modules/4.7.0+/build/vmlinux)
+	         1162fe7 start_kernel ([kernel.vmlinux].init.text)
+	         11622db x86_64_start_reservations ([kernel.vmlinux].init.text)
+	         1162429 x86_64_start_kernel ([kernel.vmlinux].init.text)
+
+firefox  2531 [003] 167225.613921:   10065336 cycles:ppp: 
+	          44547e vfs_read (/lib/modules/4.7.0+/build/vmlinux)
+	          4468e5 sys_read (/lib/modules/4.7.0+/build/vmlinux)
+	          9e2bf2 entry_SYSCALL_64_fastpath (/lib/modules/4.7.0+/build/vmlinux)
+	            fdad [unknown] (/usr/lib64/libpthread-2.23.so)
+
+firefox  2531 [001] 167225.634734:   13483605 cycles:ppp: 
+	           105c3 [unknown] (/usr/lib64/firefox/firefox)
+	               1 [unknown] ([unknown])
+
+firefox  2531 [001] 167225.654329:   14921939 cycles:ppp: 
+	         1d466ab [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f213ee44360 [unknown] ([unknown])
+
+firefox  2531 [001] 167225.663868:   15461091 cycles:ppp: 
+	         1ded048 [unknown] (/usr/lib64/firefox/libxul.so)
+	     74400000708 [unknown] ([unknown])
+
+firefox  2531 [001] 167225.683978:   15544180 cycles:ppp: 
+	           13195 [unknown] (/usr/lib64/firefox/firefox)
+	    5dbc00000f78 [unknown] ([unknown])
+
+gnome-shell  2096 [003] 167225.700054:   10003868 cycles:ppp: 
+	           45b57 g_list_foreach (/usr/lib64/libglib-2.0.so.0.4800.2)
+
+firefox  2531 [001] 167225.715170:   16120838 cycles:ppp: 
+	          17387c [unknown] (/usr/lib64/libgtk-3.so.0.2000.9)
+	    7ffd21e89140 [unknown] ([unknown])
+	          1734b0 [unknown] (/usr/lib64/libgtk-3.so.0.2000.9)
+	c300000001b80789 [unknown] ([unknown])
+
+swapper     0 [000] 167225.722775:   28259945 cycles:ppp: 
+	               0 [unknown] ([unknown])
+	           1e758 ath9k_hw_enable_interrupts ([ath9k_hw])
+	            4f37 ath9k_tasklet ([ath9k])
+	          2aba75 tasklet_action (/lib/modules/4.7.0+/build/vmlinux)
+	          9e5952 __do_softirq (/lib/modules/4.7.0+/build/vmlinux)
+	          2ac282 irq_exit (/lib/modules/4.7.0+/build/vmlinux)
+	          9e5694 do_IRQ (/lib/modules/4.7.0+/build/vmlinux)
+	          9e354c ret_from_intr (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          9d5a47 rest_init (/lib/modules/4.7.0+/build/vmlinux)
+	         1162fe7 start_kernel ([kernel.vmlinux].init.text)
+	         11622db x86_64_start_reservations ([kernel.vmlinux].init.text)
+	         1162429 x86_64_start_kernel ([kernel.vmlinux].init.text)
+
+swapper     0 [005] 167225.735171:  186180520 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [001] 167225.746950:   15822194 cycles:ppp: 
+	               0 [unknown] ([unknown])
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+gnome-shell  2096 [003] 167225.753849:   11678686 cycles:ppp: 
+	           5aee2 [unknown] (/usr/lib64/libpixman-1.so.0.34.0)
+	       a000002c3 [unknown] ([unknown])
+
+firefox  2531 [001] 167225.767791:   18725099 cycles:ppp: 
+	         1ded77b [unknown] (/usr/lib64/firefox/libxul.so)
+	e5e5e5302e352e32 [unknown] ([unknown])
+	    7f20c8c66060 [unknown] ([unknown])
+
+firefox  2531 [001] 167225.796589:   19073997 cycles:ppp: 
+	          98cb03 [unknown] (/usr/lib64/firefox/libxul.so)
+	42503a3a4c445049 [unknown] ([unknown])
+
+gnome-shell  2096 [003] 167225.803733:   14278623 cycles:ppp: 
+	          18e613 [unknown] (/usr/lib64/libgtk-3.so.0.2000.9)
+	       10000002a [unknown] ([unknown])
+	          15fd00 [unknown] (/usr/lib64/libgtk-3.so.0.2000.9)
+	3774c0850c478b08 [unknown] ([unknown])
+
+swapper     0 [002] 167225.804154:   15137095 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+firefox  2531 [001] 167225.818636:   16885795 cycles:ppp: 
+	          5e3439 copy_user_enhanced_fast_string (/lib/modules/4.7.0+/build/vmlinux)
+	          44e0f1 pipe_read (/lib/modules/4.7.0+/build/vmlinux)
+	          444322 __vfs_read (/lib/modules/4.7.0+/build/vmlinux)
+	          445406 vfs_read (/lib/modules/4.7.0+/build/vmlinux)
+	          4468e5 sys_read (/lib/modules/4.7.0+/build/vmlinux)
+	          9e2bf2 entry_SYSCALL_64_fastpath (/lib/modules/4.7.0+/build/vmlinux)
+	            fdad [unknown] (/usr/lib64/libpthread-2.23.so)
+	e5e5e5e500000000 [unknown] ([unknown])
+
+gnome-shell  2096 [003] 167225.953320:   12431870 cycles:ppp: 
+	           2fe38 g_type_interface_peek (/usr/lib64/libgobject-2.0.so.0.4800.2)
+	    5560db630030 [unknown] ([unknown])
+	               0 [unknown] ([unknown])
+
+firefox  2531 [001] 167225.957365:   15622767 cycles:ppp: 
+	          9e3c89 [unknown] (/usr/lib64/firefox/libxul.so)
+
+gnome-shell  2096 [003] 167225.962119:   15773276 cycles:ppp: 
+	           7d91d _int_free (/usr/lib64/libc-2.23.so)
+	    5560de5c2620 [unknown] ([unknown])
+
+firefox  2531 [001] 167225.964119:   21254713 cycles:ppp: 
+	         1d46168 [unknown] (/usr/lib64/firefox/libxul.so)
+	    7ffd21e8c510 [unknown] ([unknown])
+
+swapper     0 [000] 167225.968694:   21222564 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          9d5a47 rest_init (/lib/modules/4.7.0+/build/vmlinux)
+	         1162fe7 start_kernel ([kernel.vmlinux].init.text)
+	         11622db x86_64_start_reservations ([kernel.vmlinux].init.text)
+	         1162429 x86_64_start_kernel ([kernel.vmlinux].init.text)
+
+firefox  2531 [001] 167225.969889:   29040245 cycles:ppp: 
+	         180a60c [unknown] (/usr/lib64/firefox/libxul.so)
+	fffc7f2126088d80 [unknown] ([unknown])
+
+firefox  2531 [001] 167225.978020:   34300414 cycles:ppp: 
+	         1be2aad [unknown] (/usr/lib64/firefox/libxul.so)
+	    7ffd21e8a4a8 [unknown] ([unknown])
+	              23 [unknown] ([unknown])
+	         1e438ce [unknown] (/usr/lib64/firefox/libxul.so)
+	894800e01d74358d [unknown] ([unknown])
+
+swapper     0 [000] 167225.985021:   50295811 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          9d5a47 rest_init (/lib/modules/4.7.0+/build/vmlinux)
+	         1162fe7 start_kernel ([kernel.vmlinux].init.text)
+	         11622db x86_64_start_reservations ([kernel.vmlinux].init.text)
+	         1162429 x86_64_start_kernel ([kernel.vmlinux].init.text)
+
+swapper     0 [002] 167225.989542:   13249190 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [000] 167226.048134:   43669672 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          9d5a47 rest_init (/lib/modules/4.7.0+/build/vmlinux)
+	         1162fe7 start_kernel ([kernel.vmlinux].init.text)
+	         11622db x86_64_start_reservations ([kernel.vmlinux].init.text)
+	         1162429 x86_64_start_kernel ([kernel.vmlinux].init.text)
+
+firefox  2531 [003] 167226.054779:   23547956 cycles:ppp: 
+	           23eb8 _init (/usr/lib64/libgdk-3.so.0.2000.9)
+	          25edaa [unknown] ([unknown])
+
+rcu_sched     7 [002] 167226.055980:   23948486 cycles:ppp: 
+	          9de661 __schedule (/lib/modules/4.7.0+/build/vmlinux)
+	          9de945 schedule (/lib/modules/4.7.0+/build/vmlinux)
+	          30bcda rcu_gp_kthread (/lib/modules/4.7.0+/build/vmlinux)
+	          2c5a68 kthread (/lib/modules/4.7.0+/build/vmlinux)
+	          9e2dff ret_from_fork (/lib/modules/4.7.0+/build/vmlinux)
+
+SoftwareVsyncTh  2596 [001] 167226.063665:   32968150 cycles:ppp: 
+	            cf7c pthread_cond_timedwait@@GLIBC_2.3.2 (/usr/lib64/libpthread-2.23.so)
+	               1 [unknown] ([unknown])
+
+swapper     0 [000] 167226.088188:   45197974 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          9d5a47 rest_init (/lib/modules/4.7.0+/build/vmlinux)
+	         1162fe7 start_kernel ([kernel.vmlinux].init.text)
+	         11622db x86_64_start_reservations ([kernel.vmlinux].init.text)
+	         1162429 x86_64_start_kernel ([kernel.vmlinux].init.text)
+
+swapper     0 [005] 167226.113460:  203892471 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+Xorg  1988 [000] 167226.144332:   32060646 cycles:ppp: 
+	            df03 [unknown] (/usr/lib64/xorg/modules/libglamoregl.so)
+
+swapper     0 [002] 167226.177644:   25625082 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+Xorg  1988 [000] 167226.188105:   19326214 cycles:ppp: 
+	           7c4f6 malloc_consolidate (/usr/lib64/libc-2.23.so)
+
+firefox  2531 [000] 167226.233784:   30937066 cycles:ppp: 
+	         1e01705 [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f21113d1dc0 [unknown] ([unknown])
+	      1821e8001b [unknown] ([unknown])
+	         1e03d2a [unknown] (/usr/lib64/firefox/libxul.so)
+	90c3c3c0940f0877 [unknown] ([unknown])
+
+swapper     0 [006] 167226.240030:   23416239 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+gnome-shell  2096 [002] 167226.240405:   19120256 cycles:ppp: 
+	           81320 free (/usr/lib64/libc-2.23.so)
+	               0 [unknown] ([unknown])
+
+gnome-shell  2096 [002] 167226.289191:   10142166 cycles:ppp: 
+	          233ea2 [unknown] (/usr/lib64/libmozjs-24.so)
+	               3 [unknown] ([unknown])
+	    7f93a4e31a10 [unknown] ([unknown])
+
+swapper     0 [006] 167226.293332:   42097348 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+gnome-shell  2096 [002] 167226.308926:    9879243 cycles:ppp: 
+	          1774be _init (/usr/lib64/dri/i965_dri.so)
+
+swapper     0 [002] 167226.371611:    8681977 cycles:ppp: 
+	          9e2b42 _raw_spin_lock_irqsave (/lib/modules/4.7.0+/build/vmlinux)
+	          313e79 lock_hrtimer_base.isra.21 (/lib/modules/4.7.0+/build/vmlinux)
+	          314499 hrtimer_start_range_ns (/lib/modules/4.7.0+/build/vmlinux)
+	          323684 tick_nohz_stop_sched_tick (/lib/modules/4.7.0+/build/vmlinux)
+	          32376c __tick_nohz_idle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          323fac tick_nohz_idle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e98d6 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [002] 167226.504285:   13446443 cycles:ppp: 
+	          875618 menu_select (/lib/modules/4.7.0+/build/vmlinux)
+	          8741c3 cpuidle_select (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ac6 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+gnome-shell  2096 [002] 167226.538700:    9479846 cycles:ppp: 
+	           3c840 [unknown] (/usr/lib64/libgjs.so.0.0.0)
+	            f3e5 g_closure_invoke (/usr/lib64/libgobject-2.0.so.0.4800.2)
+
+swapper     0 [001] 167226.539220:   11993716 cycles:ppp: 
+	          323090 update_ts_time_stats (/lib/modules/4.7.0+/build/vmlinux)
+	          2e99b6 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [004] 167226.543629:   33785368 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [006] 167226.545477:   37693419 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [000] 167226.548616:    9406511 cycles:ppp: 
+	          5f066e ioread32 (/lib/modules/4.7.0+/build/vmlinux)
+	           1e5ec ath9k_hw_intrpend ([ath9k_hw])
+	            4c1f ath_isr ([ath9k])
+	          300a1f handle_irq_event_percpu (/lib/modules/4.7.0+/build/vmlinux)
+	          300b8c handle_irq_event (/lib/modules/4.7.0+/build/vmlinux)
+	          303dca handle_fasteoi_irq (/lib/modules/4.7.0+/build/vmlinux)
+	          22fbf3 handle_irq (/lib/modules/4.7.0+/build/vmlinux)
+	          9e568b do_IRQ (/lib/modules/4.7.0+/build/vmlinux)
+	          9e354c ret_from_intr (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          9d5a47 rest_init (/lib/modules/4.7.0+/build/vmlinux)
+	         1162fe7 start_kernel ([kernel.vmlinux].init.text)
+	         11622db x86_64_start_reservations ([kernel.vmlinux].init.text)
+	         1162429 x86_64_start_kernel ([kernel.vmlinux].init.text)
+
+gnome-shell  2096 [001] 167226.572326:   13556416 cycles:ppp: 
+	           51544 clutter_actor_is_visible (/usr/lib64/libclutter-1.0.so.0.2600.0)
+	               4 [unknown] ([unknown])
+	               0 [unknown] ([unknown])
+	               0 [unknown] ([unknown])
+
+goa-daemon  2173 [003] 167226.645829:   17875820 cycles:ppp: 
+	           33ced g_type_check_instance_is_fundamentally_a (/usr/lib64/libgobject-2.0.so.0.4800.2)
+	               0 [unknown] ([unknown])
+
+swapper     0 [000] 167226.646809:    8362187 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          9d5a47 rest_init (/lib/modules/4.7.0+/build/vmlinux)
+	         1162fe7 start_kernel ([kernel.vmlinux].init.text)
+	         11622db x86_64_start_reservations ([kernel.vmlinux].init.text)
+	         1162429 x86_64_start_kernel ([kernel.vmlinux].init.text)
+
+dbus-daemon   906 [002] 167226.647757:    8240059 cycles:ppp: 
+	            af0b pthread_mutex_unlock (/usr/lib64/libpthread-2.23.so)
+	    5618c2e49c28 [unknown] ([unknown])
+	    5618c2e13530 [unknown] ([unknown])
+
+gnome-shell  2096 [001] 167226.648407:   10797539 cycles:ppp: 
+	           1b428 _dbus_type_reader_get_current_type (/usr/lib64/libdbus-1.so.3.15.2)
+	    7f93c8078c10 [unknown] ([unknown])
+
+gnome-shell  2096 [001] 167226.707132:   12362288 cycles:ppp: 
+	           38592 g_hash_table_lookup (/usr/lib64/libglib-2.0.so.0.4800.2)
+	    7f9300000001 [unknown] ([unknown])
+
+gnome-shell  2096 [002] 167226.736803:    8373831 cycles:ppp: 
+	           492f3 g_main_context_check (/usr/lib64/libglib-2.0.so.0.4800.2)
+
+Xorg  1988 [000] 167226.738116:   11161524 cycles:ppp: 
+	           7f1d7 _int_malloc (/usr/lib64/libc-2.23.so)
+	         385a4a0 [unknown] ([unknown])
+
+gnome-shell  2096 [002] 167226.754415:    9008934 cycles:ppp: 
+	           125ff [unknown] (/usr/lib64/libgirepository-1.0.so.1.0.0)
+
+gnome-shell  2096 [002] 167226.774186:    8054986 cycles:ppp: 
+	           8da05 g_mutex_lock (/usr/lib64/libglib-2.0.so.0.4800.2)
+
+gnome-shell  2096 [002] 167226.792026:    8402405 cycles:ppp: 
+	           3faa8 [unknown] (/usr/lib64/libmutter.so.0.0.0)
+	               0 [unknown] ([unknown])
+
+swapper     0 [006] 167226.792059:   42343838 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+Xorg  1988 [000] 167226.818971:    9185303 cycles:ppp: 
+	          2dbfa3 update_blocked_averages (/lib/modules/4.7.0+/build/vmlinux)
+	          2e367b rebalance_domains (/lib/modules/4.7.0+/build/vmlinux)
+	          2e3aae run_rebalance_domains (/lib/modules/4.7.0+/build/vmlinux)
+	          9e5952 __do_softirq (/lib/modules/4.7.0+/build/vmlinux)
+	          2ac282 irq_exit (/lib/modules/4.7.0+/build/vmlinux)
+	          9e5752 smp_apic_timer_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          9e389c apic_timer_interrupt (/lib/modules/4.7.0+/build/vmlinux)
+	          45acda do_select (/lib/modules/4.7.0+/build/vmlinux)
+	          45af45 core_sys_select (/lib/modules/4.7.0+/build/vmlinux)
+	          45b12a sys_select (/lib/modules/4.7.0+/build/vmlinux)
+	          9e2bf2 entry_SYSCALL_64_fastpath (/lib/modules/4.7.0+/build/vmlinux)
+	           f91c3 __select (/usr/lib64/libc-2.23.so)
+	         3d7e3a0 [unknown] ([unknown])
+	         3b3a800 [unknown] ([unknown])
+
+gnome-shell  2096 [002] 167226.819794:    7248590 cycles:ppp: 
+	           586e6 clutter_actor_paint (/usr/lib64/libclutter-1.0.so.0.2600.0)
+	               3 [unknown] ([unknown])
+	               0 [unknown] ([unknown])
+	               0 [unknown] ([unknown])
+
+swapper     0 [004] 167226.844966:   76405839 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+gnome-shell  2096 [001] 167226.854076:   10303110 cycles:ppp: 
+	           13e9f _dl_find_dso_for_object (/usr/lib64/ld-2.23.so)
+	            1034 dlsym_doit (/usr/lib64/libdl-2.23.so)
+	e83f8b4808778b48 [unknown] ([unknown])
+
+Xorg  1988 [000] 167226.870325:    8194994 cycles:ppp: 
+
+gnome-shell  2096 [001] 167226.875440:    8400826 cycles:ppp: 
+	           44306 [unknown] (/usr/lib64/gnome-shell/libgnome-shell.so)
+	               0 [unknown] ([unknown])
+
+swapper     0 [003] 167226.876307:   22062161 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [002] 167226.892977:    9010654 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+Xorg  1988 [001] 167226.904030:    8109894 cycles:ppp: 
+	           41f4f CheckCursorConfinement (/usr/libexec/Xorg)
+
+gnome-shell  2096 [002] 167226.920502:    8336223 cycles:ppp: 
+	          153830 [unknown] (/usr/lib64/libmozjs-24.so)
+
+Xorg  1988 [000] 167226.938658:   12121783 cycles:ppp: 
+	            a848 _init (/usr/lib64/libglapi.so.0.0.0)
+	               0 [unknown] ([unknown])
+
+gnome-shell  2096 [002] 167226.940546:    9167952 cycles:ppp: 
+	           9c372 __strcmp_sse2_unaligned (/usr/lib64/libc-2.23.so)
+
+gnome-shell  2096 [002] 167226.958894:    8521854 cycles:ppp: 
+	          3c1a31 __alloc_pages_nodemask (/lib/modules/4.7.0+/build/vmlinux)
+	          4140a5 alloc_pages_current (/lib/modules/4.7.0+/build/vmlinux)
+	          3bd544 __get_free_pages (/lib/modules/4.7.0+/build/vmlinux)
+	          45a069 __pollwait (/lib/modules/4.7.0+/build/vmlinux)
+	          97a779 unix_poll (/lib/modules/4.7.0+/build/vmlinux)
+	          8a5591 sock_poll (/lib/modules/4.7.0+/build/vmlinux)
+	          45b613 do_sys_poll (/lib/modules/4.7.0+/build/vmlinux)
+	          45b9f1 sys_poll (/lib/modules/4.7.0+/build/vmlinux)
+	          9e2bf2 entry_SYSCALL_64_fastpath (/lib/modules/4.7.0+/build/vmlinux)
+	           f73ed [unknown] (/usr/lib64/libc-2.23.so)
+
+swapper     0 [006] 167226.966952:   44233585 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+gnome-shell  2096 [002] 167227.025269:    8518745 cycles:ppp: 
+	            c557 [unknown] (/usr/lib64/libxcb.so.1.1.0)
+
+Xorg  1988 [000] 167227.108966:   12213172 cycles:ppp: 
+	          9e35d7 native_irq_return_iret (/lib/modules/4.7.0+/build/vmlinux)
+
+firefox  2531 [007] 167227.112733:   13390318 cycles:ppp: 
+	         118b348 [unknown] (/usr/lib64/firefox/libxul.so)
+
+firefox  2531 [007] 167227.116845:   21409533 cycles:ppp: 
+	         1d4456c [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f21293bf840 [unknown] ([unknown])
+	3b4142b580000005 [unknown] ([unknown])
+	          9a415c [unknown] (/usr/lib64/firefox/libxul.so)
+	830d8d4800044464 [unknown] ([unknown])
+
+swapper     0 [003] 167227.120898:   14320672 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [007] 167227.123618:   30469382 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [003] 167227.130059:   41638931 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [002] 167227.136553:    8787478 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+ksoftirqd/1    18 [001] 167227.293241:   13013000 cycles:ppp: 
+	          7fb931 xhci_irq (/lib/modules/4.7.0+/build/vmlinux)
+	          7fd9c1 xhci_msi_irq (/lib/modules/4.7.0+/build/vmlinux)
+	          300a1f handle_irq_event_percpu (/lib/modules/4.7.0+/build/vmlinux)
+	          300b8c handle_irq_event (/lib/modules/4.7.0+/build/vmlinux)
+	          303fff handle_edge_irq (/lib/modules/4.7.0+/build/vmlinux)
+	          22fbf3 handle_irq (/lib/modules/4.7.0+/build/vmlinux)
+	          9e568b do_IRQ (/lib/modules/4.7.0+/build/vmlinux)
+	          9e354c ret_from_intr (/lib/modules/4.7.0+/build/vmlinux)
+	          9de482 __schedule (/lib/modules/4.7.0+/build/vmlinux)
+	          9de945 schedule (/lib/modules/4.7.0+/build/vmlinux)
+	          2c8de0 smpboot_thread_fn (/lib/modules/4.7.0+/build/vmlinux)
+	          2c5a68 kthread (/lib/modules/4.7.0+/build/vmlinux)
+	          9e2dff ret_from_fork (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [000] 167227.460221:    8585681 cycles:ppp: 
+	          8741fc cpuidle_reflect (/lib/modules/4.7.0+/build/vmlinux)
+	          9d5a47 rest_init (/lib/modules/4.7.0+/build/vmlinux)
+	         1162fe7 start_kernel ([kernel.vmlinux].init.text)
+	         11622db x86_64_start_reservations ([kernel.vmlinux].init.text)
+	         1162429 x86_64_start_kernel ([kernel.vmlinux].init.text)
+
+firefox  2531 [007] 167227.469265:   17968878 cycles:ppp: 
+	           1465a malloc (/usr/lib64/firefox/firefox)
+	               0 [unknown] ([unknown])
+
+firefox  2531 [007] 167227.480550:   16519741 cycles:ppp: 
+	          9e3c67 [unknown] (/usr/lib64/firefox/libxul.so)
+	       8e5e50016 [unknown] ([unknown])
+	          9a3eaa [unknown] (/usr/lib64/firefox/libxul.so)
+	        b8088b48 [unknown] ([unknown])
+
+swapper     0 [003] 167227.486306:   53367487 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+gnome-shell  2096 [002] 167227.489225:   12370801 cycles:ppp: 
+	           54b3f [unknown] (/usr/lib64/libclutter-1.0.so.0.2600.0)
+	               2 [unknown] ([unknown])
+	               0 [unknown] ([unknown])
+	               0 [unknown] ([unknown])
+
+Socket Thread  2553 [000] 167227.554196:   10575040 cycles:ppp: 
+	           13146 [unknown] (/usr/lib64/firefox/firefox)
+	               0 [unknown] ([unknown])
+	    7f20cb13c4c0 [unknown] ([unknown])
+	    7f21000d04c0 [unknown] ([unknown])
+	    7f21000d0310 [unknown] ([unknown])
+	    7f20f04c9280 [unknown] ([unknown])
+	    7f20f2a8f160 [unknown] ([unknown])
+
+firefox  2531 [007] 167227.588721:   17783579 cycles:ppp: 
+	         10edc56 [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f2105ceb460 [unknown] ([unknown])
+	    7f214a3000d0 [unknown] ([unknown])
+	               0 [unknown] ([unknown])
+
+firefox  2531 [007] 167227.603082:   13559445 cycles:ppp: 
+	         118b681 [unknown] (/usr/lib64/firefox/libxul.so)
+
+firefox  2531 [007] 167227.612563:   14235875 cycles:ppp: 
+	         270aaff [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f212da964e0 [unknown] ([unknown])
+
+firefox  2531 [007] 167227.627949:   18291887 cycles:ppp: 
+	               0 [unknown] ([unknown])
+	    7f2125f71f38 [unknown] ([unknown])
+	    7f2125f72a80 [unknown] ([unknown])
+	         8000000 [unknown] ([unknown])
+	  7463656a624f00 [unknown] ([unknown])
+
+swapper     0 [003] 167227.630513:  114879282 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+chromium-browse 13020 [000] 167227.630620:    9559406 cycles:ppp: 
+	           25a10 scheduler::IdleHelper::DidProcessTask (/usr/lib64/chromium-browser/lib/libscheduler.so)
+	fffffffc06d1f0e5 [unknown] ([unknown])
+	           20350 scheduler::TaskQueueManager::~TaskQueueManager (/usr/lib64/chromium-browser/lib/libscheduler.so)
+	eab6058b4810ec83 [unknown] ([unknown])
+
+gnome-shell  2096 [002] 167227.637186:   15722439 cycles:ppp: 
+	           33b52 [unknown] (/usr/lib64/libcogl.so.20.4.1)
+	        44f00000 [unknown] ([unknown])
+
+Xorg  1988 [000] 167227.655386:   13811404 cycles:ppp: 
+	          9e2b42 _raw_spin_lock_irqsave (/lib/modules/4.7.0+/build/vmlinux)
+	          2d01f0 try_to_wake_up (/lib/modules/4.7.0+/build/vmlinux)
+	          2d0622 default_wake_function (/lib/modules/4.7.0+/build/vmlinux)
+	          45a3c3 pollwake (/lib/modules/4.7.0+/build/vmlinux)
+	          2e89ad __wake_up_common (/lib/modules/4.7.0+/build/vmlinux)
+	          2e8e15 __wake_up_sync_key (/lib/modules/4.7.0+/build/vmlinux)
+	          8aab4d sock_def_readable (/lib/modules/4.7.0+/build/vmlinux)
+	          97cbac unix_stream_sendmsg (/lib/modules/4.7.0+/build/vmlinux)
+	          8a6a98 sock_sendmsg (/lib/modules/4.7.0+/build/vmlinux)
+	          8a6b35 sock_write_iter (/lib/modules/4.7.0+/build/vmlinux)
+	          444b56 do_iter_readv_writev (/lib/modules/4.7.0+/build/vmlinux)
+	          4457d5 do_readv_writev (/lib/modules/4.7.0+/build/vmlinux)
+	          445acc vfs_writev (/lib/modules/4.7.0+/build/vmlinux)
+	          445b41 do_writev (/lib/modules/4.7.0+/build/vmlinux)
+	          446cb0 sys_writev (/lib/modules/4.7.0+/build/vmlinux)
+	          9e2bf2 entry_SYSCALL_64_fastpath (/lib/modules/4.7.0+/build/vmlinux)
+	           f8c1d __GI___writev (/usr/lib64/libc-2.23.so)
+	               0 [unknown] ([unknown])
+
+firefox  2531 [007] 167227.671188:   15083337 cycles:ppp: 
+	         1dba5b6 [unknown] (/usr/lib64/firefox/libxul.so)
+	               0 [unknown] ([unknown])
+	               1 [unknown] ([unknown])
+
+gnome-shell  2096 [002] 167227.673152:   14181311 cycles:ppp: 
+	           33e2a g_type_check_instance_cast (/usr/lib64/libgobject-2.0.so.0.4800.2)
+	               0 [unknown] ([unknown])
+
+Xorg  1988 [000] 167227.673617:   13278828 cycles:ppp: 
+	          446554 [unknown] (/usr/lib64/dri/i965_dri.so)
+	       100000000 [unknown] ([unknown])
+	               1 [unknown] ([unknown])
+
+swapper     0 [004] 167227.675754:  132846664 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+firefox  2531 [007] 167227.682864:   13518677 cycles:ppp: 
+
+firefox  2531 [007] 167227.691304:   15507050 cycles:ppp: 
+	         1d4456c [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f21293c3320 [unknown] ([unknown])
+	4d93bae280000002 [unknown] ([unknown])
+	          9a415c [unknown] (/usr/lib64/firefox/libxul.so)
+	830d8d4800044464 [unknown] ([unknown])
+
+firefox  2531 [007] 167227.698205:   20025586 cycles:ppp: 
+
+gnome-shell  2096 [002] 167227.703476:   14644108 cycles:ppp: 
+	           8da22 g_mutex_unlock (/usr/lib64/libglib-2.0.so.0.4800.2)
+	               1 [unknown] ([unknown])
+	               0 [unknown] ([unknown])
+	               0 [unknown] ([unknown])
+
+swapper     0 [006] 167227.704661:   72779983 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+firefox  2531 [007] 167227.705466:   24927971 cycles:ppp: 
+	         1df2407 [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f211be06b50 [unknown] ([unknown])
+	              27 [unknown] ([unknown])
+	         1e438ce [unknown] (/usr/lib64/firefox/libxul.so)
+	894800e01d74358d [unknown] ([unknown])
+
+firefox  2531 [007] 167227.712772:   30538079 cycles:ppp: 
+	         1f5b16c [unknown] (/usr/lib64/firefox/libxul.so)
+	               0 [unknown] ([unknown])
+	         1f5de4a [unknown] (/usr/lib64/firefox/libxul.so)
+	        ba2afe83 [unknown] ([unknown])
+
+firefox  2531 [007] 167227.721055:   35227091 cycles:ppp: 
+	         1d46075 [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f21293c3320 [unknown] ([unknown])
+	4d93bae280000002 [unknown] ([unknown])
+	          9a415c [unknown] (/usr/lib64/firefox/libxul.so)
+	830d8d4800044464 [unknown] ([unknown])
+
+swapper     0 [003] 167227.730221:   70263558 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+firefox  2531 [007] 167227.730610:   36636242 cycles:ppp: 
+	         1be2bce [unknown] (/usr/lib64/firefox/libxul.so)
+	e5e5e5e5e5000000 [unknown] ([unknown])
+
+swapper     0 [007] 167227.740832:   37027560 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+Xorg  1988 [000] 167227.742792:   16581340 cycles:ppp: 
+	          9e35d7 native_irq_return_iret (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [003] 167227.780694:  169869122 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+firefox  2531 [007] 167227.782188:   36850345 cycles:ppp: 
+	         1d46373 [unknown] (/usr/lib64/firefox/libxul.so)
+	               0 [unknown] ([unknown])
+	4d309b1480000007 [unknown] ([unknown])
+	          9a415c [unknown] (/usr/lib64/firefox/libxul.so)
+	830d8d4800044464 [unknown] ([unknown])
+
+gnome-shell  2096 [002] 167227.803582:   20527697 cycles:ppp: 
+	          21a000 _init (/usr/lib64/dri/i965_dri.so)
+	               0 [unknown] ([unknown])
+
+firefox  2531 [007] 167227.814358:   35834429 cycles:ppp: 
+	         1e36d51 [unknown] (/usr/lib64/firefox/libxul.so)
+	       100000001 [unknown] ([unknown])
+
+firefox  2531 [007] 167227.867851:   22592407 cycles:ppp: 
+	         23e0c83 [unknown] (/usr/lib64/firefox/libxul.so)
+
+firefox  2531 [007] 167227.885760:   14545373 cycles:ppp: 
+
+firefox  2531 [007] 167227.894649:   16151332 cycles:ppp: 
+	         1d45488 [unknown] (/usr/lib64/firefox/libxul.so)
+	    7ffd21e8def0 [unknown] ([unknown])
+
+firefox  2531 [007] 167227.901650:   20261275 cycles:ppp: 
+	          9ab3b0 [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f213ee44320 [unknown] ([unknown])
+
+firefox  2531 [007] 167227.908708:   25572183 cycles:ppp: 
+	          983ac8 [unknown] (/usr/lib64/firefox/libxul.so)
+	d37d5f8300000024 [unknown] ([unknown])
+	          9a4150 [unknown] (/usr/lib64/firefox/libxul.so)
+	 f0d8d4800044470 [unknown] ([unknown])
+
+firefox  2531 [007] 167227.916200:   31466940 cycles:ppp: 
+	         1d461f6 [unknown] (/usr/lib64/firefox/libxul.so)
+	    7ffd21e8de30 [unknown] ([unknown])
+
+firefox  2531 [007] 167227.924512:   35935755 cycles:ppp: 
+	         1d460f7 [unknown] (/usr/lib64/firefox/libxul.so)
+	    7ffd21e8de30 [unknown] ([unknown])
+
+swapper     0 [003] 167227.930852:  211682964 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+firefox  2531 [007] 167227.934003:   37636256 cycles:ppp: 
+	            f529 [unknown] (/usr/lib64/libgobject-2.0.so.0.4800.2)
+
+firefox  2531 [007] 167227.943941:   38069240 cycles:ppp: 
+	         2aaf490 [unknown] (/usr/lib64/firefox/libxul.so)
+	               0 [unknown] ([unknown])
+	8b4c5130e98348cd [unknown] ([unknown])
+
+SoftwareVsyncTh  2596 [001] 167227.946941:   13694440 cycles:ppp: 
+	           100d4 [unknown] (/usr/lib64/firefox/firefox)
+
+firefox  2531 [007] 167227.954002:   38200385 cycles:ppp: 
+
+swapper     0 [001] 167228.095881:   20541244 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [000] 167228.098975:   17876330 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          9d5a47 rest_init (/lib/modules/4.7.0+/build/vmlinux)
+	         1162fe7 start_kernel ([kernel.vmlinux].init.text)
+	         11622db x86_64_start_reservations ([kernel.vmlinux].init.text)
+	         1162429 x86_64_start_kernel ([kernel.vmlinux].init.text)
+
+swapper     0 [002] 167228.149831:   20744434 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+firefox  2531 [007] 167228.197921:   11986854 cycles:ppp: 
+	         29de1fe [unknown] (/usr/lib64/firefox/libxul.so)
+	        5c000303 [unknown] ([unknown])
+	413631746e490079 [unknown] ([unknown])
+
+firefox  2531 [007] 167228.247685:   12865668 cycles:ppp: 
+	          98811f [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f211155fcd0 [unknown] ([unknown])
+
+firefox  2531 [007] 167228.445574:   13003898 cycles:ppp: 
+
+firefox  2531 [007] 167228.453753:   15026744 cycles:ppp: 
+	          175fb5 [unknown] (/usr/lib64/libgtk-3.so.0.2000.9)
+	               0 [unknown] ([unknown])
+	    7f212eb19300 [unknown] ([unknown])
+
+swapper     0 [007] 167228.713201:   18058074 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+firefox  2531 [007] 167228.745700:   19861632 cycles:ppp: 
+	         1200c78 [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f213f034c10 [unknown] ([unknown])
+	         1c2aa06 [unknown] (/usr/lib64/firefox/libxul.so)
+	  8e7f358d48f389 [unknown] ([unknown])
+
+firefox  2531 [007] 167228.750945:   28816222 cycles:ppp: 
+	         1e126cc [unknown] (/usr/lib64/firefox/libxul.so)
+	     43800000438 [unknown] ([unknown])
+
+swapper     0 [003] 167228.752353:  163655359 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [001] 167228.784315:   21040339 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [000] 167228.801419:   12412367 cycles:ppp: 
+	           283f7 ieee80211_prepare_and_rx_handle ([mac80211])
+	           28ce6 ieee80211_rx_napi ([mac80211])
+	            7ace ath_rx_tasklet ([ath9k])
+	            4fe6 ath9k_tasklet ([ath9k])
+	          2aba75 tasklet_action (/lib/modules/4.7.0+/build/vmlinux)
+	          9e5952 __do_softirq (/lib/modules/4.7.0+/build/vmlinux)
+	          2ac282 irq_exit (/lib/modules/4.7.0+/build/vmlinux)
+	          9e5694 do_IRQ (/lib/modules/4.7.0+/build/vmlinux)
+	          9e354c ret_from_intr (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          9d5a47 rest_init (/lib/modules/4.7.0+/build/vmlinux)
+	         1162fe7 start_kernel ([kernel.vmlinux].init.text)
+	         11622db x86_64_start_reservations ([kernel.vmlinux].init.text)
+	         1162429 x86_64_start_kernel ([kernel.vmlinux].init.text)
+
+gnome-shell  2096 [002] 167228.927022:   16034664 cycles:ppp: 
+	            a237 _dl_lookup_symbol_x (/usr/lib64/ld-2.23.so)
+	          13fc23 do_sym (/usr/lib64/libc-2.23.so)
+	            1034 dlsym_doit (/usr/lib64/libdl-2.23.so)
+	e83f8b4808778b48 [unknown] ([unknown])
+
+firefox  2531 [007] 167228.929636:   24880820 cycles:ppp: 
+	         1d4558a [unknown] (/usr/lib64/firefox/libxul.so)
+
+firefox  2531 [007] 167228.948573:   14056974 cycles:ppp: 
+	         1e98707 [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f20c5e74670 [unknown] ([unknown])
+
+firefox  2531 [007] 167228.958507:   14466922 cycles:ppp: 
+	         1d45c91 [unknown] (/usr/lib64/firefox/libxul.so)
+	       100000003 [unknown] ([unknown])
+	      6c00740072 [unknown] ([unknown])
+
+firefox  2531 [007] 167228.965752:   17873963 cycles:ppp: 
+	         11e70c3 [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f210c0dd2c0 [unknown] ([unknown])
+	    7f21103bae88 [unknown] ([unknown])
+	    7f20fc07eec8 [unknown] ([unknown])
+	    7f20faaf92f8 [unknown] ([unknown])
+	    7f20d60feb30 [unknown] ([unknown])
+	    7f20fc56ec70 [unknown] ([unknown])
+	    7f20d7f9d450 [unknown] ([unknown])
+	    7f211c16aa60 [unknown] ([unknown])
+	    7f20d65ecae8 [unknown] ([unknown])
+	    7f21104162e0 [unknown] ([unknown])
+	    7f20f34a6c38 [unknown] ([unknown])
+	    7f20d2c95318 [unknown] ([unknown])
+	    7f20d67b8b98 [unknown] ([unknown])
+	    7f20fd76e4a0 [unknown] ([unknown])
+	    7f2110416020 [unknown] ([unknown])
+	    7f20fa3e0ee8 [unknown] ([unknown])
+	    7f20f0823b88 [unknown] ([unknown])
+	    7f20d6494590 [unknown] ([unknown])
+	    7f20d8325c30 [unknown] ([unknown])
+	    7f20dd4ef040 [unknown] ([unknown])
+	    7f20d6707b48 [unknown] ([unknown])
+	    7f210e8f9e48 [unknown] ([unknown])
+	    7f20d81eb548 [unknown] ([unknown])
+	    7f211be14f88 [unknown] ([unknown])
+
+firefox  2531 [007] 167228.972597:   22885831 cycles:ppp: 
+
+firefox  2531 [007] 167228.980678:   26384930 cycles:ppp: 
+
+firefox  2531 [007] 167228.987838:   32850138 cycles:ppp: 
+	         1de94bc [unknown] (/usr/lib64/firefox/libxul.so)
+
+firefox  2531 [007] 167228.996570:   36479191 cycles:ppp: 
+	         1d45581 [unknown] (/usr/lib64/firefox/libxul.so)
+
+DOM Worker  2598 [002] 167228.997815:   14779871 cycles:ppp: 
+	         2824af7 [unknown] (/usr/lib64/firefox/libxul.so)
+	               0 [unknown] ([unknown])
+
+swapper     0 [003] 167228.997865:  300773872 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+firefox  2531 [007] 167229.006465:   37301932 cycles:ppp: 
+	          17de35 [unknown] (/usr/lib64/libgtk-3.so.0.2000.9)
+
+gnome-shell  2096 [000] 167229.011883:   12382835 cycles:ppp: 
+	           48f5c g_main_context_prepare (/usr/lib64/libglib-2.0.so.0.4800.2)
+	    7ffc00000001 [unknown] ([unknown])
+	               0 [unknown] ([unknown])
+
+firefox  2531 [007] 167229.016471:   37499659 cycles:ppp: 
+	         2101790 [unknown] (/usr/lib64/firefox/libxul.so)
+
+firefox  2531 [007] 167229.049605:   26266851 cycles:ppp: 
+	           105a5 [unknown] (/usr/lib64/firefox/firefox)
+	               1 [unknown] ([unknown])
+
+firefox  2531 [007] 167229.081355:   24577300 cycles:ppp: 
+	         2ac1c10 [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f2120cf8400 [unknown] ([unknown])
+	    7f212da964e0 [unknown] ([unknown])
+
+firefox  2531 [007] 167229.101457:   22808745 cycles:ppp: 
+	         23762f5 [unknown] (/usr/lib64/firefox/libxul.so)
+
+gnome-shell  2096 [001] 167229.103868:   21325879 cycles:ppp: 
+	           4dbe1 [unknown] (/usr/lib64/libclutter-1.0.so.0.2600.0)
+	42e00000bf800000 [unknown] ([unknown])
+
+firefox  2531 [007] 167229.111004:   23782216 cycles:ppp: 
+	            72dd [unknown] (/usr/lib64/libz.so.1.2.8)
+	   f061100030310 [unknown] ([unknown])
+
+swapper     0 [000] 167229.130559:   12379566 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          9d5a47 rest_init (/lib/modules/4.7.0+/build/vmlinux)
+	         1162fe7 start_kernel ([kernel.vmlinux].init.text)
+	         11622db x86_64_start_reservations ([kernel.vmlinux].init.text)
+	         1162429 x86_64_start_kernel ([kernel.vmlinux].init.text)
+
+firefox  2531 [007] 167229.131551:   24457251 cycles:ppp: 
+	          17dd20 [unknown] (/usr/lib64/libgtk-3.so.0.2000.9)
+	364684ee3203a200 [unknown] ([unknown])
+	      1000000003 [unknown] ([unknown])
+	    7f212db34030 [unknown] ([unknown])
+	    7f212da2a5a0 [unknown] ([unknown])
+
+firefox  2531 [007] 167229.152073:   27569762 cycles:ppp: 
+	          9e3c4c [unknown] (/usr/lib64/firefox/libxul.so)
+	      2000000015 [unknown] ([unknown])
+	         1e433e0 [unknown] (/usr/lib64/firefox/libxul.so)
+	90c3c3c0940f0877 [unknown] ([unknown])
+
+swapper     0 [001] 167229.179464:   24105047 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [006] 167229.199732:   56211289 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+firefox  2531 [002] 167229.200568:   21309823 cycles:ppp: 
+	           100d4 [unknown] (/usr/lib64/firefox/firefox)
+
+Xorg  1988 [005] 167229.214319:  102454305 cycles:ppp: 
+	          97b3f5 unix_stream_read_generic (/lib/modules/4.7.0+/build/vmlinux)
+	          97bbdf unix_stream_recvmsg (/lib/modules/4.7.0+/build/vmlinux)
+	          8a663d sock_recvmsg (/lib/modules/4.7.0+/build/vmlinux)
+	          8a7637 ___sys_recvmsg (/lib/modules/4.7.0+/build/vmlinux)
+	          8a8161 __sys_recvmsg (/lib/modules/4.7.0+/build/vmlinux)
+	          8a81b2 sys_recvmsg (/lib/modules/4.7.0+/build/vmlinux)
+	          9e2bf2 entry_SYSCALL_64_fastpath (/lib/modules/4.7.0+/build/vmlinux)
+	          103eed __GI___libc_recvmsg (/usr/lib64/libc-2.23.so)
+	 438078000000000 [unknown] ([unknown])
+
+firefox  2531 [002] 167229.233181:   23760145 cycles:ppp: 
+	         1df8fdc [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f2110990a80 [unknown] ([unknown])
+
+firefox  2531 [002] 167229.269620:   14834219 cycles:ppp: 
+	           36582 [unknown] (/usr/lib64/libgobject-2.0.so.0.4800.2)
+	               c [unknown] ([unknown])
+
+swapper     0 [006] 167229.283071:  127639218 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+firefox  2531 [002] 167229.287671:   12179607 cycles:ppp: 
+	           13fde g_object_unref (/usr/lib64/libgobject-2.0.so.0.4800.2)
+
+Compositor  2586 [001] 167229.297250:   21176031 cycles:ppp: 
+	          326135 futex_wait (/lib/modules/4.7.0+/build/vmlinux)
+	          328645 sys_futex (/lib/modules/4.7.0+/build/vmlinux)
+	          9e2bf2 entry_SYSCALL_64_fastpath (/lib/modules/4.7.0+/build/vmlinux)
+	            cbd0 pthread_cond_wait@@GLIBC_2.3.2 (/usr/lib64/libpthread-2.23.so)
+	               0 [unknown] ([unknown])
+
+firefox  2531 [002] 167229.304603:   11672336 cycles:ppp: 
+	          f53850 [unknown] (/usr/lib64/firefox/libxul.so)
+
+firefox  2531 [002] 167229.322182:   11566882 cycles:ppp: 
+	           14497 [unknown] (/usr/lib64/firefox/firefox)
+	               1 [unknown] ([unknown])
+
+firefox  2531 [002] 167229.338646:   12613167 cycles:ppp: 
+	         23761cb [unknown] (/usr/lib64/firefox/libxul.so)
+	3fb999999999999a [unknown] ([unknown])
+
+firefox  2531 [002] 167229.363472:   12405466 cycles:ppp: 
+	            9ac6 pthread_mutex_lock (/usr/lib64/libpthread-2.23.so)
+	               0 [unknown] ([unknown])
+
+firefox  2531 [002] 167229.381327:   11636927 cycles:ppp: 
+	         270e506 [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f212da964e0 [unknown] ([unknown])
+
+firefox  2531 [002] 167229.397584:   11237787 cycles:ppp: 
+	         10de91b [unknown] (/usr/lib64/firefox/libxul.so)
+	               0 [unknown] ([unknown])
+	         1ee092c [unknown] (/usr/lib64/firefox/libxul.so)
+	f88948fffb23a7e9 [unknown] ([unknown])
+
+firefox  2531 [002] 167229.414500:   12572887 cycles:ppp: 
+	           131dd [unknown] (/usr/lib64/firefox/firefox)
+
+swapper     0 [007] 167229.422342:   27569762 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+firefox  2531 [002] 167229.430376:   11846149 cycles:ppp: 
+	          2cc380 update_rq_clock.part.75 (/lib/modules/4.7.0+/build/vmlinux)
+	          2cf804 ttwu_do_activate (/lib/modules/4.7.0+/build/vmlinux)
+	          2d0347 try_to_wake_up (/lib/modules/4.7.0+/build/vmlinux)
+	          2d05d2 wake_up_q (/lib/modules/4.7.0+/build/vmlinux)
+	          327cb7 do_futex (/lib/modules/4.7.0+/build/vmlinux)
+	          328645 sys_futex (/lib/modules/4.7.0+/build/vmlinux)
+	          9e2bf2 entry_SYSCALL_64_fastpath (/lib/modules/4.7.0+/build/vmlinux)
+	            d296 pthread_cond_signal@@GLIBC_2.3.2 (/usr/lib64/libpthread-2.23.so)
+	    7f21114ad740 [unknown] ([unknown])
+	    7f211b270000 [unknown] ([unknown])
+	         1e42fa6 [unknown] (/usr/lib64/firefox/libxul.so)
+	70ef8148feba5630 [unknown] ([unknown])
+
+firefox  2531 [002] 167229.440311:   12401896 cycles:ppp: 
+	         1d4456c [unknown] (/usr/lib64/firefox/libxul.so)
+
+gnome-shell  2096 [000] 167229.441676:   13492394 cycles:ppp: 
+	           66640 _init (/usr/lib64/dri/i965_dri.so)
+
+firefox  2531 [002] 167229.453554:   15937204 cycles:ppp: 
+	         1d466b4 [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f213ee44360 [unknown] ([unknown])
+
+swapper     0 [006] 167229.454905:   84885439 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+gnome-shell  2096 [000] 167229.456827:   16946044 cycles:ppp: 
+	           48f10 g_main_context_prepare (/usr/lib64/libglib-2.0.so.0.4800.2)
+	    7ffc00000001 [unknown] ([unknown])
+	               0 [unknown] ([unknown])
+
+firefox  2531 [002] 167229.461719:   18334013 cycles:ppp: 
+	           13195 [unknown] (/usr/lib64/firefox/firefox)
+	    7f20db736c00 [unknown] ([unknown])
+
+firefox  2531 [002] 167229.468928:   22808487 cycles:ppp: 
+	          f57362 [unknown] (/usr/lib64/firefox/libxul.so)
+	3f80000000000000 [unknown] ([unknown])
+
+firefox  2531 [002] 167229.498490:   27151659 cycles:ppp: 
+	          1734f8 [unknown] (/usr/lib64/libgtk-3.so.0.2000.9)
+	364684ee3203a200 [unknown] ([unknown])
+	      1000000003 [unknown] ([unknown])
+	    7f212db34030 [unknown] ([unknown])
+	    7f212da2a5a0 [unknown] ([unknown])
+
+swapper     0 [002] 167229.524998:   32320675 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [006] 167229.530238:  141229828 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+gnome-shell  2096 [000] 167229.537332:   26794455 cycles:ppp: 
+	          23e1f0 _init (/usr/lib64/dri/i965_dri.so)
+	    5560dde40ddc [unknown] ([unknown])
+
+firefox  2531 [002] 167229.551531:   35602620 cycles:ppp: 
+	         23e183f [unknown] (/usr/lib64/firefox/libxul.so)
+
+firefox  2531 [002] 167229.598381:   28199113 cycles:ppp: 
+	         1e07186 [unknown] (/usr/lib64/firefox/libxul.so)
+	        fffffc7c [unknown] ([unknown])
+	         1f5de4a [unknown] (/usr/lib64/firefox/libxul.so)
+	        ba2afe83 [unknown] ([unknown])
+
+Compositor  2586 [001] 167229.613789:   19998374 cycles:ppp: 
+	         10175de [unknown] (/usr/lib64/firefox/libxul.so)
+	     3b1000003c0 [unknown] ([unknown])
+
+firefox  2531 [002] 167229.631305:   21501954 cycles:ppp: 
+	           13146 [unknown] (/usr/lib64/firefox/firefox)
+	   1001100000000 [unknown] ([unknown])
+	626c6c6f7263732f [unknown] ([unknown])
+	8d48082474894810 [unknown] ([unknown])
+
+firefox  2531 [002] 167229.651505:   21421658 cycles:ppp: 
+	         238ab9b [unknown] (/usr/lib64/firefox/libxul.so)
+	3fb999999999999a [unknown] ([unknown])
+
+swapper     0 [004] 167229.657153:  122493467 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+gnome-shell  2096 [000] 167229.670864:   22779853 cycles:ppp: 
+	           4dcaf [unknown] (/usr/lib64/libclutter-1.0.so.0.2600.0)
+	42780000bf800000 [unknown] ([unknown])
+
+firefox  2531 [002] 167229.683355:   21044909 cycles:ppp: 
+	         23dfd02 [unknown] (/usr/lib64/firefox/libxul.so)
+	364684ee3203a200 [unknown] ([unknown])
+
+Xorg  1988 [006] 167229.686667:  223568725 cycles:ppp: 
+	            4fe0 xf86ScreenToScrn@plt (/usr/lib64/xorg/modules/drivers/modesetting_drv.so)
+	         1e45640 [unknown] ([unknown])
+
+firefox  2531 [002] 167229.714166:   19975871 cycles:ppp: 
+	         18b5c90 [unknown] (/usr/lib64/firefox/libxul.so)
+	               0 [unknown] ([unknown])
+	    7f20c67e15c0 [unknown] ([unknown])
+	    7f21066d9aa8 [unknown] ([unknown])
+	    7f21066dab40 [unknown] ([unknown])
+	    7f2111504a20 [unknown] ([unknown])
+
+firefox  2531 [002] 167229.753124:   14297266 cycles:ppp: 
+	         1e1253f [unknown] (/usr/lib64/firefox/libxul.so)
+	     74400001068 [unknown] ([unknown])
+
+swapper     0 [002] 167229.772563:   12286859 cycles:ppp: 
+	          396a3e irq_work_needs_cpu (/lib/modules/4.7.0+/build/vmlinux)
+	          32376c __tick_nohz_idle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          323fac tick_nohz_idle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e98d6 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+gnome-shell  2096 [001] 167229.787773:   15676622 cycles:ppp: 
+	            653a [unknown] (/usr/lib64/libdrm_intel.so.1.0.0)
+	               3 [unknown] ([unknown])
+	               0 [unknown] ([unknown])
+
+firefox  2531 [002] 167229.803431:   13271585 cycles:ppp: 
+	         1deaab6 [unknown] (/usr/lib64/firefox/libxul.so)
+	    5dbc00000f78 [unknown] ([unknown])
+
+firefox  2531 [002] 167229.846072:   10902290 cycles:ppp: 
+
+gnome-shell  2096 [001] 167229.849656:   11505972 cycles:ppp: 
+	           262bb [unknown] (/usr/lib64/libcogl.so.20.4.1)
+	           22096 [unknown] (/usr/lib64/libcogl.so.20.4.1)
+	    5560dd2ec8f0 [unknown] ([unknown])
+	               0 [unknown] ([unknown])
+	           8879c [unknown] (/usr/lib64/libcogl.so.20.4.1)
+	               0 [unknown] ([unknown])
+
+firefox  2531 [002] 167229.857060:   10223049 cycles:ppp: 
+	         1d46eca [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f213ef91580 [unknown] ([unknown])
+	         185220e [unknown] (/usr/lib64/firefox/libxul.so)
+	3f1bd5358d48f389 [unknown] ([unknown])
+
+firefox  2531 [002] 167229.866815:   10348139 cycles:ppp: 
+	         1d88901 [unknown] (/usr/lib64/firefox/libxul.so)
+	e5e5e5e500000054 [unknown] ([unknown])
+
+firefox  2531 [002] 167229.873428:   13724892 cycles:ppp: 
+	         1dc6c1b [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f210e8a4728 [unknown] ([unknown])
+	    7f20d5f10108 [unknown] ([unknown])
+	    7f20fd79aa60 [unknown] ([unknown])
+	    7f210ba54698 [unknown] ([unknown])
+	    7f210b660508 [unknown] ([unknown])
+	    7f20faafa370 [unknown] ([unknown])
+	    7f20fc5ded90 [unknown] ([unknown])
+	    7f20d67f6590 [unknown] ([unknown])
+	    7f20faaf92f8 [unknown] ([unknown])
+	    7f20d60feb30 [unknown] ([unknown])
+	    7f20fc56ec70 [unknown] ([unknown])
+	    7f20d7f9d450 [unknown] ([unknown])
+	    7f211c16aa60 [unknown] ([unknown])
+	    7f20d65ecae8 [unknown] ([unknown])
+	    7f21104162e0 [unknown] ([unknown])
+	    7f20f34a6c38 [unknown] ([unknown])
+	    7f20dba7d338 [unknown] ([unknown])
+	    7f20fd791280 [unknown] ([unknown])
+	    7f20fd76e4a0 [unknown] ([unknown])
+	    7f2110416020 [unknown] ([unknown])
+	    7f20fa3e0ee8 [unknown] ([unknown])
+	    7f20f0823b88 [unknown] ([unknown])
+	    7f20d6494590 [unknown] ([unknown])
+	    7f20d648cd18 [unknown] ([unknown])
+	    7f20dd4ef040 [unknown] ([unknown])
+	    7f20d6707b48 [unknown] ([unknown])
+	    7f210e8f9e48 [unknown] ([unknown])
+	    7f20fbf20160 [unknown] ([unknown])
+	    7f20d2c96810 [unknown] ([unknown])
+
+firefox  2531 [002] 167229.880081:   18177942 cycles:ppp: 
+	         1d4673c [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f213ee44360 [unknown] ([unknown])
+
+firefox  2531 [002] 167229.886946:   22678773 cycles:ppp: 
+	         1d44570 [unknown] (/usr/lib64/firefox/libxul.so)
+	               0 [unknown] ([unknown])
+
+firefox  2531 [002] 167229.894066:   29088644 cycles:ppp: 
+	          ff3f7a [unknown] (/usr/lib64/firefox/libxul.so)
+	    7ffd21e8e758 [unknown] ([unknown])
+
+firefox  2531 [002] 167229.902635:   33030971 cycles:ppp: 
+	         10eaec4 [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f20f7fa5d80 [unknown] ([unknown])
+	              87 [unknown] ([unknown])
+	         1e438ce [unknown] (/usr/lib64/firefox/libxul.so)
+	894800e01d74358d [unknown] ([unknown])
+
+firefox  2531 [002] 167229.911594:   35981641 cycles:ppp: 
+	           10126 [unknown] (/usr/lib64/firefox/firefox)
+
+swapper     0 [006] 167229.921172:  130835543 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+firefox  2531 [002] 167229.921244:   37291721 cycles:ppp: 
+	    55d1823f272b [unknown] ([unknown])
+	           1172b [unknown] (/usr/lib64/firefox/firefox)
+
+Compositor  2586 [000] 167229.923486:   12882974 cycles:ppp: 
+	         23fd6bc [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f2100000001 [unknown] ([unknown])
+
+Xorg  1988 [001] 167229.924663:   11270425 cycles:ppp: 
+	          14a415 __memcpy_avx_unaligned (/usr/lib64/libc-2.23.so)
+
+firefox  2531 [002] 167229.933501:   38583765 cycles:ppp: 
+	           385c7 g_hash_table_lookup (/usr/lib64/libglib-2.0.so.0.4800.2)
+
+firefox  2531 [002] 167229.999535:   18350454 cycles:ppp: 
+	           337e3 g_type_check_instance_is_a (/usr/lib64/libgobject-2.0.so.0.4800.2)
+	          3f5dcd [unknown] (/usr/lib64/libgtk-3.so.0.2000.9)
+	              14 [unknown] ([unknown])
+	               0 [unknown] ([unknown])
+
+firefox  2531 [002] 167230.047956:   15713932 cycles:ppp: 
+	         1e25277 [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f211155da38 [unknown] ([unknown])
+	    7f21114ad8b0 [unknown] ([unknown])
+	    7f21113e6ee0 [unknown] ([unknown])
+	    7f211804f9b0 [unknown] ([unknown])
+	    7f21113b1158 [unknown] ([unknown])
+	    7f2111504a20 [unknown] ([unknown])
+
+firefox  2531 [002] 167230.082832:   16128922 cycles:ppp: 
+	          1811b0 [unknown] (/usr/lib64/libgtk-3.so.0.2000.9)
+	              a2 [unknown] ([unknown])
+	               0 [unknown] ([unknown])
+	               0 [unknown] ([unknown])
+
+Chrome_ChildIOT 12852 [003] 167230.205274:   20025881 cycles:ppp: 
+	            f165 event_base_loop (/usr/lib64/libevent-2.0.so.5.1.9)
+	    2499fcfabfc0 [unknown] ([unknown])
+	           bf850 base::MessageLoop::~MessageLoop (/usr/lib64/chromium-browser/lib/libbase.so)
+	4800000064bd5355 [unknown] ([unknown])
+
+firefox  2531 [002] 167230.247317:   19875292 cycles:ppp: 
+	          462bd7 touch_atime (/lib/modules/4.7.0+/build/vmlinux)
+	          44e2b7 pipe_read (/lib/modules/4.7.0+/build/vmlinux)
+	          444322 __vfs_read (/lib/modules/4.7.0+/build/vmlinux)
+	          445406 vfs_read (/lib/modules/4.7.0+/build/vmlinux)
+	          4468e5 sys_read (/lib/modules/4.7.0+/build/vmlinux)
+	          9e2bf2 entry_SYSCALL_64_fastpath (/lib/modules/4.7.0+/build/vmlinux)
+	            fdad [unknown] (/usr/lib64/libpthread-2.23.so)
+	4900007f212da962 [unknown] ([unknown])
+
+swapper     0 [001] 167230.362609:   15935308 cycles:ppp: 
+	          26f6a9 switch_mm_irqs_off (/lib/modules/4.7.0+/build/vmlinux)
+	          9de419 __schedule (/lib/modules/4.7.0+/build/vmlinux)
+	          9de945 schedule (/lib/modules/4.7.0+/build/vmlinux)
+	          9dec0e schedule_preempt_disabled (/lib/modules/4.7.0+/build/vmlinux)
+	          2e99d1 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [006] 167230.425525:  130835543 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [007] 167230.425614:   59054931 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+gnome-shell  2096 [000] 167230.427041:   13623828 cycles:ppp: 
+	          2e216c update_sd_lb_stats (/lib/modules/4.7.0+/build/vmlinux)
+	          2e2327 find_busiest_group (/lib/modules/4.7.0+/build/vmlinux)
+	          2e292d load_balance (/lib/modules/4.7.0+/build/vmlinux)
+	          2e3406 pick_next_task_fair (/lib/modules/4.7.0+/build/vmlinux)
+	          9de2d4 __schedule (/lib/modules/4.7.0+/build/vmlinux)
+	          9de945 schedule (/lib/modules/4.7.0+/build/vmlinux)
+	          9e1f20 schedule_hrtimeout_range_clock (/lib/modules/4.7.0+/build/vmlinux)
+	          9e1f43 schedule_hrtimeout_range (/lib/modules/4.7.0+/build/vmlinux)
+	          45a1a4 poll_schedule_timeout (/lib/modules/4.7.0+/build/vmlinux)
+	          45b851 do_sys_poll (/lib/modules/4.7.0+/build/vmlinux)
+	          45ba65 sys_poll (/lib/modules/4.7.0+/build/vmlinux)
+	          9e2bf2 entry_SYSCALL_64_fastpath (/lib/modules/4.7.0+/build/vmlinux)
+	           f73ed [unknown] (/usr/lib64/libc-2.23.so)
+	676e69646e69625f [unknown] ([unknown])
+
+firefox  2531 [002] 167230.430286:   15188618 cycles:ppp: 
+	           12fc2 _dl_update_slotinfo (/usr/lib64/ld-2.23.so)
+	    7f20fd7b7980 [unknown] ([unknown])
+	    7ffd21e8c780 [unknown] ([unknown])
+	ffffff1d840f0824 [unknown] ([unknown])
+
+gnome-shell  2096 [000] 167230.433201:   19487311 cycles:ppp: 
+	           3a6e8 cairo_matrix_transform_point (/usr/lib64/libcairo.so.2.11400.6)
+	               0 [unknown] ([unknown])
+
+firefox  2531 [002] 167230.434543:   23392908 cycles:ppp: 
+	         1200c78 [unknown] (/usr/lib64/firefox/libxul.so)
+
+firefox  2531 [002] 167230.440915:   30906871 cycles:ppp: 
+	          949838 _init (/usr/lib64/firefox/libxul.so)
+
+firefox  2531 [002] 167230.449299:   35323152 cycles:ppp: 
+
+firefox  2531 [002] 167230.458890:   36649388 cycles:ppp: 
+	         1e6bb06 [unknown] (/usr/lib64/firefox/libxul.so)
+	               1 [unknown] ([unknown])
+	          9eae30 [unknown] (/usr/lib64/firefox/libxul.so)
+	5d0d8d48ffffe49e [unknown] ([unknown])
+
+firefox  2531 [002] 167230.468834:   37082821 cycles:ppp: 
+	          9e3cc1 [unknown] (/usr/lib64/firefox/libxul.so)
+
+firefox  2531 [002] 167230.478629:   37910963 cycles:ppp: 
+	            9ab9 pthread_mutex_lock (/usr/lib64/libpthread-2.23.so)
+	     92400007aac [unknown] ([unknown])
+
+swapper     0 [006] 167230.486567:  130835543 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+firefox  2531 [002] 167230.489787:   37664008 cycles:ppp: 
+	               0 [unknown] ([unknown])
+	364684ee3203a200 [unknown] ([unknown])
+
+firefox  2531 [002] 167230.531729:   42641881 cycles:ppp: 
+	           66397 g_slice_free1 (/usr/lib64/libglib-2.0.so.0.4800.2)
+
+chromium-browse 29567 [003] 167230.545405:   21264829 cycles:ppp: 
+	          5e30d7 clear_page_c_e (/lib/modules/4.7.0+/build/vmlinux)
+	          3c1aed __alloc_pages_nodemask (/lib/modules/4.7.0+/build/vmlinux)
+	          415dee alloc_pages_vma (/lib/modules/4.7.0+/build/vmlinux)
+	          3f01bd handle_mm_fault (/lib/modules/4.7.0+/build/vmlinux)
+	          26870e __do_page_fault (/lib/modules/4.7.0+/build/vmlinux)
+	          268a30 do_page_fault (/lib/modules/4.7.0+/build/vmlinux)
+	          9e4e48 page_fault (/lib/modules/4.7.0+/build/vmlinux)
+	     84765c328a9 [unknown] (/tmp/perf-29567.map)
+	     84766215f6e [unknown] (/tmp/perf-29567.map)
+	     84766527494 [unknown] (/tmp/perf-29567.map)
+	     847661b8aa2 [unknown] (/tmp/perf-29567.map)
+	     84765c08db5 [unknown] (/tmp/perf-29567.map)
+	     84766506cde [unknown] (/tmp/perf-29567.map)
+	     84766129d76 [unknown] (/tmp/perf-29567.map)
+	     84766232ecf [unknown] (/tmp/perf-29567.map)
+	     847661b8aa2 [unknown] (/tmp/perf-29567.map)
+	     84765c08db5 [unknown] (/tmp/perf-29567.map)
+	     8476612def3 [unknown] (/tmp/perf-29567.map)
+	     8476613075b [unknown] (/tmp/perf-29567.map)
+	     847662b7e8a [unknown] (/tmp/perf-29567.map)
+	     847661f90b8 [unknown] (/tmp/perf-29567.map)
+	     84765c08db5 [unknown] (/tmp/perf-29567.map)
+	     84765c45fa3 [unknown] (/tmp/perf-29567.map)
+	     84765c29f0f [unknown] (/tmp/perf-29567.map)
+	          3a1452 [unknown] (/usr/lib64/chromium-browser/lib/libv8.so)
+	               0 [unknown] ([unknown])
+
+swapper     0 [005] 167230.546621:   57846514 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+Chrome_IOThread 12491 [001] 167230.546673:   18799256 cycles:ppp: 
+	            ba00 _init (/usr/lib64/libevent-2.0.so.5.1.9)
+
+firefox  2531 [002] 167230.567883:   34315243 cycles:ppp: 
+	         2401431 [unknown] (/usr/lib64/firefox/libxul.so)
+	e5e5e5e500000000 [unknown] ([unknown])
+
+Compositor  2586 [000] 167230.585485:   30001728 cycles:ppp: 
+	          bde51a [unknown] (/usr/lib64/firefox/libxul.so)
+	               0 [unknown] ([unknown])
+
+firefox  2531 [002] 167230.617454:   23926102 cycles:ppp: 
+	           144ad [unknown] (/usr/lib64/firefox/firefox)
+	               1 [unknown] ([unknown])
+
+swapper     0 [006] 167230.619950:  468337364 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+gnome-shell  2096 [003] 167230.648146:   21439166 cycles:ppp: 
+	             b20 _init (/usr/lib64/libXdamage.so.1.1.0)
+	           8b73d [unknown] ([unknown])
+
+firefox  2531 [002] 167230.650002:   17063750 cycles:ppp: 
+	          17d970 [unknown] (/usr/lib64/libgtk-3.so.0.2000.9)
+	364684ee3203a200 [unknown] ([unknown])
+	      1000000003 [unknown] ([unknown])
+	    7f212db34030 [unknown] ([unknown])
+	    7f212da2a5a0 [unknown] ([unknown])
+
+firefox  2531 [002] 167230.669187:   15830249 cycles:ppp: 
+	           21220 cairo_rectangle (/usr/lib64/libcairo.so.2.11400.6)
+	       100000001 [unknown] ([unknown])
+	          1819e0 [unknown] (/usr/lib64/libgtk-3.so.0.2000.9)
+	7b8b480000cca3e8 [unknown] ([unknown])
+
+firefox  2531 [003] 167230.697544:   21042217 cycles:ppp: 
+
+swapper     0 [007] 167230.699752:   85249954 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+firefox  2531 [003] 167230.718542:   26416443 cycles:ppp: 
+	         1de94bc [unknown] (/usr/lib64/firefox/libxul.so)
+
+firefox  2531 [003] 167230.754275:   18482016 cycles:ppp: 
+	         1e04580 [unknown] (/usr/lib64/firefox/libxul.so)
+	e5e5e5e500000000 [unknown] ([unknown])
+
+firefox  2531 [003] 167230.784273:   17190981 cycles:ppp: 
+	           1447a [unknown] (/usr/lib64/firefox/firefox)
+	               0 [unknown] ([unknown])
+
+gnome-shell  2096 [000] 167230.787166:   21386400 cycles:ppp: 
+	           572b3 [unknown] (/usr/lib64/libcogl.so.20.4.1)
+	               0 [unknown] ([unknown])
+	           89c2c [unknown] (/usr/lib64/libcogl.so.20.4.1)
+
+firefox  2531 [003] 167230.802367:   15079992 cycles:ppp: 
+	         2377954 [unknown] (/usr/lib64/firefox/libxul.so)
+
+swapper     0 [007] 167230.818572:  148061593 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+firefox  2531 [003] 167230.830364:   15026905 cycles:ppp: 
+	         1070552 [unknown] (/usr/lib64/firefox/libxul.so)
+
+firefox  2531 [003] 167230.849469:   18337981 cycles:ppp: 
+	         1e9e37b [unknown] (/usr/lib64/firefox/libxul.so)
+	      180000001c [unknown] ([unknown])
+	         1e03d2a [unknown] (/usr/lib64/firefox/libxul.so)
+	90c3c3c0940f0877 [unknown] ([unknown])
+
+firefox  2531 [003] 167230.869630:   16972306 cycles:ppp: 
+	         2392d2b [unknown] (/usr/lib64/firefox/libxul.so)
+	               0 [unknown] ([unknown])
+	         2377b39 [unknown] (/usr/lib64/firefox/libxul.so)
+
+firefox  2531 [003] 167230.881378:   16948208 cycles:ppp: 
+	         1d46100 [unknown] (/usr/lib64/firefox/libxul.so)
+	    7ffd21e8def0 [unknown] ([unknown])
+
+firefox  2531 [003] 167230.890685:   18158211 cycles:ppp: 
+	         1dca22e [unknown] (/usr/lib64/firefox/libxul.so)
+	              f9 [unknown] ([unknown])
+	         1e438ce [unknown] (/usr/lib64/firefox/libxul.so)
+	894800e01d74358d [unknown] ([unknown])
+
+firefox  2531 [003] 167230.897890:   22382352 cycles:ppp: 
+	         1d46100 [unknown] (/usr/lib64/firefox/libxul.so)
+	    7ffd21e8def0 [unknown] ([unknown])
+
+gnome-shell  2096 [001] 167230.904563:   18356141 cycles:ppp: 
+	           8bf70 __memset_sse2 (/usr/lib64/libc-2.23.so)
+	               0 [unknown] ([unknown])
+
+firefox  2531 [003] 167230.905256:   28013338 cycles:ppp: 
+	         11516b5 [unknown] (/usr/lib64/firefox/libxul.so)
+	               0 [unknown] ([unknown])
+	b2c165dd00000013 [unknown] ([unknown])
+	          9a4150 [unknown] (/usr/lib64/firefox/libxul.so)
+	 f0d8d4800044470 [unknown] ([unknown])
+
+gnome-shell  2096 [001] 167230.910186:   31875450 cycles:ppp: 
+	            db4b pthread_getspecific (/usr/lib64/libpthread-2.23.so)
+
+firefox  2531 [003] 167230.913064:   33485716 cycles:ppp: 
+	         1e83415 [unknown] (/usr/lib64/firefox/libxul.so)
+	            6db0 [unknown] ([unknown])
+	         1e870d8 [unknown] (/usr/lib64/firefox/libxul.so)
+	fe83c3f889480001 [unknown] ([unknown])
+
+swapper     0 [007] 167230.916424:  227271939 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+firefox  2531 [003] 167230.922160:   36120779 cycles:ppp: 
+	          984d7f [unknown] (/usr/lib64/firefox/libxul.so)
+
+firefox  2531 [003] 167230.931966:   36856081 cycles:ppp: 
+	         1df7250 [unknown] (/usr/lib64/firefox/libxul.so)
+	               1 [unknown] ([unknown])
+
+firefox  2531 [003] 167230.941966:   37137917 cycles:ppp: 
+	         10e2c1e [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f213ef9b8f8 [unknown] ([unknown])
+	         18b242e [unknown] (/usr/lib64/firefox/libxul.so)
+	35358d48f3894853 [unknown] ([unknown])
+
+firefox  2531 [003] 167230.952040:   37218358 cycles:ppp: 
+	         1db75a7 [unknown] (/usr/lib64/firefox/libxul.so)
+	         1dc689b [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f20fd788e80 [unknown] ([unknown])
+	    7f20fe1eb740 [unknown] ([unknown])
+	    7f20fce63460 [unknown] ([unknown])
+	    7f20fc07eec8 [unknown] ([unknown])
+	    7f20d681ca30 [unknown] ([unknown])
+	    7f20f0823060 [unknown] ([unknown])
+	    7f210c0207b8 [unknown] ([unknown])
+	    7f20faaf9398 [unknown] ([unknown])
+	    7f20d8325a20 [unknown] ([unknown])
+	    7f20d5cda100 [unknown] ([unknown])
+	    7f211bf1a348 [unknown] ([unknown])
+	    7f210e8f9980 [unknown] ([unknown])
+	    7f20d2ca05e0 [unknown] ([unknown])
+	    7f2110d02b68 [unknown] ([unknown])
+	    7f211beced98 [unknown] ([unknown])
+	    7f20d8247138 [unknown] ([unknown])
+	    7f20d7e3f4d8 [unknown] ([unknown])
+	    7f20faaf97f8 [unknown] ([unknown])
+	    7f210c007f78 [unknown] ([unknown])
+	    7f20d83254f0 [unknown] ([unknown])
+	    7f20d2bbcc90 [unknown] ([unknown])
+	    7f20d8325cd0 [unknown] ([unknown])
+	    7f2110d984c0 [unknown] ([unknown])
+	    7f21077263e0 [unknown] ([unknown])
+	    7f2109a5e528 [unknown] ([unknown])
+
+firefox  2531 [003] 167230.962031:   37645088 cycles:ppp: 
+	         1d5fd31 [unknown] (/usr/lib64/firefox/libxul.so)
+	               0 [unknown] ([unknown])
+
+firefox  2531 [003] 167230.971973:   38070071 cycles:ppp: 
+	         1d4560e [unknown] (/usr/lib64/firefox/libxul.so)
+
+swapper     0 [007] 167230.979959:  256640162 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+firefox  2531 [003] 167230.982028:   38211752 cycles:ppp: 
+	          18e55b [unknown] (/usr/lib64/libgtk-3.so.0.2000.9)
+	          830283 [unknown] ([unknown])
+
+firefox  2531 [003] 167230.992118:   38244878 cycles:ppp: 
+	         1dbcd58 [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f20d65a93a0 [unknown] ([unknown])
+	    7f20c2387200 [unknown] ([unknown])
+	    7f20c9a24900 [unknown] ([unknown])
+	    7f20d665ada8 [unknown] ([unknown])
+	    7f20c5f6a8a0 [unknown] ([unknown])
+	    7f20c442bca8 [unknown] ([unknown])
+	    7f20c614e540 [unknown] ([unknown])
+	    7f20d81361a8 [unknown] ([unknown])
+	    7f20c9f7a1d8 [unknown] ([unknown])
+	    7f20c9a846d0 [unknown] ([unknown])
+	    7f20c9c8f8c8 [unknown] ([unknown])
+	    7f20c5d95380 [unknown] ([unknown])
+	    7f20d0245960 [unknown] ([unknown])
+	    7f20c9a84770 [unknown] ([unknown])
+
+firefox  2531 [003] 167231.002217:   38255810 cycles:ppp: 
+	         1db66d0 [unknown] (/usr/lib64/firefox/libxul.so)
+	              15 [unknown] ([unknown])
+	         1d4b0ba [unknown] (/usr/lib64/firefox/libxul.so)
+	8948011dc66a358d [unknown] ([unknown])
+
+firefox  2531 [003] 167231.012233:   38590873 cycles:ppp: 
+	         1dde025 [unknown] (/usr/lib64/firefox/libxul.so)
+
+firefox  2531 [003] 167231.022328:   38784290 cycles:ppp: 
+	          983a11 [unknown] (/usr/lib64/firefox/libxul.so)
+	78646d2e74795b20 [unknown] ([unknown])
+
+firefox  2531 [003] 167231.032308:   39137068 cycles:ppp: 
+	          17ec30 [unknown] (/usr/lib64/libgtk-3.so.0.2000.9)
+	364684ee3203a200 [unknown] ([unknown])
+	      1000000003 [unknown] ([unknown])
+	    7f212db34030 [unknown] ([unknown])
+	    7f212da2a5a0 [unknown] ([unknown])
+
+firefox  2531 [003] 167231.042645:   38575506 cycles:ppp: 
+	           10911 [unknown] (/usr/lib64/firefox/firefox)
+
+swapper     0 [007] 167231.047245:  256640162 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+Xorg  1988 [000] 167231.051451:   19636643 cycles:ppp: 
+	          44bdc5 [unknown] (/usr/lib64/dri/i965_dri.so)
+
+firefox  2531 [003] 167231.054246:   40483981 cycles:ppp: 
+	          95eb5b [unknown] (/usr/lib64/firefox/libxul.so)
+
+firefox  2531 [003] 167231.097639:   36202359 cycles:ppp: 
+	         1f01a35 [unknown] (/usr/lib64/firefox/libxul.so)
+	     43800000438 [unknown] ([unknown])
+	    7f20c23a3000 [unknown] ([unknown])
+	         1e42fa6 [unknown] (/usr/lib64/firefox/libxul.so)
+	70ef8148feba5630 [unknown] ([unknown])
+
+firefox  2531 [003] 167231.180797:   19731538 cycles:ppp: 
+
+Timer  2570 [002] 167231.181408:   18506676 cycles:ppp: 
+	            c750 pthread_self@plt (/usr/lib64/libnspr4.so)
+	       100000a0a [unknown] ([unknown])
+
+firefox  2531 [003] 167231.215588:   16220638 cycles:ppp: 
+	          17383b [unknown] (/usr/lib64/libgtk-3.so.0.2000.9)
+	364684ee3203a200 [unknown] ([unknown])
+	      1000000004 [unknown] ([unknown])
+	    7f212db34030 [unknown] ([unknown])
+	    7f212da2a5a0 [unknown] ([unknown])
+
+swapper     0 [004] 167231.238061:   75934370 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [005] 167231.238163:  120150038 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+DOM Worker  2078 [003] 167231.329314:   17290344 cycles:ppp: 
+	          2efee9 cpuacct_charge (/lib/modules/4.7.0+/build/vmlinux)
+	          2da833 update_curr (/lib/modules/4.7.0+/build/vmlinux)
+	          2dc3b8 dequeue_entity (/lib/modules/4.7.0+/build/vmlinux)
+	          2dcebc dequeue_task_fair (/lib/modules/4.7.0+/build/vmlinux)
+	          2cf54c deactivate_task (/lib/modules/4.7.0+/build/vmlinux)
+	          9de264 __schedule (/lib/modules/4.7.0+/build/vmlinux)
+	          9de945 schedule (/lib/modules/4.7.0+/build/vmlinux)
+	          3253ff futex_wait_queue_me (/lib/modules/4.7.0+/build/vmlinux)
+	          326246 futex_wait (/lib/modules/4.7.0+/build/vmlinux)
+	          327d8d do_futex (/lib/modules/4.7.0+/build/vmlinux)
+	          328645 sys_futex (/lib/modules/4.7.0+/build/vmlinux)
+	          9e2bf2 entry_SYSCALL_64_fastpath (/lib/modules/4.7.0+/build/vmlinux)
+	            cbd0 pthread_cond_wait@@GLIBC_2.3.2 (/usr/lib64/libpthread-2.23.so)
+
+gnome-shell  2096 [001] 167231.349211:   28646378 cycles:ppp: 
+	          18e543 [unknown] (/usr/lib64/libgtk-3.so.0.2000.9)
+	              1c [unknown] ([unknown])
+	          17d410 [unknown] (/usr/lib64/libgtk-3.so.0.2000.9)
+	  1f0ffff057abe9 [unknown] ([unknown])
+
+firefox  2531 [003] 167231.358957:   14928530 cycles:ppp: 
+	         1dca73e [unknown] (/usr/lib64/firefox/libxul.so)
+	               2 [unknown] ([unknown])
+	         1db3cfc [unknown] (/usr/lib64/firefox/libxul.so)
+	2b0d8d48fec3504c [unknown] ([unknown])
+
+firefox  2531 [003] 167231.370732:   13313611 cycles:ppp: 
+	         118b35a [unknown] (/usr/lib64/firefox/libxul.so)
+	               0 [unknown] ([unknown])
+	               0 [unknown] ([unknown])
+
+firefox  2531 [003] 167231.380916:   13119631 cycles:ppp: 
+	         1dbf23c [unknown] (/usr/lib64/firefox/libxul.so)
+	             202 [unknown] ([unknown])
+
+firefox  2531 [003] 167231.388095:   16744606 cycles:ppp: 
+	          9e3bee [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f213ef9b8f8 [unknown] ([unknown])
+	         18b242e [unknown] (/usr/lib64/firefox/libxul.so)
+	35358d48f3894853 [unknown] ([unknown])
+
+firefox  2531 [003] 167231.395207:   21199060 cycles:ppp: 
+	         1a88076 [unknown] (/usr/lib64/firefox/libxul.so)
+	        29d9cb38 [unknown] ([unknown])
+	 1fe134e80000012 [unknown] ([unknown])
+	          9a415c [unknown] (/usr/lib64/firefox/libxul.so)
+	830d8d4800044464 [unknown] ([unknown])
+
+firefox  2531 [003] 167231.402349:   26623781 cycles:ppp: 
+	         1dc9e8b [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f2109405790 [unknown] ([unknown])
+	       100000001 [unknown] ([unknown])
+
+firefox  2531 [003] 167231.409918:   34175669 cycles:ppp: 
+	          17feff [unknown] (/usr/lib64/libgtk-3.so.0.2000.9)
+	               0 [unknown] ([unknown])
+	          173370 [unknown] (/usr/lib64/libgtk-3.so.0.2000.9)
+	    441f0f66c3c0 [unknown] ([unknown])
+
+firefox  2531 [003] 167231.419182:   36441468 cycles:ppp: 
+	         1db75da [unknown] (/usr/lib64/firefox/libxul.so)
+	              1a [unknown] ([unknown])
+	         1dc3876 [unknown] (/usr/lib64/firefox/libxul.so)
+
+firefox  2531 [003] 167231.428808:   37706921 cycles:ppp: 
+	         1d7eddf [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f21113d1dc0 [unknown] ([unknown])
+	         1dfb172 [unknown] (/usr/lib64/firefox/libxul.so)
+	4820c78348fb8948 [unknown] ([unknown])
+
+swapper     0 [007] 167231.436503:  568496324 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+firefox  2531 [003] 167231.439818:   37985407 cycles:ppp: 
+	         23fd6bc [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f2000000001 [unknown] ([unknown])
+
+gnome-shell  2096 [001] 167231.454104:   22918832 cycles:ppp: 
+	           80fc2 malloc (/usr/lib64/libc-2.23.so)
+	     41e00000781 [unknown] ([unknown])
+
+firefox  2531 [003] 167231.480859:   35048686 cycles:ppp: 
+	         1de8b4d [unknown] (/usr/lib64/firefox/libxul.so)
+	      180000001d [unknown] ([unknown])
+	         1e03d2a [unknown] (/usr/lib64/firefox/libxul.so)
+	90c3c3c0940f0877 [unknown] ([unknown])
+
+firefox  2531 [003] 167231.513933:   35630375 cycles:ppp: 
+	         1c77f39 [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f2109591ba0 [unknown] ([unknown])
+
+gnome-shell  2096 [000] 167231.537230:   24269363 cycles:ppp: 
+	           c2634 [unknown] (/usr/lib64/libclutter-1.0.so.0.2600.0)
+	               2 [unknown] ([unknown])
+	               0 [unknown] ([unknown])
+	               0 [unknown] ([unknown])
+
+firefox  2531 [003] 167231.538846:   30788198 cycles:ppp: 
+	         10f09c4 [unknown] (/usr/lib64/firefox/libxul.so)
+	       100000004 [unknown] ([unknown])
+	               0 [unknown] ([unknown])
+
+firefox  2531 [003] 167231.549148:   30330878 cycles:ppp: 
+	         115106b [unknown] (/usr/lib64/firefox/libxul.so)
+	               0 [unknown] ([unknown])
+	452e0bfa00000019 [unknown] ([unknown])
+	          9a4150 [unknown] (/usr/lib64/firefox/libxul.so)
+	 f0d8d4800044470 [unknown] ([unknown])
+
+firefox  2531 [003] 167231.558864:   31331915 cycles:ppp: 
+	         1db7f6c [unknown] (/usr/lib64/firefox/libxul.so)
+	               1 [unknown] ([unknown])
+
+firefox  2531 [003] 167231.567325:   35677236 cycles:ppp: 
+	         118b2b8 [unknown] (/usr/lib64/firefox/libxul.so)
+	               0 [unknown] ([unknown])
+	cd946b2c00000007 [unknown] ([unknown])
+	          9a4150 [unknown] (/usr/lib64/firefox/libxul.so)
+	 f0d8d4800044470 [unknown] ([unknown])
+
+firefox  2531 [003] 167231.576750:   37463968 cycles:ppp: 
+	           10137 [unknown] (/usr/lib64/firefox/firefox)
+
+firefox  2531 [003] 167231.586645:   38042970 cycles:ppp: 
+	          17eb57 [unknown] (/usr/lib64/libgtk-3.so.0.2000.9)
+	               0 [unknown] ([unknown])
+	          173370 [unknown] (/usr/lib64/libgtk-3.so.0.2000.9)
+	    441f0f66c3c0 [unknown] ([unknown])
+
+firefox  2531 [003] 167231.596881:   42074092 cycles:ppp: 
+	           134b2 free (/usr/lib64/firefox/firefox)
+
+swapper     0 [003] 167231.638010:   43139664 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+Compositor  2586 [001] 167231.650974:   32065259 cycles:ppp: 
+	          9e29ac _raw_spin_lock (/lib/modules/4.7.0+/build/vmlinux)
+	          328645 sys_futex (/lib/modules/4.7.0+/build/vmlinux)
+	          9e2bf2 entry_SYSCALL_64_fastpath (/lib/modules/4.7.0+/build/vmlinux)
+	            d296 pthread_cond_signal@@GLIBC_2.3.2 (/usr/lib64/libpthread-2.23.so)
+	    7f2117efe687 [unknown] ([unknown])
+	               0 [unknown] ([unknown])
+
+firefox  2531 [000] 167231.673569:   30394359 cycles:ppp: 
+	               0 [unknown] ([unknown])
+	         1dcbba0 [unknown] (/usr/lib64/firefox/libxul.so)
+
+firefox  2531 [000] 167231.683687:   30510675 cycles:ppp: 
+	           101fd [unknown] (/usr/lib64/firefox/firefox)
+
+swapper     0 [004] 167231.686799:   88897128 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+gnome-shell  2096 [001] 167231.687383:   34165143 cycles:ppp: 
+	           390ed g_str_hash (/usr/lib64/libglib-2.0.so.0.4800.2)
+
+firefox  2531 [000] 167231.693269:   31868572 cycles:ppp: 
+	         1dbc6d2 [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f20fe954888 [unknown] ([unknown])
+	    7f210130cb30 [unknown] ([unknown])
+	    7f20fbf20020 [unknown] ([unknown])
+	    7f20d866c150 [unknown] ([unknown])
+	    7f20d2ca0a40 [unknown] ([unknown])
+	    7f210e8a4178 [unknown] ([unknown])
+	    7f210c4bad20 [unknown] ([unknown])
+	    7f20fa2de628 [unknown] ([unknown])
+	    7f210e28d850 [unknown] ([unknown])
+	    7f20fd76b650 [unknown] ([unknown])
+	    7f210130b388 [unknown] ([unknown])
+	    7f210b6601d0 [unknown] ([unknown])
+	    7f20d647f158 [unknown] ([unknown])
+	    7f20fa3e17d0 [unknown] ([unknown])
+	    7f20fd791378 [unknown] ([unknown])
+	    7f20dbb617d0 [unknown] ([unknown])
+	    7f21015c4f88 [unknown] ([unknown])
+	    7f20fbf20910 [unknown] ([unknown])
+	    7f20dba7cb30 [unknown] ([unknown])
+	    7f20fd78a398 [unknown] ([unknown])
+	    7f20d2c9f7a0 [unknown] ([unknown])
+	    7f21015c20c0 [unknown] ([unknown])
+	    7f20d65eca48 [unknown] ([unknown])
+	    7f210e83be10 [unknown] ([unknown])
+	    7f210c290cb0 [unknown] ([unknown])
+	    7f20d8326218 [unknown] ([unknown])
+	    7f20d83264f0 [unknown] ([unknown])
+	    7f20d67f7958 [unknown] ([unknown])
+	    7f20d65fb140 [unknown] ([unknown])
+
+firefox  2531 [000] 167231.702499:   34179979 cycles:ppp: 
+	         1db5ad6 [unknown] (/usr/lib64/firefox/libxul.so)
+	               1 [unknown] ([unknown])
+
+firefox  2531 [000] 167231.711954:   35837093 cycles:ppp: 
+	         1dc2e07 [unknown] (/usr/lib64/firefox/libxul.so)
+	 7ff000000000000 [unknown] ([unknown])
+
+firefox  2531 [000] 167231.721675:   36875469 cycles:ppp: 
+	          9e3bf9 [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f213f034c10 [unknown] ([unknown])
+	         1c2aa06 [unknown] (/usr/lib64/firefox/libxul.so)
+	  8e7f358d48f389 [unknown] ([unknown])
+
+firefox  2531 [000] 167231.731680:   37138597 cycles:ppp: 
+	         10821ca [unknown] (/usr/lib64/firefox/libxul.so)
+
+swapper     0 [004] 167231.737904:  107434721 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+firefox  2531 [000] 167231.743018:   36446563 cycles:ppp: 
+	         1e93052 [unknown] (/usr/lib64/firefox/libxul.so)
+	8000000400000000 [unknown] ([unknown])
+	         1eaf12c [unknown] (/usr/lib64/firefox/libxul.so)
+
+firefox  2531 [000] 167231.752986:   36880451 cycles:ppp: 
+	         1e9ccfb [unknown] (/usr/lib64/firefox/libxul.so)
+	       100000001 [unknown] ([unknown])
+
+firefox  2531 [000] 167231.762899:   37399886 cycles:ppp: 
+
+swapper     0 [004] 167231.768600:  170555207 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+firefox  2531 [000] 167231.772781:   38009565 cycles:ppp: 
+	         1d461f6 [unknown] (/usr/lib64/firefox/libxul.so)
+	    7ffd21e8ac80 [unknown] ([unknown])
+
+firefox  2531 [000] 167231.782822:   38188269 cycles:ppp: 
+	         1de4fab [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f2106624f40 [unknown] ([unknown])
+	    7f20d65a56a0 [unknown] ([unknown])
+
+Compositor  2586 [003] 167231.813780:   39117336 cycles:ppp: 
+	         1010640 [unknown] (/usr/lib64/firefox/libxul.so)
+	               0 [unknown] ([unknown])
+
+firefox  2531 [000] 167231.833653:   34628831 cycles:ppp: 
+
+firefox  2531 [000] 167231.844055:   34108318 cycles:ppp: 
+	          173940 [unknown] (/usr/lib64/libgtk-3.so.0.2000.9)
+	364684ee3203a200 [unknown] ([unknown])
+
+firefox  2531 [000] 167231.854130:   34172723 cycles:ppp: 
+	          17383b [unknown] (/usr/lib64/libgtk-3.so.0.2000.9)
+	364684ee3203a200 [unknown] ([unknown])
+	      1000000005 [unknown] ([unknown])
+	    7f212db34030 [unknown] ([unknown])
+	    7f212da2a5a0 [unknown] ([unknown])
+
+firefox  2531 [000] 167231.863392:   36531078 cycles:ppp: 
+	         1d47542 [unknown] (/usr/lib64/firefox/libxul.so)
+
+swapper     0 [004] 167231.866437:  297009730 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [005] 167231.897822:  146717449 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+firefox  2531 [000] 167231.897981:   38156960 cycles:ppp: 
+	         1e7ce71 [unknown] (/usr/lib64/firefox/libxul.so)
+	        fffffc7c [unknown] ([unknown])
+	         1f5de4a [unknown] (/usr/lib64/firefox/libxul.so)
+	        ba2afe83 [unknown] ([unknown])
+
+gnome-shell  2096 [002] 167231.903977:   23717371 cycles:ppp: 
+	           33ed3 cogl_object_unref (/usr/lib64/libcogl.so.20.4.1)
+	           22096 [unknown] (/usr/lib64/libcogl.so.20.4.1)
+	    5560dddd1250 [unknown] ([unknown])
+	               0 [unknown] ([unknown])
+	           8879c [unknown] (/usr/lib64/libcogl.so.20.4.1)
+	               0 [unknown] ([unknown])
+
+java  2719 [001] 167232.098646:   42036643 cycles:ppp: 
+	          8e0910 StatSamplerTask::task (/home/arda/workspace/grokit/src/grokit_files/jre1.7.0_65/lib/amd64/server/libjvm.so)
+	          92771d PeriodicTask::real_time_tick (/home/arda/workspace/grokit/src/grokit_files/jre1.7.0_65/lib/amd64/server/libjvm.so)
+	          9552c7 WatcherThread::run (/home/arda/workspace/grokit/src/grokit_files/jre1.7.0_65/lib/amd64/server/libjvm.so)
+	          81f988 java_start (/home/arda/workspace/grokit/src/grokit_files/jre1.7.0_65/lib/amd64/server/libjvm.so)
+	            75ca start_thread (/usr/lib64/libpthread-2.23.so)
+
+firefox  2531 [000] 167232.120360:   19511551 cycles:ppp: 
+	          325b3e get_futex_key (/lib/modules/4.7.0+/build/vmlinux)
+	          32803b do_futex (/lib/modules/4.7.0+/build/vmlinux)
+	          328645 sys_futex (/lib/modules/4.7.0+/build/vmlinux)
+	          9e2bf2 entry_SYSCALL_64_fastpath (/lib/modules/4.7.0+/build/vmlinux)
+	            d296 pthread_cond_signal@@GLIBC_2.3.2 (/usr/lib64/libpthread-2.23.so)
+	    7f20f26d2fe8 [unknown] ([unknown])
+
+firefox  2531 [000] 167232.279372:   14293424 cycles:ppp: 
+	          9e3d4e [unknown] (/usr/lib64/firefox/libxul.so)
+
+firefox  2531 [000] 167232.290061:   13569413 cycles:ppp: 
+	         1d455f3 [unknown] (/usr/lib64/firefox/libxul.so)
+
+firefox  2531 [000] 167232.300426:   13360514 cycles:ppp: 
+	         1de9513 [unknown] (/usr/lib64/firefox/libxul.so)
+
+firefox  2531 [000] 167232.310028:   13838956 cycles:ppp: 
+	         1d4651d [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f213ee44320 [unknown] ([unknown])
+
+firefox  2531 [000] 167232.317442:   17041357 cycles:ppp: 
+	         1db66d0 [unknown] (/usr/lib64/firefox/libxul.so)
+	               7 [unknown] ([unknown])
+	         1d4b0ba [unknown] (/usr/lib64/firefox/libxul.so)
+	8948011dc66a358d [unknown] ([unknown])
+
+firefox  2531 [000] 167232.324506:   21618876 cycles:ppp: 
+	         1d47563 [unknown] (/usr/lib64/firefox/libxul.so)
+
+firefox  2531 [000] 167232.331732:   26670044 cycles:ppp: 
+	           336f0 XPending (/usr/lib64/libX11.so.6.3.0)
+
+firefox  2531 [000] 167232.339284:   32724778 cycles:ppp: 
+	         1d455f3 [unknown] (/usr/lib64/firefox/libxul.so)
+
+firefox  2531 [000] 167232.348050:   36308281 cycles:ppp: 
+	         1d8893c [unknown] (/usr/lib64/firefox/libxul.so)
+	e5e5e5e500000006 [unknown] ([unknown])
+
+firefox  2531 [000] 167232.357642:   37658973 cycles:ppp: 
+	         237c07f [unknown] (/usr/lib64/firefox/libxul.so)
+	               0 [unknown] ([unknown])
+
+firefox  2531 [000] 167232.368643:   37896074 cycles:ppp: 
+	          98da92 [unknown] (/usr/lib64/firefox/libxul.so)
+	               0 [unknown] ([unknown])
+
+swapper     0 [004] 167232.370199:  318702397 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+firefox  2531 [000] 167232.378980:   37278095 cycles:ppp: 
+	         1dccac5 [unknown] (/usr/lib64/firefox/libxul.so)
+
+firefox  2531 [000] 167232.388829:   37985171 cycles:ppp: 
+	         1d444ac [unknown] (/usr/lib64/firefox/libxul.so)
+	               0 [unknown] ([unknown])
+	eb4516990000000c [unknown] ([unknown])
+	          9a4150 [unknown] (/usr/lib64/firefox/libxul.so)
+	 f0d8d4800044470 [unknown] ([unknown])
+
+firefox  2531 [000] 167232.398859:   38184135 cycles:ppp: 
+	         118bd7f [unknown] (/usr/lib64/firefox/libxul.so)
+	       10000000b [unknown] ([unknown])
+	  64006100650068 [unknown] ([unknown])
+
+firefox  2531 [000] 167232.408946:   38223361 cycles:ppp: 
+	          17db73 [unknown] (/usr/lib64/libgtk-3.so.0.2000.9)
+	    7ffd21e8db50 [unknown] ([unknown])
+	          1734b0 [unknown] (/usr/lib64/libgtk-3.so.0.2000.9)
+	c300000001b80789 [unknown] ([unknown])
+
+firefox  2531 [000] 167232.419042:   38250493 cycles:ppp: 
+	           38830 g_hash_table_lookup_extended (/usr/lib64/libglib-2.0.so.0.4800.2)
+
+firefox  2531 [000] 167232.448634:   33988434 cycles:ppp: 
+	            8950 pthread_self (/usr/lib64/libpthread-2.23.so)
+
+gnome-shell  2096 [003] 167232.470722:   23970814 cycles:ppp: 
+	          464525 __fdget_pos (/lib/modules/4.7.0+/build/vmlinux)
+	          446cb0 sys_writev (/lib/modules/4.7.0+/build/vmlinux)
+	          9e2bf2 entry_SYSCALL_64_fastpath (/lib/modules/4.7.0+/build/vmlinux)
+	           f8c1d __GI___writev (/usr/lib64/libc-2.23.so)
+	               2 [unknown] ([unknown])
+	               0 [unknown] ([unknown])
+	               0 [unknown] ([unknown])
+
+firefox  2531 [000] 167232.481962:   39209193 cycles:ppp: 
+	         1dee48b [unknown] (/usr/lib64/firefox/libxul.so)
+	      180000001d [unknown] ([unknown])
+	         1de46c4 [unknown] (/usr/lib64/firefox/libxul.so)
+	90c3c3c0940f0877 [unknown] ([unknown])
+
+firefox  2531 [000] 167232.517560:   35528349 cycles:ppp: 
+	           144ad [unknown] (/usr/lib64/firefox/firefox)
+	               1 [unknown] ([unknown])
+
+chromium-browse 12879 [002] 167232.545209:   16846193 cycles:ppp: 
+	          9e2d39 syscall_return_via_sysret (/lib/modules/4.7.0+/build/vmlinux)
+	          109e59 [unknown] (/usr/lib64/chromium-browser/lib/libbase.so)
+
+swapper     0 [004] 167232.549783:  689343323 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+firefox  2531 [000] 167232.565318:   20201291 cycles:ppp: 
+	           100c3 [unknown] (/usr/lib64/firefox/firefox)
+
+firefox  2531 [002] 167232.598342:   22675122 cycles:ppp: 
+	           337e8 g_type_check_instance_is_a (/usr/lib64/libgobject-2.0.so.0.4800.2)
+
+Compositor  2586 [003] 167232.613388:   22396399 cycles:ppp: 
+	             c96 [unknown] ([vdso])
+	          1114e6 __clock_gettime (/usr/lib64/libc-2.23.so)
+	         3584af5 [unknown] ([unknown])
+
+firefox  2531 [002] 167232.620019:   25470558 cycles:ppp: 
+	         21018b0 [unknown] (/usr/lib64/firefox/libxul.so)
+
+gnome-shell  2096 [000] 167232.637027:   22473935 cycles:ppp: 
+	           73140 cogl_get_draw_framebuffer (/usr/lib64/libcogl.so.20.4.1)
+	44f00000bf800000 [unknown] ([unknown])
+
+firefox  2531 [002] 167232.654610:   14908057 cycles:ppp: 
+	               0 [unknown] ([unknown])
+	               b [unknown] ([unknown])
+	         1e438ce [unknown] (/usr/lib64/firefox/libxul.so)
+	894800e01d74358d [unknown] ([unknown])
+
+firefox  2531 [002] 167232.681728:   12473570 cycles:ppp: 
+	         1dbc60f [unknown] (/usr/lib64/firefox/libxul.so)
+
+firefox  2531 [002] 167232.698128:   14582207 cycles:ppp: 
+	         1d5fd27 [unknown] (/usr/lib64/firefox/libxul.so)
+	fb89485355cd8841 [unknown] ([unknown])
+
+firefox  2531 [002] 167232.717452:   15773788 cycles:ppp: 
+	           131b6 [unknown] (/usr/lib64/firefox/firefox)
+
+firefox  2531 [002] 167232.736564:   14658959 cycles:ppp: 
+	          17dee3 [unknown] (/usr/lib64/libgtk-3.so.0.2000.9)
+	    7ffd21e8e910 [unknown] ([unknown])
+	          1734b0 [unknown] (/usr/lib64/libgtk-3.so.0.2000.9)
+	c300000001b80789 [unknown] ([unknown])
+
+firefox  2531 [002] 167232.755839:   13858258 cycles:ppp: 
+	         1e4aeaf [unknown] (/usr/lib64/firefox/libxul.so)
+	              43 [unknown] ([unknown])
+	         1e438ce [unknown] (/usr/lib64/firefox/libxul.so)
+	894800e01d74358d [unknown] ([unknown])
+
+gnome-shell  2096 [000] 167232.770650:   15283858 cycles:ppp: 
+	           7fa62 _int_malloc (/usr/lib64/libc-2.23.so)
+	    5560de0f7bf0 [unknown] ([unknown])
+
+firefox  2531 [003] 167232.787576:   18965657 cycles:ppp: 
+	    7f212700b900 [unknown] (/tmp/perf-2531.map)
+	    7f214b752655 [unknown] (/tmp/perf-2531.map)
+	    7f20c5e8bda8 [unknown] ([unknown])
+	    7f212700b9c4 [unknown] (/tmp/perf-2531.map)
+	    7f20cb838650 [unknown] ([unknown])
+	    7f212700b9c4 [unknown] (/tmp/perf-2531.map)
+	    7f20cc07d138 [unknown] ([unknown])
+	    7f212700b9c4 [unknown] (/tmp/perf-2531.map)
+	    7f20cc044e98 [unknown] ([unknown])
+	    7f212700b9c4 [unknown] (/tmp/perf-2531.map)
+	    7f20cb6f4c98 [unknown] ([unknown])
+	    7f2125abd11c [unknown] (/tmp/perf-2531.map)
+	    7f20cb343360 [unknown] ([unknown])
+	    7f214b75284f [unknown] (/tmp/perf-2531.map)
+	         265aa7e [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f210df2d800 [unknown] ([unknown])
+	    7f212da964e0 [unknown] ([unknown])
+
+Compositor  2586 [002] 167232.797176:   14164146 cycles:ppp: 
+	         23dfb0d [unknown] (/usr/lib64/firefox/libxul.so)
+	      47000003c0 [unknown] ([unknown])
+
+firefox  2531 [003] 167232.816829:   27686836 cycles:ppp: 
+	            af0b pthread_mutex_unlock (/usr/lib64/libpthread-2.23.so)
+	               0 [unknown] ([unknown])
+
+firefox  2531 [003] 167232.854146:   16134379 cycles:ppp: 
+	          f8485b [unknown] (/usr/lib64/firefox/libxul.so)
+	3f80000080000000 [unknown] ([unknown])
+
+firefox  2531 [003] 167232.873336:   13907976 cycles:ppp: 
+	           144ad [unknown] (/usr/lib64/firefox/firefox)
+	               1 [unknown] ([unknown])
+
+swapper     0 [007] 167232.881181:  373679080 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+firefox  2531 [003] 167232.883328:   14026612 cycles:ppp: 
+	          36c4e0 [unknown] (/usr/lib64/libgtk-3.so.0.2000.9)
+	               0 [unknown] ([unknown])
+
+gnome-shell  2096 [001] 167232.887850:   17937539 cycles:ppp: 
+	             f70 xcb_present_pixmap (/usr/lib64/libxcb-present.so.0.0.0)
+
+firefox  2531 [003] 167232.898929:   16964087 cycles:ppp: 
+	          18e600 [unknown] (/usr/lib64/libgtk-3.so.0.2000.9)
+	              a2 [unknown] ([unknown])
+	               0 [unknown] ([unknown])
+	               0 [unknown] ([unknown])
+
+firefox  2531 [003] 167232.917524:   19021520 cycles:ppp: 
+	           10517 [unknown] (/usr/lib64/firefox/firefox)
+	               1 [unknown] ([unknown])
+
+firefox  2531 [003] 167232.947749:   21961487 cycles:ppp: 
+	             680 _dl_mcount_wrapper_check@plt (/usr/lib64/gconv/UTF-16.so)
+
+firefox  2531 [003] 167232.967553:   23220624 cycles:ppp: 
+	          17dd23 [unknown] (/usr/lib64/libgtk-3.so.0.2000.9)
+	364684ee3203a200 [unknown] ([unknown])
+	      1000000001 [unknown] ([unknown])
+	e5e5e5e5e5e5e5e5 [unknown] ([unknown])
+	    7f212da02000 [unknown] ([unknown])
+
+firefox  2531 [000] 167232.971805:   18949639 cycles:ppp: 
+	         118b040 [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f213f0a71d0 [unknown] ([unknown])
+
+firefox  2531 [000] 167232.978466:   25120925 cycles:ppp: 
+	         1dca52b [unknown] (/usr/lib64/firefox/libxul.so)
+	               3 [unknown] ([unknown])
+	         1d4b0ba [unknown] (/usr/lib64/firefox/libxul.so)
+	8948011dc66a358d [unknown] ([unknown])
+
+gnome-shell  2096 [002] 167232.983310:   17114313 cycles:ppp: 
+	           27a30 _init (/usr/lib64/gnome-shell/libgnome-shell.so)
+	           5316c [unknown] ([unknown])
+
+firefox  2531 [000] 167232.986550:   34029807 cycles:ppp: 
+	         2a1607d [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f2120cf8400 [unknown] ([unknown])
+	    7f212da964e0 [unknown] ([unknown])
+
+firefox  2531 [000] 167233.020806:   14355823 cycles:ppp: 
+	           ff246 [unknown] (/usr/lib64/libgtk-3.so.0.2000.9)
+	               0 [unknown] ([unknown])
+
+firefox  2531 [000] 167233.034123:   12336515 cycles:ppp: 
+	         1df3ee2 [unknown] (/usr/lib64/firefox/libxul.so)
+	      180000001b [unknown] ([unknown])
+	         1e03d2a [unknown] (/usr/lib64/firefox/libxul.so)
+	90c3c3c0940f0877 [unknown] ([unknown])
+
+firefox  2531 [000] 167233.049582:   16709369 cycles:ppp: 
+	          175c44 [unknown] (/usr/lib64/libgtk-3.so.0.2000.9)
+
+swapper     0 [002] 167233.083953:   19028947 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+firefox  2531 [000] 167233.084934:   20525285 cycles:ppp: 
+	         1e97936 [unknown] (/usr/lib64/firefox/libxul.so)
+	fb89485355cd8841 [unknown] ([unknown])
+
+firefox  2531 [000] 167233.113937:   17046261 cycles:ppp: 
+	         2a4b560 [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f2100000001 [unknown] ([unknown])
+	         29b8710 [unknown] (/usr/lib64/firefox/libxul.so)
+	   348b88d48068b [unknown] ([unknown])
+
+firefox  2531 [000] 167233.147546:   15781534 cycles:ppp: 
+	         264f045 [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f20ced00000 [unknown] ([unknown])
+
+swapper     0 [000] 167233.247217:   14802269 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          9d5a47 rest_init (/lib/modules/4.7.0+/build/vmlinux)
+	         1162fe7 start_kernel ([kernel.vmlinux].init.text)
+	         11622db x86_64_start_reservations ([kernel.vmlinux].init.text)
+	         1162429 x86_64_start_kernel ([kernel.vmlinux].init.text)
+
+swapper     0 [001] 167233.380363:   16971534 cycles:ppp: 
+	          3dbf5e quiet_vmstat (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+firefox  2531 [000] 167233.380807:   13952415 cycles:ppp: 
+	          9e3bf9 [unknown] (/usr/lib64/firefox/libxul.so)
+	    7f20c8e515e0 [unknown] ([unknown])
+	              89 [unknown] ([unknown])
+	         1e438ce [unknown] (/usr/lib64/firefox/libxul.so)
+	894800e01d74358d [unknown] ([unknown])
+
+gnome-terminal-  2474 [003] 167233.497786:   19025092 cycles:ppp: 
+	           83020 _init (/usr/lib64/libgtk-3.so.0.2000.9)
+	               0 [unknown] ([unknown])
+
+firefox  2531 [002] 167233.597318:   13078351 cycles:ppp: 
+	           12e27 _dl_update_slotinfo (/usr/lib64/ld-2.23.so)
+	       100000004 [unknown] ([unknown])
+
+swapper     0 [000] 167233.609603:   11213671 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          9d5a47 rest_init (/lib/modules/4.7.0+/build/vmlinux)
+	         1162fe7 start_kernel ([kernel.vmlinux].init.text)
+	         11622db x86_64_start_reservations ([kernel.vmlinux].init.text)
+	         1162429 x86_64_start_kernel ([kernel.vmlinux].init.text)
+
+swapper     0 [000] 167233.746017:   11290544 cycles:ppp: 
+	          5dc9ed rb_erase (/lib/modules/4.7.0+/build/vmlinux)
+	          5df424 timerqueue_del (/lib/modules/4.7.0+/build/vmlinux)
+	          313f4c __remove_hrtimer (/lib/modules/4.7.0+/build/vmlinux)
+	          314670 hrtimer_start_range_ns (/lib/modules/4.7.0+/build/vmlinux)
+	          323684 tick_nohz_stop_sched_tick (/lib/modules/4.7.0+/build/vmlinux)
+	          32376c __tick_nohz_idle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          323fac tick_nohz_idle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e98d6 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          9d5a47 rest_init (/lib/modules/4.7.0+/build/vmlinux)
+	         1162fe7 start_kernel ([kernel.vmlinux].init.text)
+	         11622db x86_64_start_reservations ([kernel.vmlinux].init.text)
+	         1162429 x86_64_start_kernel ([kernel.vmlinux].init.text)
+
+firefox  2531 [002] 167233.863595:   12274337 cycles:ppp: 
+	           8d5e0 g_private_get (/usr/lib64/libglib-2.0.so.0.4800.2)
+
+gnome-terminal-  2474 [003] 167233.937986:    5145724 cycles:ppp: 
+	           1fe1a g_pointer_bit_lock (/usr/lib64/libglib-2.0.so.0.4800.2)
+
+gdbus  2098 [000] 167234.011975:   17860730 cycles:ppp: 
+	          42070c __slab_free (/lib/modules/4.7.0+/build/vmlinux)
+	          420ae8 kmem_cache_free (/lib/modules/4.7.0+/build/vmlinux)
+	          8adc29 kfree_skbmem (/lib/modules/4.7.0+/build/vmlinux)
+	          8aeec4 consume_skb (/lib/modules/4.7.0+/build/vmlinux)
+	          97ba88 unix_stream_read_generic (/lib/modules/4.7.0+/build/vmlinux)
+	          97bbdf unix_stream_recvmsg (/lib/modules/4.7.0+/build/vmlinux)
+	          8a663d sock_recvmsg (/lib/modules/4.7.0+/build/vmlinux)
+	          8a7637 ___sys_recvmsg (/lib/modules/4.7.0+/build/vmlinux)
+	          8a8161 __sys_recvmsg (/lib/modules/4.7.0+/build/vmlinux)
+	          8a81b2 sys_recvmsg (/lib/modules/4.7.0+/build/vmlinux)
+	          9e2bf2 entry_SYSCALL_64_fastpath (/lib/modules/4.7.0+/build/vmlinux)
+	           101dd __GI___libc_recvmsg (/usr/lib64/libpthread-2.23.so)
+	    7f93a7ffe640 [unknown] ([unknown])
+	    7f93a0003020 [unknown] ([unknown])
+	           16864 g_object_new (/usr/lib64/libgobject-2.0.so.0.4800.2)
+	               0 [unknown] ([unknown])
+
+firefox  2531 [002] 167234.013281:   15073785 cycles:ppp: 
+	         1151682 [unknown] (/usr/lib64/firefox/libxul.so)
+	               0 [unknown] ([unknown])
+	ae4cc4800000000b [unknown] ([unknown])
+	          9a4150 [unknown] (/usr/lib64/firefox/libxul.so)
+	 f0d8d4800044470 [unknown] ([unknown])
+
+gnome-shell  2096 [001] 167234.017321:   15171156 cycles:ppp: 
+	           1ff2f g_pointer_bit_unlock (/usr/lib64/libglib-2.0.so.0.4800.2)
+	               0 [unknown] ([unknown])
+	6b80000002e30000 [unknown] ([unknown])
+
+firefox  2531 [002] 167234.018567:   21870996 cycles:ppp: 
+	         1d45d8b [unknown] (/usr/lib64/firefox/libxul.so)
+	    7ffd21e89d20 [unknown] ([unknown])
+	               0 [unknown] ([unknown])
+
+gnome-shell  2096 [001] 167234.021331:   24706146 cycles:ppp: 
+	           80fe3 malloc (/usr/lib64/libc-2.23.so)
+
+firefox  2531 [002] 167234.024381:   30791692 cycles:ppp: 
+	           80c80 _init (/usr/lib64/libgtk-3.so.0.2000.9)
+
+Compositor  2586 [003] 167234.026746:    7057452 cycles:ppp: 
+	         23fd6bc [unknown] (/usr/lib64/firefox/libxul.so)
+	     3a300000001 [unknown] ([unknown])
+
+swapper     0 [003] 167234.030613:   12038432 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [000] 167234.034004:   20594806 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          9d5a47 rest_init (/lib/modules/4.7.0+/build/vmlinux)
+	         1162fe7 start_kernel ([kernel.vmlinux].init.text)
+	         11622db x86_64_start_reservations ([kernel.vmlinux].init.text)
+	         1162429 x86_64_start_kernel ([kernel.vmlinux].init.text)
+
+Xorg  1988 [001] 167234.037646:   33218206 cycles:ppp: 
+	          141785 _init (/usr/lib64/dri/i965_dri.so)
+	               7 [unknown] ([unknown])
+	         323cef8 [unknown] ([unknown])
+
+swapper     0 [003] 167234.042227:   12038432 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [003] 167234.077923:   29772024 cycles:ppp: 
+	               0 [unknown] ([unknown])
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [000] 167234.106122:   14388808 cycles:ppp: 
+	          32347d tick_nohz_stop_sched_tick (/lib/modules/4.7.0+/build/vmlinux)
+	          32376c __tick_nohz_idle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          323fac tick_nohz_idle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e98d6 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          9d5a47 rest_init (/lib/modules/4.7.0+/build/vmlinux)
+	         1162fe7 start_kernel ([kernel.vmlinux].init.text)
+	         11622db x86_64_start_reservations ([kernel.vmlinux].init.text)
+	         1162429 x86_64_start_kernel ([kernel.vmlinux].init.text)
+
+gnome-shell  2096 [007] 167234.155119:   19162998 cycles:ppp: 
+	           57340 [unknown] (/usr/lib64/libcogl.so.20.4.1)
+
+swapper     0 [003] 167234.162489:   31971594 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+Xorg  1988 [000] 167234.164682:   16699039 cycles:ppp: 
+	          14a596 __memcpy_avx_unaligned (/usr/lib64/libc-2.23.so)
+
+firefox  2531 [002] 167234.198920:   13643576 cycles:ppp: 
+	          95efb9 [unknown] (/usr/lib64/firefox/libxul.so)
+
+chromium-browse 12851 [007] 167234.207291:   17928872 cycles:ppp: 
+	           17f70 __floor_sse41 (/usr/lib64/libm-2.23.so)
+	               0 [unknown] ([unknown])
+	61000013e9df67a3 [unknown] ([unknown])
+
+Xorg  1988 [000] 167234.233811:   11879217 cycles:ppp: 
+	           42e47 [unknown] (/usr/libexec/Xorg)
+	 9f7c0c7000001a8 [unknown] ([unknown])
+
+swapper     0 [003] 167234.263903:   27598508 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+gnome-shell  2096 [007] 167234.270311:   12210100 cycles:ppp: 
+	           7f2d0 _int_malloc (/usr/lib64/libc-2.23.so)
+	    5560dea258d0 [unknown] ([unknown])
+
+Xorg  1988 [000] 167234.306865:   10870103 cycles:ppp: 
+	           36ba9 pixman_rasterize_edges (/usr/lib64/libpixman-1.so.0.34.0)
+	       100000000 [unknown] ([unknown])
+
+swapper     0 [007] 167234.350174:   11877401 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [001] 167234.353224:   10717444 cycles:ppp: 
+	          2e8708 pick_next_task_stop (/lib/modules/4.7.0+/build/vmlinux)
+	          9de61c __schedule (/lib/modules/4.7.0+/build/vmlinux)
+	          9de945 schedule (/lib/modules/4.7.0+/build/vmlinux)
+	          9dec0e schedule_preempt_disabled (/lib/modules/4.7.0+/build/vmlinux)
+	          2e99d1 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [002] 167234.432123:   13281201 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+
+swapper     0 [005] 167234.545166:  137330219 cycles:ppp: 
+	          65f3c1 intel_idle (/lib/modules/4.7.0+/build/vmlinux)
+	          873fe2 cpuidle_enter_state (/lib/modules/4.7.0+/build/vmlinux)
+	          8741e7 cpuidle_enter (/lib/modules/4.7.0+/build/vmlinux)
+	          2e96ea call_cpuidle (/lib/modules/4.7.0+/build/vmlinux)
+	          2e9ad3 cpu_startup_entry (/lib/modules/4.7.0+/build/vmlinux)
+	          250485 start_secondary (/lib/modules/4.7.0+/build/vmlinux)
+

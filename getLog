@@ -1,0 +1,6 @@
+#!/bin/bash
+
+IP=`./targetIP`
+
+echo $1
+scp root@$IP:/var/log/messages ./messages$1

@@ -1,0 +1,14 @@
+basefile=`date +%H-%M-%S-%F`-systrace.html
+adb root
+adb wait-for-device
+
+adb shell 'echo Y > /d/pvr/gpu_tracing_on ; echo 1 > /d/tracing/events/gpu/enable'
+
+python ~/Desktop/FUGU/systrace/mySystrace/systrace/systrace.py --time=20 -o $basefile -t 20 -b 32768 sched freq gfx view wm idle sync load workq audio video hal rs
+
+#if [ -e $basefile ] ; then
+#       grep -v animator $basefile > /tmp/$basefile
+#       mv /tmp/$basefile $basefile
+#fi
+explorer $basefile
+

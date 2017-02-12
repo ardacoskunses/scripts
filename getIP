@@ -1,0 +1,4 @@
+#!/bin/bash
+
+ssh -t acoskuns@soldel-A35-02.sc.intel.com "sudo arp-scan -I eth0 -l | grep d8:eb:97:bf:33:05 | awk '{ print \$1 }'"
+

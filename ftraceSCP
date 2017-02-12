@@ -1,0 +1,59 @@
+#!/bin/bash
+
+DPATH="/sys/kernel/debug/tracing"
+
+IP=`./targetIP`
+
+ssh root@$IP "uname -a | awk '{ print \$3 }' "
+
+#ssh root@$IP "echo function-trace > $DPATH/function-trace"
+
+#CLEAR TRACER
+ssh root@$IP "echo nop > $DPATH/current_tracer"
+#ssh root@$IP "echo function > $DPATH/current_tracer"
+
+#CLEAR FILTER BELOW
+ssh root@$IP "echo > $DPATH/set_ftrace_filter"
+
+ssh root@$IP "echo > $DPATH/set_event"
+ssh root@$IP "echo sched:sched_wakeup >> $DPATH/set_event"
+ssh root@$IP "echo sched:sched_switch >> $DPATH/set_event"
+ssh root@$IP "echo timer:timer_init >> $DPATH/set_event"
+ssh root@$IP "echo timer:timer_start >> $DPATH/set_event"
+ssh root@$IP "echo timer:timer_expire_entry >> $DPATH/set_event"
+ssh root@$IP "echo timer:timer_expire_exit >> $DPATH/set_event"
+ssh root@$IP "echo timer:hrtimer_start >> $DPATH/set_event"
+ssh root@$IP "echo timer:hrtimer_expire_entry >> $DPATH/set_event"
+ssh root@$IP "echo timer:hrtimer_expire_exit >> $DPATH/set_event"
+ssh root@$IP "echo timer:itimer_expire >> $DPATH/set_event"
+ssh root@$IP "echo workqueue:workqueue_execution >> $DPATH/set_event"
+ssh root@$IP "echo workqueue:workqueue_execution_end >> $DPATH/set_event"
+ssh root@$IP "echo workqueue:workqueue_queue_work >> $DPATH/set_event"
+ssh root@$IP "echo workqueue:workqueue_activate_work >> $DPATH/set_event"
+ssh root@$IP "echo workqueue:workqueue_execute_start >> $DPATH/set_event"
+ssh root@$IP "echo workqueue:workqueue_execute_end >> $DPATH/set_event"
+ssh root@$IP "echo 'power:*' >> $DPATH/set_event"
+ssh root@$IP "echo 'irq:*' >> $DPATH/set_event"
+
+#ssh root@$IP "echo *ouch* > $DPATH/set_ftrace_filter"
+#ssh root@$IP "echo i915* >> $DPATH/set_ftrace_filter"
+#ssh root@$IP "echo touch_softlockup_watchdog > $DPATH/set_ftrace_notrace"
+
+#CLEAR TRACE
+ssh root@$IP "echo > $DPATH/trace"
+
+#TURN ON TRACING
+ssh root@$IP "echo 1 > $DPATH/tracing_on"
+
+ssh root@$IP "insmod /lib/modules/$1/kernel/drivers/misc/itouch/mei-itouch-hid.ko"
+
+sleep 5
+
+ssh root@$IP "cat $DPATH/trace > /tmp/trace.txt"
+
+scp root@$IP:/tmp/trace.txt .
+
+ssh root@$IP "echo 0 > $DPATH/tracing_on"
+
+trace-cmd record trace.txt
+

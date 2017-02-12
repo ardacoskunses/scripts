@@ -1,0 +1,2 @@
+adb wait-for-device: shell "logcat | grep ARDA"
+

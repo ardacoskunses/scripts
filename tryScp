@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo exportedIP: $IP
+
+ssh root@$IP "sudo mount -o remount,rw /"
+
+STR=`ssh root@$IP "uname -r"`
+
+
+scp mei-itouch-hid.ko root@$IP:/lib/modules/$STR/kernel/drivers/misc/itouch/
+
+#ssh root@$IP "sudo reboot"
+

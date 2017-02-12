@@ -1,0 +1,15 @@
+#!/bin/bash
+
+IP=`./targetIP`
+
+if [ "$1" == "" ]; then
+echo NULL
+ssh root@$IP "tail -f /var/log/messages"
+else
+echo $1
+ssh root@$IP "tail -f /var/log/messages | grep $1"
+fi
+
+#if [ "$1" == "" && "$2" == ""]; then
+#echo NULL
+#fi

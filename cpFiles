@@ -1,0 +1,29 @@
+IP="10.0.0.114"
+echo $IP
+
+USER="acoskuns"
+echo $USER
+
+echo $PWD
+
+DEST="/home/acoskuns/workspace"
+echo Target:$DEST
+
+#cpfile=copied-`date +%H-%M-%S-%F`
+#echo $cpfile
+
+#ssh $USER@$IP "mkdir $DEST/$cpfile"
+#ssh $USER@$IP "ls -la $DEST"
+
+#this deos not work on cygwin so I do on target machine
+#find.exe . -type f -exec dos2unix {} \;
+
+scp -r * $USER@$IP:$DEST
+
+ssh $USER@$IP "ls -la $DEST"
+
+ssh $USER@$IP "find $DEST -type f -exec dos2unix {} \;"
+
+ssh $USER@$IP "ls -la $DEST"
+
+

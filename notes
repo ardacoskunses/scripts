@@ -1,0 +1,587 @@
+> GPIO debug
+echo 176 > /sys/class/gpio/export
+cat /sys/class/gpio/gpio176/value
+
+echo out > /sys/class/gpio/gpio176/direction
+echo 1 > /sys/class/gpio/gpio176/value
+
+> Backlight brightness
+echo 20 > /sys/class/backlight/psb-bl/brightness
+
+> Kill Process
+ kill $(pidof dpstmgr)
+
+find . -type f -exec dos2unix {} \;
+find . -type f -print0 | xargs -0 dos2unix
+If it's a large directory you may want to consider running with multiple
+processors:
+
+find . -type f -print0 | xargs -0 -n 1 -P 4 dos2unix
+
+find . -type f \! -path \*/\.svn/\* -exec dos2unix {} \;
+This will pass 1 file at a time, and use 4 processors.
+
+
+> GIT AM issues
+git am PatchName
+if you get error this case:
+git apply PATCHName --reject
+edit edit edit
+git status
+git add ALL FILES CHANGED BY PATCH
+git am --resolved
+
+
+> Please run below script to remove any line end white space:
+> One example:
+sed -e 's/[[:blank:]]\+$//' -i graphics/rgx/generated/rgxta3d_bridge/server_rgxta3d_bridge.c
+
+> Compile c code on linux
+write a c code
+gcc -m32 file.c
+gcc -m64 file.c //for 64 bit
+./a.out
+prints the output
+
+> Repo problem
+repo init -u ssh://android.intel.com/manifest.git -b platform/android/main -m android-main
+repo init -g default,-iafw,-intel_cws,-wcs,-dolby_ds1  -m android-main
+repo sync -c -j5
+
+repo init -g default,-iafw,-intel_cws,-wcs,-dolby_ds1 -m android-r44c
+
+> Kill a process with name:
+kill $(pidof ProcessName)
+
+> command line resize:
+eval resize
+
+> Get the pci card list (video card):
+lspci
+
+> Latest commands:
+history
+~/.bash_history
+
+> Enable net:
+ifconfig eth0 up
+
+>ethernet speed:
+ethtool eth0 | grep -i speed
+
+> new ip
+sudo dhclient -r eth0
+ifdown eth0
+ifup eth0
+
+> top like:
+ps -aux
+
+> open borwser from commandline:
+nautilus --browser ~/some/directory
+gnome-open PATH
+
+> latest updates on a file
+more 
+tail
+less&
+
+> mount nfs
+mount -t nfs -o nolock ro,soft dancer:/usr/man /usr/man
+
+>list mounted file systems
+df
+
+> debug shell programs:
+bash -x program.sh
+
+> List of open files and servers: good to see adbd
+lsof -P -n -i
+
+> start ethernet
+ifconfig eth0 up
+
+> get ip from console
+dhclient eth0
+
+>tabs and white spaces
+:set list
+
+>email from shell script
+echo send this | mutt -s "subject" arda.coskunses@intel.com
+cat filename | mutt -s "subject" arda.coskunses@intel.com
+
+>print ipaddress
+ifconfig |grep 'inet addr:'|grep 'Bcast:'|awk '{print $2}'|tr -d "addr:"
+
+> ssh connection refused:
+dpkg -l | grep ssh
+be sure server and client both exists
+find known_hosts
+/root/.ssh/known_hosts
+~/.ssh/known_hosts
+clean all
+/etc/init.d/ssh restart
+try again
+
+setenv loadbootscript fat load mmc 1:1 ${loadaddr} /boot.scr
+
+> Update to newer kernel (2.6.28.23 at tis time):
+sudo add-apt-repository ppa:kernel-ppa/ppa
+Then start Synaptic Package Manager, "reload"
+Install following packages: linux-image-generic-lts-backport-natty linux-headers-generic-lts-backport-natty
+
+> remove kernel intermediate files:
+rm -fr out/target/product/u8500/obj/kernel/
+
+> Mount:
+sudo mount -o soft,intr,rsize=8192,wsize=8192 sjcl0181.sjc.st.com:/home/ardac/ProjectFiles /home/ardac/ProjectFiles/LinuxNFS/
+
+> When OpenOffice does not run:
+killall soffice.bin
+
+> Java6 on Ubuntu:
+The line you have to add to your sources.list is:
+deb http://us.archive.ubuntu.com/ubuntu/ hardy multiverse
+Then you can do a apt-get update and install the packages.
+The package sun-java6-bin doesn't exist anymore, because the content of it is now in the -jre package.
+However the following packages replace it:
+  sun-java6-jre
+E: Package sun-java6-bin has no installation candidate
+Simply try without the -bin package:
+sudo apt-get install sun-java6-jre sun-java6-jdk
+
+
+git apply diff file
+git apply -p0 PATCHFILE.diff
+git apply PATCHFILE.diff
+
+GIT start project:
+
+cd myproject
+git init
+git add .
+git commit
+
+> grep multiple words
+adb logcat | egrep -i "hwcomposer|IMGSRV"
+
+> REPO:
+repo init server-ip
+repo sync
+> update to a specific manifest
+> get manifest file and copy it to
+cp newManifest.xml REPODIR/.repo/manifests/default.xml
+cd .repo/manifests
+git commit -am "new manifest commment"
+cd ../../
+repo sync
+
+>Update kernel into a specific version in the repo
+>find the kernel commit id in the manifest file and go to the kernel directory
+git reset --hard commitid
+
+> Connect to sftp server on windows from Ubuntu:
+mv ~/.ssh/ ~/.ssh_org/
+sync
+filezilla -s
+mv ~/.ssh_org/ ~/.ssh/
+sync
+
+Cscope:
+> Generate DB
+cscope -R
+> run it
+cscope -d
+
+Collect the modules:
+for f in `find . -name "*.ko"`; do cp $f <the path I want>/.; done
+
+for i in 1 2 3 4 5 6 7 8 ; do dumpsys SurfaceFlinger | grep GLES ; done
+for i in 1 2 3 4 5 6 7 8 ; do dumpsys SurfaceFlinger | grep 'GLES |' ; done
+for i in  $(seq 10); do echo "Welcome $i times"; done
+for i in {1..5}; do echo "Welcome $i times"; done
+for i in $(seq 10);do screencap -p /data/$i.png; done
+
+$HOME/.mozilla/firefox/<some-id-no>.default/Cache/
+cd $HOME/.mozilla/
+cd firefox/alpha-numeric.default/Cache
+
+/etc/gconf/gconf.xml.defaults/%gconf-tree.xml
+
+Remove the section:
+
+<entry name="antialiasing" type="string">
+                                        <stringvalue>grayscale</stringvalue>
+                                </entry>
+
+
+>Test Camera:
+gst-launch-0.10 v4l2src ! ffmpegcolorspace ! ximagesink
+
+>Getting screenshot from framebuffer screen
+This tip was used to get a screenshot of iMX31PDK screen.
+To copy the screen (framebuffer):
+dd if=/dev/fb0 of=screen.raw bs=1280 count=480
+(640 480)
+
+Where:
+The value 1280 means 640 * 2 bytes (16bpp)
+The value 480 is equal the screen width.
+To convert this raw file to png image:
+fbgrab -f screen.raw -w 480 -h 640 -b 16 screen.png
+Create framebuffer image from png file
+Get png2fb phyton scrip from
+http://www.glost.eclipse.co.uk/gfoot/eee/png2fb
+Save it to disk, make it executable with "chmod +x png2fb". Then convert the image in your host and display it over framebuffer:
+./png2fb test.png test.fb
+cat test.fb > /dev/fb0
+
+>Enable disable cpu cores:
+ echo 1 >/sys/devices/system/cpu/cpu1/online
+
+ echo 0 > /sys/devices/system/cpu/cpu1/online
+
+mount drive during startup
+/etc/fstab
+For UUID:
+sudo blkid
+
+>How to I show the full path in file browser rather than buttons to folders.
+Press Ctrl+L
+
+> sdboot on snowball
+mmc rescan 1; fat load mmc 1:1 0x100000 /ifs-novaThor9500-snowball.bin; go 0x00100000
+tftpboot on imx51
+run bootargs_base bootarg_nfs; tftpboot 0x00100000 ifs-mx51evk.raw; go 0x00100000
+
+dock
+xrandr --output LVDS --off
+xrandr --output DVI-0 --mode 1680x1050 --primary --output VGA-0 --mode 1600x1200 --right-of DVI-0
+
+undock
+xrandr --output VGA-0 --off --output DVI-0 --off
+xrandr --output LVDS --mode 1280x800
+
+Docking
+added --preferred and --primary to the xrandr call above and I added the script below to System->Preferences->Startup applications:
+#!/bin/sh
+xrandr --current | grep "HDMI1 connected "
+# 0 is returned on success
+if [ $? -eq 0 ]; then
+ sleep 5s
+ xrandr --output HDMI1 --mode 1680x1050 --rate 60 --primary --output LVDS1 --off --output TV1 --off --output VGA1 --off --output HDMI2 --off --output DP1 --off --output DP1 --off --output DP2 --off --output DP3 --off
+else
+ xrandr --current | grep "VGA1 connected "
+ if [ $? -eq 0 ]; then
+   sleep 5s
+   xrandr --output VGA1 --mode 1680x1050 --rate 60 --primary --output LVDS1 --off --output TV1 --off --output HDMI1 --off --output HDMI2 --off --output DP1 --off --output DP1 --off --output DP2 --off --output DP3 --off
+ else
+   xrandr --current | grep "TV1 connected "
+   if [ $? -eq 0 ]; then
+     sleep 5s
+     xrandr --output LVDS1 --mode 1440x900 --rate 60 --primary --output HDMI1 --off --output TV1 --off --output VGA1 --off --output HDMI2 --off --output DP1 --off --output DP1 --off --output DP2 --off --output DP3 --off
+   fi
+ fi
+fi
+
+
+sudo update-alternatives --config java
+
+
+Mounting the Andorid file system for RW
+> mount -o rw,remount -t yaffs2 /dev/block/mtdblock3 /system
+
+Compile and run a C applicaton on Android shell
+{
+	> arm-linux-androideabi-gcc-4.4.3 --sysroot ../prebuilt/ndk/android-ndk-r6/platforms/android-8/arch-arm -fPIC -mandroid -DANDROID -DOS_ANDROID devmem2.c -o devmem2
+
+	After putting the binary to SDCard you have to mount it for execatubles;
+
+	# mount
+	rootfs / rootfs ro 0 0
+	tmpfs /dev tmpfs rw,mode=755 0 0
+	devpts /dev/pts devpts rw,mode=600 0 0
+	proc /proc proc rw 0 0
+	sysfs /sys sysfs rw 0 0
+	tmpfs /sqlite_stmt_journals tmpfs rw,size=4096k 0 0
+	none /dev/cpuctl cgroup rw,cpu 0 0
+	/dev/block/mtdblock0 /system yaffs2 ro 0 0
+	/dev/block/mtdblock1 /data yaffs2 rw,nosuid,nodev 0 0
+	/dev/block/mtdblock2 /cache yaffs2 rw,nosuid,nodev 0 0
+	/dev/block//vold/179:0 /sdcard vfat rw,dirsync,uid=1000,gid=1015,fmask=0702,dmask=0702,allow_utime=0020,codepage=cp437,iocharset=iso8859-1,shortname=mixed,utf8,errors=remount-ro 0 0
+
+	See the red highlighted color line? This is the sdcard! Remount it by this command
+	# mount -o remount,rw -t vfat /dev/block//vold/179:0 /sdcard
+
+	run as:
+	/mnt/external_sd/devmem2
+}
+
+> SdCards on Andoird must be in FAT format
+
+
+dmesg logs
+adb shell "su -c cat /proc/kmsg"
+
+size of a file
+du -hs /path/to/folder
+du -h --max-depth=1 /path/to/folder 
+Will produce a list of all the folders in /path/to/folder and their sizes. 
+Trying to find the biggest? du --max-depth=1 /path/to/folder | sort -nk1
+
+> Intel Repo
+repo init -u git://android.intel.com/manifest -b platform/android/main -m android-main 
+cp <manifest-YYYYMMDD_HHMMSS-generated.xml> .repo/manifests/ 
+repo init -m <manifest-YYYYMMDD_HHMMSS-generated.xml> 
+repo sync -j16
+
+$ make blank_flashfiles -j16
+$ make flashfiles -j16
+
+To enable navigation bar,
+Add below line to your config.xml under vendor/intel/clovertrail/board/redhookbay/overlays/frameworks/base/core/res/res/values.
+<bool name=”config_showNavigationBar”>true</bool>
+
+PVR_ANDROID_DISABLE_ROTATE_180_WINDOW_TRANSFORM_HINT in hardware/intel/PRIVATE/pvr/eurasia/eurasiacon/build/linux2/common/android/features.mk
+
+Modifying .IMG Files
+BOOT.IMG
+ boot.img = zImage + ramdisk.img
+ zImage = kernel image
+ ramdisk.img = out/target/product/blaze/root/
+ %./out/host/linux-x86/bin/mkbootimg 
+ --kernel zImage 
+ --ramdisk ramdisk.img 
+ --base 0x80000000 
+ --cmdline "console=ttyO2,115200n8 mem=456M@0x80000000 mem=512M@0xA0000000 init=/init vram=10M omapfb.vram=0:4M androidboot.console=ttyO2" 
+ --board omap4 
+ -o boot.img.new
+ Output: boot.img.new
+ **Note: bootarg is passed to kernel via --cmdline option above
+ **Note:For Pandaboard ES,--cmdline should be mmodified as "console=ttyO2,115200n8 mem=456M@0x80000000 mem=512M@0xA0000000 init=/init vram=32M omapfb.vram=0:16M androidboot.console=ttyO2"
+To "just" boot boot.img (before flashing) you can use:
+%fastboot boot boot.img
+
+RAMDISK.IMG
+ %mkdir root
+ %cd root
+ %gunzip -c ../ramdisk.img | cpio -i
+ <make changes to root/ contents...>
+ %./out/host/linux-x86/bin/mkbootfs root/ | ./out/host/linux-x86/bin/minigzip >ramdisk.img.new
+ #output: ramdisk.img.new
+ ** Note: any init.rc changes will need to use this method
+
+RECOVERY.IMG
+Is just like boot.img. 
+recovery.img = zImage + ramdisk-recovery.img
+*Follow the same steps as boot.img for packing/unpacking
+
+SYSTEM.IMG
+ #uncompress
+ %./out/host/linux-x86/bin/simg2img system.img system.img.raw
+ #mount to directory mnt-point/
+ %mkdir mnt-point
+ %sudo mount -t ext4 -o loop system.img.raw mnt-point/
+ #modify any .so or apk in the mnt-point/ directory
+ #rezip
+ %sudo out/host/linux-x86/bin/make_ext4fs -s -l 512M -a system system.img.new mnt-point/
+ %sudo umount mnt-point/
+ Output: system.img.new
+Instead of having to reflash the whole big system.img, one can selective update any binary in /system folder on running target
+%adb remount
+%adb push <local> <remote>
+Eg: 
+%adb remount
+%adb push out/target/product/blaze/obj/lib/overlay.omap4.so /system/lib/hw/overlay.omap4.so
+%adb sync
+
+USERDATA.IMG
+ #uncompress
+ %./out/host/linux-x86/bin/simg2img userdata.img userdata.img.raw
+ #mount to directory mnt-point/
+ %mkdir mnt-point
+ %sudo mount -t ext4 -o loop userdata.img.raw mnt-point/
+ #modify any .so or apk in the mnt-point/ directory
+ #rezip
+ #%sudo ./out/host/linux-x86/bin/make_ext4fs -s -l 512M -a userdata userdata.img.new mnt-point/
+ # Above command won't work on GB/HC. For GB/HC, please use the following updated command
+ %sudo ./out/host/linux-x86/bin/make_ext4fs -s -l 512M -a data userdata.img.new mnt-point/
+ %sudo umount mnt-point/
+ Output: userdata.img.new
+
+CACHE.IMG
+ #This is empty ext4 fs image
+ %mkdir mnt-point/
+ %sudo ./make_ext4fs -s -l 256M -a cache cache.img mnt-point/
+ Output: cache.img
+
+arch Size: char short int long ptr long-long u8 u16 u32 u64
+i386        1       2   4   4   4       8   1    2  4  8
+alpha       1       2   4   8   8       8   1    2  4  8
+armv4l      1       2   4   4   4       8   1    2  4  8
+ia64        1       2   4   8   8       8   1    2  4  8
+m68k        1       2   4   4   4       8   1    2  4  8
+mips        1       2   4   4   4       8   1    2  4  8
+ppc         1       2   4   4   4       8   1    2  4  8
+sparc       1       2   4   4   4       8   1    2  4  8
+sparc64     1       2   4   4   4       8   1    2  4  8
+x86_64      1       2   4   8   8       8   1    2  4  8
+
+> execute the command to repeat playback of this clip:
+watch -n 18 'adb shell am start -n com.android.gallery3d/.app.MovieActivity -d /sdcard/Movies/72717.mp4'
+
+am start -a android.intent.action.VIEW -d   "file:///sdcard/1234.mp3" -t "audio/*"
+
+alias startSettings='adb shell am start -n com.android.settings/.Settings'
+alias up='adb shell input keyevent 19'
+alias down='adb shell input keyevent 20'
+alias left='adb shell input keyevent 21'
+alias right='adb shell input keyevent 22'
+alias enter='adb shell input keyevent 23'
+alias back='adb shell input keyevent 4'
+alias home='adb shell input keyevent 3'
+alias wfd='adb wait-for-device'
+
+Power:  adb shell input keyevent 26 #power on
+Unlock: adb shell input keyevent 82 #unlock
+
+adb shell input keyevent 62   #space key
+adb shell input keyevent 66   #enter key
+
+1.Image capture mode: adb shell "am start -a android.media.action.IMAGE_CAPTURE"
+2.Video capture mode: adb shell "am start -a android.media.action.VIDEO_CAPTURE"
+Other information
+
+1.To focus: adb shell "input keyevent KEYCODE_FOCUS"
+2.To take a photo or start/stop recording: adb shell "input keyevent KEYCODE_CAMERA"
+Other notes
+
+if the keycode string e.g KEYCODE_CAMERA, does not work, lookup the constant value from the API description. Example: KEYCODE_CAMERA
+
+KEYCODE_CAMERA: Added in API level 1
+Constant Value: 27 (0x0000001b)
+
+adb shell "su -c cat /proc/kmsg"
+
+> Android:
+dumpsys SurfaceFlinger
+dumpsys dsscomp
+
+Jump to fastboot
+stop IFWI
+>osl 0x400
+>jump 0x01101000
+
+openlogs in file
+adb logcat |& less
+
+startup disk creator commandline
+sudo usb-creator-gtk
+
+column -s, -t < somefile.csv | less -#2 -N -S
+column is a standard unix program that is very convenient -- it finds the appropriate width of each column, and displays the text as a nicely formatted table.
+
+Note: whenever you have empty fields, you need to put some kind of placeholder in it, otherwise the column gets merged with following columns. The following example demonstrates how to use sed to insert a placeholder:
+
+$ cat data.csv
+1,2,3,4,5
+1,,,,5
+$ sed 's/,,/, ,/g;s/,,/, ,/g' data.csv | column -s, -t
+1  2  3  4  5
+1           5
+$ cat data.csv
+1,2,3,4,5
+1,,,,5
+$ column -s, -t < data.csv
+1  2  3  4  5
+1  5
+$ sed 's/,,/, ,/g;s/,,/, ,/g' data.csv | column -s, -t
+1  2  3  4  5
+1           5
+
+
+clone usb:
+sudo dd if=/dev/sdx of=/dev/sdy bs=4M && sync
+sudo -s
+dd if=/dev/sdd | pv | dd of=/dev/sde bs=4M
+
+find ./ -type f | xargs grep oldnoconfig
+
+sudo mount –o remount, rw /
+
+kernel logs on ssh:
+tail -f -s1 /var/log/messages
+
+ssh root@143.183.249.72 "tail -f -s1 /var/log/messages"
+
+find . -type f -exec dos2unix {} \;
+find . -type f -print0 | xargs -0 dos2unix
+If it's a large directory you may want to consider running with multiple processors:
+
+find . -type f -print0 | xargs -0 -n 1 -P 4 dos2unix 
+
+find . -type f \! -path \*/\.svn/\* -exec dos2unix {} \;
+This will pass 1 file at a time, and use 4 processors.
+
+mount shared windows directory from linux:
+sudo mount -t cifs //rmoju/mde-mobl2.amr.corp.intel.com/$1 $2  -o user=rmojumde
+sudo mount -t cifs //ACOSKUNS-MOBL4.amr.corp.intel.com/Share /mnt/sdb1 --verbose -o user=AMR/acoskuns
+
+$1 is your shared folder name
+$2 is your linux local folder name
+
+
+Share GIT directory from local machine:
+We need to setup git deamon tor this and run deamon from one level above:
+cd src/third_party/kernel
+git daemon --export-all --base-path=.
+run
+> bg
+command to see deamon working if not runnign you have re-run
+
+so we can choose v3.18 next
+
+git remote add arda_01 git://soldel-A35-02.sc.intel.com/v3.18
+git fetch arda_01
+git checkout -b local_01 arda_01/master
+
+GPU debug logs
+On recent kernel you can grab this information from your sysfs:
+$ cat /sys/class/drm/card0/error | gzip > error.gz
+# Please note that depending you your environment it can be a different card number. But it is probably 0.
+OLD KERNEL
+
+On old kernel but not older than 2.6.34 you need to get it from debugfs:
+/sys/kernel/debug/dri/0/i915_error_state [2]
+Anything from that file, other than "no error state collected", is very interesting and very helpful for bug reports.
+[1] If you don't have a /sys/kernel/debug/dri directory, then make sure that debugfs is mounted like this:
+sudo mount -t debugfs debugfs /sys/kernel/debug
+[2] If you have n gpus, the directory could be also be:
+/sys/kernel/debug/dri/<n>/i915_error_state
+
+drm_debug
+echo 0x4e > /sys/module/drm/parameters/debug
+
+Start ssh session and save logs:
+ssh root@$IP | tee -a /tmp/klog.txt
+
+startup disk created command line:
+sudo usb-creator-gtk
+
+sudo arp-scan -I eth0 -l | grep d8:eb:97:bf:33:05
+sudo arp-scan -I eth0 -l | grep 143.183.248.60
+sudo arp-scan -I eth0 -l | grep d8:eb:97:bf:33:05 | awk '{ print $1 }'
+143.183.248.60  d8:eb:97:bf:33:05       (Unknown)
+sudo arp -s 143.183.248.60 00:35:cf:56:b2:2g temp && ssh root@143.183.248.60
+sudo arp -s 143.183.248.60 d8:eb:97:bf:33:05 && ssh root@143.183.248.60
+
+Terminal Colors
+export NP=0
+export PROMPT_COMMAND='r0=$?;if [ -z "$NP" ]; then i0=0;s0="";while [ "$i0" -lt "${COLUMNS:-80}" ];do s0="q$s0";i0=$[$i0+1];done;builtin echo -ne "\n\E[1;30m\E(0$s0\E(B\E[0m"; [ $r0 == 0 ] && builtin echo -ne "\e[1A\e[32m\e(0d\e(B\e[0m\e[1B" || builtin echo -ne "\e[1A\e[31m\e(0e\e(B\e[0m\e[1B";else unset NP;fi;'
+export PS1='\[\033]0;$PWD\007\]
+\[\033[33m\][\D{%Y-%m-%d %H:%M.%S}]\[\033[0m\]  \[\033[35m\]\w\[\033[0m\]
+\[\033[36m\][\u.\h]\[\033[0m\] \[\033(0\]b\[\033(B\] '
+export HOME PS1 PROMPT_COMMAND NP
+
+

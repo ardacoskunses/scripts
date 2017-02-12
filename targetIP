@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#MAC="d8:eb:97:bf:33:05"
+
+#STR=`sudo arp-scan -I enp0s25 -l | grep $MAC | awk '{ print \$1 }'`
+
+
+#echo $STR
+echo localhost

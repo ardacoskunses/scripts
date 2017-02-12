@@ -1,0 +1,113 @@
+#!/bin/bash
+
+IP=`./targetIP`
+FILE="/tmp/i915dump.dmp"
+FOLDER="/sys/kernel/debug/dri/64"
+SEPERATE="========================================================================================"
+echo $1
+echo $FILE
+
+dumpIt()
+{
+echo $0 - $1 - $2 - $3
+ssh root@$IP "echo $SEPERATE >> $FILE"
+ssh root@$IP "echo $FOLDER/$1 >> $FILE"
+ssh root@$IP "cat $FOLDER/$1 >> $FILE"
+}
+
+ssh root@$IP "echo $SEPERATE > $FILE"
+ssh root@$IP "dmesg | grep drm >> $FILE"
+ssh root@$IP "echo $SEPERATE >> $FILE"
+ssh root@$IP "dmesg | grep ARDA >> $FILE"
+
+ssh root@$IP "echo "BEGIN HERE" >> $FILE"
+#dumpIt bufs
+
+dumpIt clients
+#dumpIt gem_names
+dumpIt i915_cache_sharing
+#dumpIt i915_capabilities
+dumpIt i915_context_status
+#dumpIt i915_cur_wm_latency
+#dumpIt i915_ddb_info
+#dumpIt i915_display_crc_ctl
+#dumpIt i915_display_info
+dumpIt i915_dmc_info
+#dumpIt i915_dp_mst_info
+#dumpIt i915_dp_test_active
+#dumpIt i915_dp_test_data
+#dumpIt i915_dp_test_type
+#dumpIt i915_drpc_info
+#dumpIt i915_drrs_status
+dumpIt i915_dump_lrc
+#dumpIt i915_edp_psr_status
+#dumpIt i915_emon_status
+#dumpIt i915_energy_uJ
+dumpIt i915_error_state
+dumpIt i915_execlists
+#dumpIt i915_fbc_false_color
+#dumpIt i915_fbc_status
+dumpIt i915_forcewake_domains
+dumpIt i915_forcewake_user
+#dumpIt i915_frequency_info
+#dumpIt i915_frontbuffer_tracking
+dumpIt i915_gem_active
+dumpIt i915_gem_batch_pool
+dumpIt i915_gem_drop_caches
+dumpIt i915_gem_fence_regs
+dumpIt i915_gem_framebuffer
+dumpIt i915_gem_gtt
+dumpIt i915_gem_hws
+dumpIt i915_gem_hws_blt
+dumpIt i915_gem_hws_bsd
+dumpIt i915_gem_hws_vebox
+dumpIt i915_gem_inactive
+dumpIt i915_gem_interrupt
+dumpIt i915_gem_objects
+dumpIt i915_gem_pageflip
+dumpIt i915_gem_pinned
+dumpIt i915_gem_request
+dumpIt i915_gem_seqno
+dumpIt i915_gem_stolen
+dumpIt i915_guc_info
+dumpIt i915_guc_load_status
+#dumpIt i915_guc_log_dump
+dumpIt i915_hangcheck_info
+#dumpIt i915_ips_status
+#dumpIt i915_llc
+#dumpIt i915_max_freq
+#dumpIt i915_min_freq
+dumpIt i915_next_seqno
+#dumpIt i915_opregion
+#dumpIt i915_pipe_A_crc
+#dumpIt i915_pipe_B_crc
+#dumpIt i915_pipe_C_crc
+dumpIt i915_power_domain_info
+dumpIt i915_ppgtt_info
+#dumpIt i915_pri_wm_latency
+#dumpIt i915_ring_freq_table
+#dumpIt i915_ring_missed_irq
+#dumpIt i915_ring_stop
+#dumpIt i915_ring_test_irq
+#dumpIt i915_rps_boost_info
+dumpIt i915_runtime_pm_status
+#dumpIt i915_semaphore_status
+#dumpIt i915_shared_dplls_info
+#dumpIt i915_sink_crc_eDP1
+#dumpIt i915_spr_wm_latency
+#dumpIt i915_sr_status
+#dumpIt i915_sseu_status
+#dumpIt i915_swizzle_info
+#dumpIt i915_vbt
+dumpIt i915_wa_registers
+#dumpIt i915_wedged
+#dumpIt name
+#dumpIt vm
+#dumpIt vma
+
+##ssh root@$IP "cat $FILE"
+
+scp root@$IP:$FILE ./i915$1
+
+ssh root@$IP "rm $FILE"
+

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+DEST="/home/acoskuns/workspace/css-iTouch/arda"
+echo Target:$DEST
+
+
+scp -r acoskuns@soldel-A35-02.sc.intel.com:$DEST .
+
+scp -r ./arda acoskuns@acoskuns-Skylake.sc.intel.com:$DEST
+
+ssh acoskuns@acoskuns-Skylake.sc.intel.com "ll $DEST"

@@ -1,0 +1,10 @@
+reindex
+./grokit_files/jre1.7.0_65/bin/java -jar ./grokit_files/opengrok-0.12.1/lib/opengrok.jar -W ./grokit_files/projects/v3.18/etc/configuration.xml -P -S -s ~/workspace/css-iTouch/src/third_party/kernel/v3.18/ -d  ./grokit_files/projects/v3.18/data
+
+search
+./grokit_files/jre1.7.0_65/bin/java -Xmx2048m -cp /home/acoskuns/Downloads/myGrokit/grokit/src/grokit_files/opengrok-0.12.1/lib/opengrok.jar org.opensolaris.opengrok.search.Search -R /home/acoskuns/Downloads/myGrokit/grokit/src/grokit_files/projects/v3.18/etc/configuration.xml -f 'i915'
+
+
+
+python grokit.py --ppath=~/workspace/css-iTouch/src/third_party/kernel/v3.18/ --action=reindex
+

@@ -1,0 +1,53 @@
+#!/bin/bash
+
+DPATH="/sys/kernel/debug/tracing"
+DURATION=5
+
+IP=`../targetIP`
+echo $IP
+
+#ssh root@$IP "uname -a | awk '{ print \$3 }' "
+
+ssh root@$IP "mount -o remount,rw /"
+
+scp trace-cmd root@$IP:/
+
+echo Clear old trace pls wait..
+ssh root@$IP "echo > $DPATH/trace"
+#stop if any running
+ssh root@$IP "/trace-cmd stop"
+#ssh root@$IP "/trace-cmd reset"
+
+echo Starting
+#ssh root@$IP "/trace-cmd start -p function_graph -l '*itouch*' "
+ssh root@$IP "/trace-cmd start -p function -l '*itouch*' "
+
+# this is for reference not for script
+#ssh root@$IP "/trace-cmd record -o /tmp/kernel-buf.dat -p function -l '*itouch*' "
+
+#ssh root@$IP "insmod /lib/modules/$1/kernel/drivers/misc/itouch/mei-itouch-hid.ko"
+
+echo DO YOUR THING NOW FOR $DURATION SEC..
+sleep $DURATION
+
+ssh root@$IP "/trace-cmd stop"
+
+ssh root@$IP "cat $DPATH/trace > /tmp/trace.txt"
+scp root@$IP:/tmp/trace.txt ./trace.txt
+
+echo done!! trace converting...
+ssh root@$IP "/trace-cmd extract -o /tmp/kernel-buf.dat"
+if [ $? -eq 0 ]; then
+    echo OK
+    echo Downloading trace..
+    scp root@$IP:/tmp/kernel-buf.dat ./trace.dat
+    ssh root@$IP "rm /tmp/kernel-buf.dat"
+    ssh root@$IP "/trace-cmd reset"
+    echo Done, you can run kernelshark locally
+else
+    echo FAIL
+    ssh root@$IP "/trace-cmd reset"
+fi
+
+
+

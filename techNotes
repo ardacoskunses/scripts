@@ -1,0 +1,12 @@
+RPS is the idle freq GPU goes (320Mhz):
+[  143.055016] [drm:edp_panel_vdd_off_sync] PP_STATUS: 0x80000008 PP_CONTROL: 0xabcd0003
+[  146.786374] [drm:cherryview_enable_rps] GPLL enabled? yes
+[  146.786381] [drm:cherryview_enable_rps] GPU status: 0x00002010
+[  146.786406] [drm:cherryview_enable_rps] current GPU freq: 320 MHz (32)
+[  146.786430] [drm:cherryview_enable_rps] setting GPU freq to 320 MHz (32)
+[  146.786468] [drm:valleyview_set_rps] GPU freq request from 320 MHz (32) to 320 MHz (32)
+[  146.786491] [drm:valleyview_set_rps] GPU freq request from 320 MHz (32) to 320 MHz (32)
+[  150.784814] BUG: CPU 2 waiting for CSD lock held by CPU 0
+[  150.790931] CPU: 2 PID: 882 Comm: kworker/u8:2 Tainted: G        W    3.14.50-x86_64-00024-g4630f62 #1
+[  150.801337] Hardware name: Intel Strago, BIOS          11/03/201
+

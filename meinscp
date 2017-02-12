@@ -1,0 +1,16 @@
+#!/bin/bash
+
+IP=`./targetIP`
+
+echo target:$IP
+
+ssh root@$IP "sudo mount -o remount,rw /"
+
+STR=`ssh root@$IP "uname -r"`
+echo for kernel $STR
+
+ssh root@$IP "insmod /lib/modules/$STR/kernel/drivers/misc/itouch/mei-itouch-hid.ko"
+
+#ssh root@$IP "cat /sys/kernel/debug/itouch/multi"
+
+

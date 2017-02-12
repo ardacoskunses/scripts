@@ -1,0 +1,7 @@
+#!/bin/bash
+
+IP=`./targetIP`
+
+echo $1
+ssh root@$IP "perf script -i ./perf.data > ./FlameGraph/perf.script.$1"
+#scp root@$IP:/root/perf.script.$1 ./FlameGraph/perf.script.$1

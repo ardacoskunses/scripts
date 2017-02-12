@@ -1,0 +1,7 @@
+#!/bin/bash
+
+IP=`./targetIP`
+
+echo $1
+scp root@$IP:/root/dmesg_before ./dmesgBefore$1
+scp root@$IP:/root/dmesg_after ./dmesgAfter$1

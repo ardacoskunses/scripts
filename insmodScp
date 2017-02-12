@@ -1,0 +1,6 @@
+
+ssh root@$IP "insmod /mei.ko"
+ssh root@$IP "insmod /mei-me.ko"
+
+#ssh root@$IP "insmod /lib/modules/4.3.0-rc5-eywa-gf9d7448-dirty/kernel/drivers/misc/itouch/mei-itouch-hid.ko"
+ssh root@$IP "insmod /lib/modules/4.3.0-rc5-eywa-66307-gc160783-dirty/kernel/drivers/misc/itouch/mei-itouch-hid.ko"

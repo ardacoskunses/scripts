@@ -1,0 +1,7 @@
+#!/bin/bash
+
+IP=`./targetIP`
+
+echo $IP
+ssh root@$IP
+

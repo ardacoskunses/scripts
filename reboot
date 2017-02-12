@@ -1,0 +1,5 @@
+#!/bin/bash
+
+IP=`./targetIP`
+
+ssh root@$IP "reboot"

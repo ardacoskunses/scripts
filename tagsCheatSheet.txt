@@ -1,0 +1,15 @@
+tagsCheat Sheet
+
+F4
+set tags=tag full folder
+
+Jump 
+ctrl-]
+
+Ctrl-W ]. This will open the tag location in a new window.
+
+jump back ctrl-t
+
+
+
+

@@ -1,0 +1,2 @@
+ssh root@$IP "cat /sys/kernel/debug/dri/64/i915_guc_log_dump"
+

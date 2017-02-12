@@ -1,0 +1,61 @@
+sftp acoskuns@ledzep.sc.intel.com:/work/acoskuns/MainWW33/out/target/product/mofd_v1/boot.img .
+fastboot-android-studio-v0.8.0.exe flash boot boot.img
+sftp acoskuns@ledzep.sc.intel.com:/work/acoskuns/MainWW33/out/target/product/mofd_v1/system.img .
+fastboot-android-studio-v0.8.0.exe flash system system.img
+
+
+sftp acoskuns@soldel-A35-02.sc.intel.com:/home/acoskuns/Partner3/out/target/product/fugu/system.img .
+sftp acoskuns@soldel-A35-02.sc.intel.com:/home/acoskuns/Partner3/out/target/product/fugu/boot.img .
+sftp acoskuns@soldel-A35-02.sc.intel.com:/home/acoskuns/Partner3/out/target/product/fugu/recovery.img .
+sftp acoskuns@soldel-A35-02.sc.intel.com:/home/acoskuns/Partner3/vendor/asus/fugu/bootloader.img .
+
+
+
+sftp acoskuns@soldel-A35-02.sc.intel.com:/home/acoskuns/PartnerSOLDEL/out/target/product/fugu/system.img .
+sftp acoskuns@soldel-A35-02.sc.intel.com:/home/acoskuns/PartnerSOLDEL/out/target/product/fugu/boot.img .
+sftp acoskuns@soldel-A35-02.sc.intel.com:/home/acoskuns/PartnerSOLDEL/out/target/product/fugu/recovery.img .
+sftp acoskuns@soldel-A35-02.sc.intel.com:/home/acoskuns/PartnerSOLDEL/vendor/asus/fugu/bootloader.img .
+
+ledzep_sc_intel_com_acoskuns_
+soldel-A35-02_sc_intel_com_acoskuns_SSH
+IMC-BUILDSVR_sc_intel_com_ardac_SSH
+
+adb wait-for-devices: reboot bootloader
+
+fastboot flash boot boot.img
+fastboot reboot
+
+adb wait-for-devices: reboot bootloader
+
+fastboot flash system system.img
+fastboot reboot
+
+
+
+Logcat LOG
+adb wait-for-device: shell "logcat -v time | grep $1"
+
+Kmesg LOG
+adb wait-for-device: shell "cat /proc/kmsg | grep $1"
+
+loading Status bar
+You can implement this by overwriting a line. Use \r to go back to the beginning of the line without writing \n to the terminal.
+
+Write \n when you're done to advance the line.
+
+Use echo -ne to:
+
+not print \n and
+to recognize escape sequences like \r.
+Here's a demo:
+
+echo -ne '#####                     (33%)\r'
+sleep 1
+echo -ne '#############             (66%)\r'
+sleep 1
+echo -ne '#######################   (100%)\r'
+echo -ne '\n'
+
+
+export JAVA_HOME=/usr/local/jdk1.6.0_45
+export PATH=$JAVA_HOME/bin:$PATH

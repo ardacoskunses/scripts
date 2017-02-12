@@ -1,0 +1,20 @@
+#!/bin/bash
+
+IP=`./targetIP`
+
+echo target:$IP
+
+ssh root@$IP "sudo mount -o remount,rw /"
+
+echo pushing this
+#sync
+ls -la ~/workspace/css-iTouch/chroot/build/glados/var/cache/portage/sys-kernel/chromeos-kernel-3_18/drivers/misc/itouch/mei-itouch-hid.ko
+
+STR=`ssh root@$IP "uname -r"`
+echo for kernel $STR
+
+scp ~/workspace/css-iTouch/chroot/build/glados/var/cache/portage/sys-kernel/chromeos-kernel-3_18/drivers/misc/itouch/mei-itouch-hid.ko root@$IP:/lib/modules/$STR/kernel/drivers/misc/itouch
+
+echo rebooting now:
+ssh root@$IP "sudo reboot"
+
